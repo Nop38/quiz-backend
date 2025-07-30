@@ -1,0 +1,1565 @@
+id;theme;soustheme;type;question;reponse
+1;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Hergé ?;Tintin au Tibet
+2;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Parfum » ?;Patrick Süskind
+3;Géographie;Capitales;vrai/faux;Vrai ou faux : Podgorica est la capitale de Monténégro ?;Vrai
+4;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : René Descartes est lié à Le cogito ?;Vrai
+5;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Pays-Bas est Belgrade ?;Faux (c'est Amsterdam)
+6;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Pays d'apparition du virus Ebola — République démocratique du Congo ?;Vrai
+7;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Antoni Gaudí ?;Sagrada Família
+8;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1945 ?;Bombardement d'Hiroshima
+9;Sport;Records & événements;vrai/faux;Vrai ou faux : Capitaine de l'équipe de France championne du monde 2018 — Hugo Lloris ?;Vrai
+10;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Crise financière mondiale liée aux subprimes — 2008 ?;Vrai
+11;Géographie;Capitales;vrai/faux;Vrai ou faux : Rabat est la capitale de Maroc ?;Vrai
+12;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Nombre de membres permanents au Conseil de sécurité de l'ONU — 5 ?;Vrai
+13;Géographie;Capitales;vrai/faux;Vrai ou faux : Doha est la capitale de Qatar ?;Vrai
+14;Musique;Œuvres, genres, artistes;ouverte;Chanteuse de 'Rolling in the Deep';Adele
+15;Géographie;Capitales;ouverte;De quel pays Erevan est-elle la capitale ?;Arménie
+16;Géographie;Capitales;vrai/faux;Vrai ou faux : Budapest est la capitale de Hongrie ?;Vrai
+17;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Alexandre Dumas ?;Le Comte de Monte-Cristo
+18;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Projet génome humain ?;Sequençage du génome humain
+19;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Sonde ayant quitté l'héliosphère (2012) — Voyager 1 ?;Vrai
+20;Société & Médias;Réseaux, slogans, démographie;ouverte;Journal satirique français fondé en 1970;Le Canard enchaîné
+21;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Arabie saoudite est Pékin ?;Faux (c'est Riyad)
+22;Histoire;Dates clés;vrai/faux;Vrai ou faux : Peste noire en Europe a eu lieu en 1347 ?;Vrai
+23;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Âge de la majorité civile en France — 18 ans ?;Vrai
+24;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Inventeur du theremin — Léon Theremin ?;Vrai
+25;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Début de la Première Guerre mondiale ?;1914
+26;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Parfum » est de Patrick Süskind ?;Vrai
+27;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Syrie est Doha ?;Faux (c'est Damas)
+28;Géographie;Capitales;ouverte;De quel pays Port of Spain est-elle la capitale ?;Trinité-et-Tobago
+29;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Fondateur de la danse contemporaine américaine (mouvements 'chance');Merce Cunningham
+30;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Maus » est de Art Spiegelman ?;Vrai
+31;Technologies du quotidien;Objets & internet;ouverte;Langage de programmation créé par Guido van Rossum;Python
+32;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Nouvelle-Zélande est Brazzaville ?;Faux (c'est Wellington)
+33;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Blockchain (Bitcoin) ?;Satoshi Nakamoto
+34;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Zimbabwe est La Valette ?;Faux (c'est Harare)
+35;Géographie;Capitales;ouverte;De quel pays Dublin est-elle la capitale ?;Irlande
+36;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Série avec un professeur de chimie devenu baron de la drogue — Breaking Bad ?;Vrai
+37;Chronologies & Premières fois;Pionniers & records;ouverte;Premier ordinateur personnel grand public d'Apple;Apple II (1977)
+38;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Les Misérables » ?;Victor Hugo
+39;Géographie;Capitales;ouverte;De quel pays Montevideo est-elle la capitale ?;Uruguay
+40;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Mary Shelley ?;Frankenstein
+41;Histoire;Dates clés;vrai/faux;Vrai ou faux : Révolution russe a eu lieu en 1917 ?;Vrai
+42;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à David Hume ?;Le scepticisme empiriste
+43;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Jacques le fataliste » ?;Denis Diderot
+44;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Rayons X ?;Wilhelm Röntgen
+45;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Tchéquie est Windhoek ?;Faux (c'est Prague)
+46;Géographie;Capitales;ouverte;De quel pays Tirana est-elle la capitale ?;Albanie
+47;Géographie;Capitales;vrai/faux;Vrai ou faux : Malé est la capitale de Maldives ?;Vrai
+48;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Traité garantissant la protection des réfugiés (ONU) — Convention de Genève de 1951 ?;Vrai
+49;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Chanteuse de 'Like a Prayer' — Madonna ?;Vrai
+50;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Mot français signifiant littéralement 'apéritif dînatoire' en anglais — Potluck ?;Vrai
+51;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Tchad est Gitega ?;Faux (c'est N'Djamena)
+52;Géographie;Capitales;ouverte;Quelle est la capitale de Arménie ?;Erevan
+53;Géographie;Capitales;ouverte;Quelle est la capitale de Géorgie ?;Tbilissi
+54;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Festival de cinéma sur la Croisette — Cannes ?;Vrai
+55;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Rouge et le Noir » ?;Stendhal
+56;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Sandro Botticelli ?;La Naissance de Vénus
+57;Nature & Environnement;Faune, flore et climat;ouverte;Jour de dépassement (Overshoot Day) mesure quoi ?;La date où l'humanité a consommé les ressources annuelles de la Terre
+58;Géographie;Capitales;vrai/faux;Vrai ou faux : Brasília est la capitale de Brésil ?;Vrai
+59;Géographie;Capitales;ouverte;De quel pays Tallinn est-elle la capitale ?;Estonie
+60;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Auteur de 'No Woman, No Cry' — Bob Marley ?;Vrai
+61;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Australie est Djibouti ?;Faux (c'est Canberra)
+62;Cinéma & Séries;Films, prix, répliques;ouverte;Premier long métrage parlant (1927);Le Chanteur de jazz
+63;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Couche d'ozone protège de quel type de rayons ? — UV ?;Vrai
+64;Géographie;Capitales;vrai/faux;Vrai ou faux : San Salvador est la capitale de El Salvador ?;Vrai
+65;Géographie;Capitales;ouverte;De quel pays Alger est-elle la capitale ?;Algérie
+66;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Créateur de 'Dragon Ball' — Akira Toriyama ?;Vrai
+67;Géographie;Capitales;ouverte;Quelle est la capitale de Danemark ?;Copenhague
+68;Sport;Records & événements;ouverte;Tournoi du Grand Chelem joué sur terre battue;Roland-Garros
+69;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Maus » ?;Art Spiegelman
+70;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Ronde de nuit » ?;Rembrandt
+71;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Julien Gracq ?;Le Rivage des Syrtes
+72;Géographie;Capitales;ouverte;De quel pays Podgorica est-elle la capitale ?;Monténégro
+73;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Nigeria est Pékin ?;Faux (c'est Abuja)
+74;Géographie;Capitales;ouverte;Quelle est la capitale de Tadjikistan ?;Douchanbé
+75;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Tim Berners-Lee ?;World Wide Web
+76;Géographie;Capitales;ouverte;De quel pays Dodoma est-elle la capitale ?;Tanzanie
+77;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Rue des Boutiques Obscures » ?;Patrick Modiano
+78;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : La métaphysique ?;Aristote
+79;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : La théorie des Idées ?;Platon
+80;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bolivie est Dublin ?;Faux (c'est La Paz)
+81;Géographie;Capitales;vrai/faux;Vrai ou faux : Alger est la capitale de Algérie ?;Vrai
+82;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Tunisie est Mascate ?;Faux (c'est Tunis)
+83;Géographie;Capitales;vrai/faux;Vrai ou faux : Dakar est la capitale de Sénégal ?;Vrai
+84;Géographie;Capitales;ouverte;Quelle est la capitale de Mali ?;Bamako
+85;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Yémen est Nicosie ?;Faux (c'est Sanaa)
+86;Géographie;Capitales;ouverte;Quelle est la capitale de Croatie ?;Zagreb
+87;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Malte est Port-Louis ?;Faux (c'est La Valette)
+88;Musique;Œuvres, genres, artistes;ouverte;Techno : ville de naissance du genre;Detroit
+89;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Stratégie 'zéro déchet' vise à — Réduire drastiquement la production de déchets ?;Vrai
+90;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Traité qui fonde l'Union européenne (1992) — Maastricht ?;Vrai
+91;Géographie;Capitales;vrai/faux;Vrai ou faux : Astana est la capitale de Kazakhstan ?;Vrai
+92;Géographie;Capitales;ouverte;Quelle est la capitale de Pays-Bas ?;Amsterdam
+93;Géographie;Capitales;ouverte;De quel pays Phnom Penh est-elle la capitale ?;Cambodge
+94;Géographie;Capitales;vrai/faux;Vrai ou faux : Accra est la capitale de Ghana ?;Vrai
+95;Géographie;Capitales;ouverte;Quelle est la capitale de Bangladesh ?;Dacca
+96;Économie & Finance;Concepts & crises;ouverte;Auteur de 'Le Capital';Karl Marx
+97;Géographie;Capitales;ouverte;Quelle est la capitale de Chypre ?;Nicosie
+98;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Michel Foucault ?;Le biopouvoir
+99;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Cœur artificiel est associé(e) à Robert Jarvik ?;Vrai
+100;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Émirats arabes unis est Paris ?;Faux (c'est Abou Dabi)
+101;Géographie;Capitales;vrai/faux;Vrai ou faux : Londres est la capitale de Royaume-Uni ?;Vrai
+102;Gastronomie;Plats & produits;ouverte;Pâte italienne farcie de viande ou ricotta;Ravioli
+103;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Les Joueurs de cartes » est de Paul Cézanne ?;Vrai
+104;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Frida Kahlo ?;Les Deux Fridas
+105;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Le Penseur » ?;Auguste Rodin
+106;Nature & Environnement;Faune, flore et climat;ouverte;Gaz majoritaire dans l'atmosphère terrestre;Azote
+107;Société & Médias;Réseaux, slogans, démographie;ouverte;Fondateur de Facebook;Mark Zuckerberg
+108;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Comédie-ballet de Molière et Lully — Le Bourgeois gentilhomme ?;Vrai
+109;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Norvège est Budapest ?;Faux (c'est Oslo)
+110;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Stendhal ?;Le Rouge et le Noir
+111;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Le Tres de Mayo » ?;Francisco de Goya
+112;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Rembrandt ?;La Ronde de nuit
+113;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Chien des Baskerville » ?;Arthur Conan Doyle
+114;Géographie;Capitales;ouverte;Quelle est la capitale de Tchad ?;N'Djamena
+115;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « L'Alchimiste » est de Paulo Coelho ?;Vrai
+116;Géographie;Capitales;vrai/faux;Vrai ou faux : Jérusalem est la capitale de Israël ?;Vrai
+117;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Inventeur de la souris informatique — Douglas Engelbart ?;Vrai
+118;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Sagrada Família » est de Antoni Gaudí ?;Vrai
+119;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Le Corbusier ?;Villa Savoye
+120;Géographie;Capitales;ouverte;Quelle est la capitale de Brésil ?;Brasília
+121;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Début de la Seconde Guerre mondiale ?;1939
+122;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Colombie est Caracas ?;Faux (c'est Bogota)
+123;Géographie;Capitales;vrai/faux;Vrai ou faux : Bandar Seri Begawan est la capitale de Brunei ?;Vrai
+124;Géographie;Capitales;vrai/faux;Vrai ou faux : Jakarta est la capitale de Indonésie ?;Vrai
+125;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Madame Bovary » ?;Gustave Flaubert
+126;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Actrice oscarisée pour 'La Môme' — Marion Cotillard ?;Vrai
+127;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Francisco de Goya ?;Le Tres de Mayo
+128;Géographie;Capitales;ouverte;De quel pays Berlin est-elle la capitale ?;Allemagne
+129;Géographie;Capitales;ouverte;Quelle est la capitale de Albanie ?;Tirana
+130;Technologies du quotidien;Objets & internet;ouverte;Technique de chiffrement qui utilise une paire de clés;Cryptographie asymétrique
+131;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Document qui interdit la torture et les traitements inhumains (ONU, 1984) — Convention contre la torture ?;Vrai
+132;Géographie;Capitales;ouverte;De quel pays Managua est-elle la capitale ?;Nicaragua
+133;Politique & Institutions;Chefs d'État & organisations;ouverte;Institution parlementaire européenne siégeant à Strasbourg;Parlement européen
+134;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1789 ?;Prise de la Bastille
+135;Économie & Finance;Concepts & crises;ouverte;Organisation qui prête aux États en difficulté (sigle);FMI
+136;Géographie;Capitales;ouverte;Quelle est la capitale de Ouganda ?;Kampala
+137;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le matérialisme historique ?;Karl Marx
+138;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Premier homme à traverser l'Atlantique en avion en solitaire — Charles Lindbergh ?;Vrai
+139;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1957 ?;Traité de Rome (CEE)
+140;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Sénégal est Kingston ?;Faux (c'est Dakar)
+141;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Le Tres de Mayo » est de Francisco de Goya ?;Vrai
+142;Géographie;Capitales;vrai/faux;Vrai ou faux : Lisbonne est la capitale de Portugal ?;Vrai
+143;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Zaha Hadid ?;Heydar Aliyev Center
+144;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bhoutan est Singapour ?;Faux (c'est Thimphou)
+145;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Rivage des Syrtes » ?;Julien Gracq
+146;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1947 ?;Indépendance de l'Inde
+147;Géographie;Capitales;ouverte;Quelle est la capitale de Estonie ?;Tallinn
+148;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Immanuel Kant est lié à L'impératif catégorique ?;Vrai
+149;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Paul Cézanne ?;Les Joueurs de cartes
+150;Histoire;Dates clés;vrai/faux;Vrai ou faux : Découverte de l'Amérique par Christophe Colomb a eu lieu en 1492 ?;Vrai
+151;Sport;Records & événements;vrai/faux;Vrai ou faux : Premier marathonien officiel moderne (1896) — Spyridon Louis ?;Vrai
+152;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Jeune Fille à la perle » est de Johannes Vermeer ?;Vrai
+153;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Les Deux Fridas » ?;Frida Kahlo
+154;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Rivage des Syrtes » est de Julien Gracq ?;Vrai
+155;Politique & Institutions;Chefs d'État & organisations;ouverte;Traité qui fonde l'Union européenne (1992);Maastricht
+156;Géographie;Capitales;ouverte;De quel pays Port Moresby est-elle la capitale ?;Papouasie-Nouvelle-Guinée
+157;Géographie;Capitales;ouverte;De quel pays Reykjavik est-elle la capitale ?;Islande
+158;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « American Gothic » est de Grant Wood ?;Vrai
+159;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Fondation » ?;Isaac Asimov
+160;Géographie;Capitales;ouverte;De quel pays Moscou est-elle la capitale ?;Russie
+161;Société & Médias;Réseaux, slogans, démographie;ouverte;Terme pour désigner les faux comptes sur les réseaux sociaux;Bots
+162;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Auteur de 'Hallelujah' — Leonard Cohen ?;Vrai
+163;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Révolution iranienne ?;1979
+164;Géographie;Capitales;ouverte;De quel pays Minsk est-elle la capitale ?;Biélorussie
+165;Sport;Records & événements;vrai/faux;Vrai ou faux : Équipement commun au hockey et au patinage artistique — Patins ?;Vrai
+166;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Pays de neige » est de Yasunari Kawabata ?;Vrai
+167;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Enzyme qui dégrade l'amidon dans la salive — Amylase ?;Vrai
+168;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'éthique ?;Baruch Spinoza
+169;Économie & Finance;Concepts & crises;ouverte;Accord commercial nord-américain, sigle;ALENA
+170;Géographie;Capitales;vrai/faux;Vrai ou faux : Buenos Aires est la capitale de Argentine ?;Vrai
+171;Géographie;Capitales;ouverte;Quelle est la capitale de Libye ?;Tripoli
+172;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Genre musical né à La Nouvelle-Orléans vers 1900 — Jazz ?;Vrai
+173;Géographie;Capitales;ouverte;Quelle est la capitale de Luxembourg ?;Luxembourg
+174;Géographie;Capitales;ouverte;Quelle est la capitale de Sri Lanka ?;Colombo
+175;Nature & Environnement;Faune, flore et climat;ouverte;Événement climatique El Niño touche principalement quel océan ?;Pacifique
+176;Géographie;Capitales;ouverte;De quel pays Brazzaville est-elle la capitale ?;Congo
+177;Géographie;Capitales;vrai/faux;Vrai ou faux : Le Caire est la capitale de Égypte ?;Vrai
+178;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « L'Étranger » est de Albert Camus ?;Vrai
+179;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Aristote est lié à La métaphysique ?;Vrai
+180;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Procès » est de Franz Kafka ?;Vrai
+181;Géographie;Capitales;ouverte;Quelle est la capitale de Azerbaïdjan ?;Bakou
+182;Géographie;Capitales;ouverte;De quel pays Guatemala est-elle la capitale ?;Guatemala
+183;Géographie;Capitales;ouverte;Quelle est la capitale de Sénégal ?;Dakar
+184;Géographie;Capitales;ouverte;Quelle est la capitale de Koweït ?;Koweït
+185;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Simone de Beauvoir ?;Le Deuxième Sexe
+186;Géographie;Capitales;ouverte;Quelle est la capitale de Liban ?;Beyrouth
+187;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Le Jardin des délices » ?;Hieronymus Bosch
+188;Géographie;Capitales;ouverte;Quelle est la capitale de Belgique ?;Bruxelles
+189;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Père Goriot » ?;Honoré de Balzac
+190;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Fondateur de Facebook — Mark Zuckerberg ?;Vrai
+191;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Vin pétillant de la région Champagne — Champagne ?;Vrai
+192;Chronologies & Premières fois;Pionniers & records;ouverte;Premier marathon olympique moderne;1896
+193;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Vaccin contre la rage ?;Louis Pasteur
+194;Géographie;Capitales;vrai/faux;Vrai ou faux : Canberra est la capitale de Australie ?;Vrai
+195;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Moby Dick » est de Herman Melville ?;Vrai
+196;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Premier film en couleurs aux Oscars (1939) — Autant en emporte le vent ?;Vrai
+197;Cinéma & Séries;Films, prix, répliques;ouverte;Film culte français avec la réplique 'On n'est pas bien là?';Les Bronzés font du ski
+198;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Réalisateur de 'Citizen Kane' — Orson Welles ?;Vrai
+199;Musique;Œuvres, genres, artistes;ouverte;Festival de musique de Woodstock (année);1969
+200;Chronologies & Premières fois;Pionniers & records;ouverte;Première ville à atteindre 1 million d'habitants;Rome antique
+201;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le surhomme ?;Friedrich Nietzsche
+202;Géographie;Capitales;vrai/faux;Vrai ou faux : Abou Dabi est la capitale de Émirats arabes unis ?;Vrai
+203;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Fahrenheit 451 » ?;Ray Bradbury
+204;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 2011 ?;Printemps arabe
+205;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Candide » ?;Voltaire
+206;Géographie;Capitales;ouverte;Quelle est la capitale de Hongrie ?;Budapest
+207;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Compositeur de la musique de 'Star Wars' — John Williams ?;Vrai
+208;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nom de la vitamine C — Acide ascorbique ?;Vrai
+209;Géographie;Capitales;ouverte;De quel pays Colombo est-elle la capitale ?;Sri Lanka
+210;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Wilhelm Röntgen ?;Rayons X
+211;Géographie;Capitales;ouverte;Quelle est la capitale de Honduras ?;Tegucigalpa
+212;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Chute du mur de Berlin ?;1989
+213;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Réalisateur du 'Parrain' — Francis Ford Coppola ?;Vrai
+214;Géographie;Capitales;vrai/faux;Vrai ou faux : Port-Louis est la capitale de Maurice ?;Vrai
+215;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Téléphone est associé(e) à Alexander Graham Bell ?;Vrai
+216;Géographie;Capitales;vrai/faux;Vrai ou faux : Bichkek est la capitale de Kirghizistan ?;Vrai
+217;Géographie;Capitales;vrai/faux;Vrai ou faux : Islamabad est la capitale de Pakistan ?;Vrai
+218;Géographie;Capitales;ouverte;Quelle est la capitale de Lituanie ?;Vilnius
+219;Géographie;Capitales;vrai/faux;Vrai ou faux : Tbilissi est la capitale de Géorgie ?;Vrai
+220;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Post-it est associé(e) à Art Fry ?;Vrai
+221;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Platon est lié à La théorie des Idées ?;Vrai
+222;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Disparition » est de Georges Perec ?;Vrai
+223;Géographie;Capitales;vrai/faux;Vrai ou faux : Varsovie est la capitale de Pologne ?;Vrai
+224;Géographie;Capitales;ouverte;De quel pays Bandar Seri Begawan est-elle la capitale ?;Brunei
+225;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1945 ?;Création de l'ONU
+226;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Crime et Châtiment » est de Fiodor Dostoïevski ?;Vrai
+227;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Louis Pasteur ?;Vaccin contre la rage
+228;Géographie;Capitales;vrai/faux;Vrai ou faux : Ouagadougou est la capitale de Burkina Faso ?;Vrai
+229;Nature & Environnement;Faune, flore et climat;ouverte;Nom du phénomène inverse de l'acidification des océans;Alcalinisation (ou augmentation du pH)
+230;Géographie;Capitales;ouverte;Quelle est la capitale de Grèce ?;Athènes
+231;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Opéra italien célèbre 'Nessun dorma' tiré de;Turandot
+232;Géographie;Capitales;ouverte;Quelle est la capitale de Pakistan ?;Islamabad
+233;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Haruki Murakami ?;Kafka sur le rivage
+234;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Plus grand désert chaud du monde — Sahara ?;Vrai
+235;Géographie;Capitales;vrai/faux;Vrai ou faux : Berlin est la capitale de Allemagne ?;Vrai
+236;Sport;Records & événements;ouverte;Tennis : « GOAT » aux 24 titres du Grand Chelem;Novak Djokovic
+237;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Déclaration d'indépendance des États-Unis ?;1776
+238;Géographie;Capitales;ouverte;Quelle est la capitale de Mexique ?;Mexico
+239;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Tartuffe » est de Molière ?;Vrai
+240;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Barbade est Séoul ?;Faux (c'est Bridgetown)
+241;Nature & Environnement;Faune, flore et climat;ouverte;Plus grand récif corallien du monde;Grande Barrière de corail
+242;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Le Baiser » ?;Gustav Klimt
+243;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Jürgen Habermas est lié à L'agir communicationnel ?;Vrai
+244;Géographie;Capitales;ouverte;De quel pays Kingston est-elle la capitale ?;Jamaïque
+245;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Langage de programmation créé par Guido van Rossum — Python ?;Vrai
+246;Géographie;Capitales;vrai/faux;Vrai ou faux : La Paz est la capitale de Bolivie ?;Vrai
+247;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Ouzbékistan est Paris ?;Faux (c'est Tachkent)
+248;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « À la recherche du temps perdu » ?;Marcel Proust
+249;Géographie;Capitales;ouverte;De quel pays Jérusalem est-elle la capitale ?;Israël
+250;Géographie;Capitales;ouverte;Quelle est la capitale de Afrique du Sud ?;Pretoria
+251;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Ubik » ?;Philip K. Dick
+252;Sport;Records & événements;ouverte;Nombre de joueurs sur le terrain en équipe de rugby à XV;15
+253;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Album 'The Dark Side of the Moon' — Pink Floyd ?;Vrai
+254;Géographie;Capitales;ouverte;De quel pays Yamoussoukro est-elle la capitale ?;Côte d'Ivoire
+255;Cinéma & Séries;Films, prix, répliques;ouverte;Réalisateur de 'Citizen Kane';Orson Welles
+256;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Thaïlande est Berne ?;Faux (c'est Bangkok)
+257;Géographie;Capitales;vrai/faux;Vrai ou faux : Zagreb est la capitale de Croatie ?;Vrai
+258;Géographie;Capitales;ouverte;Quelle est la capitale de Kazakhstan ?;Astana
+259;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Gustave Flaubert ?;Madame Bovary
+260;Géographie;Capitales;vrai/faux;Vrai ou faux : Windhoek est la capitale de Namibie ?;Vrai
+261;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bahamas est Montevideo ?;Faux (c'est Nassau)
+262;Géographie;Capitales;ouverte;De quel pays Stockholm est-elle la capitale ?;Suède
+263;Géographie;Capitales;ouverte;Quelle est la capitale de Argentine ?;Buenos Aires
+264;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Chypre est Dublin ?;Faux (c'est Nicosie)
+265;Musique;Œuvres, genres, artistes;ouverte;Compositeur du 'Boléro';Maurice Ravel
+266;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Naguib Mahfouz ?;Impasse des deux palais
+267;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Hannah Arendt ?;La banalité du mal
+268;Géographie;Capitales;ouverte;De quel pays Buenos Aires est-elle la capitale ?;Argentine
+269;Musique;Œuvres, genres, artistes;ouverte;Chanteuse de 'Formation';Beyoncé
+270;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Mali est Mascate ?;Faux (c'est Bamako)
+271;Géographie;Capitales;vrai/faux;Vrai ou faux : Pretoria est la capitale de Afrique du Sud ?;Vrai
+272;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Autoroute maritime reliant Atlantique et Pacifique — Canal de Panama ?;Vrai
+273;Géographie;Capitales;ouverte;Quelle est la capitale de Iran ?;Téhéran
+274;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Opéra 'La Traviata' — Giuseppe Verdi ?;Vrai
+275;Géographie;Capitales;ouverte;Quelle est la capitale de Tanzanie ?;Dodoma
+276;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Création d'Adam » est de Michel-Ange ?;Vrai
+277;Sport;Records & événements;ouverte;Inventeur du basket-ball;James Naismith
+278;Politique & Institutions;Chefs d'État & organisations;ouverte;Premier président de la Ve République française;Charles de Gaulle
+279;Géographie;Capitales;ouverte;De quel pays Bamako est-elle la capitale ?;Mali
+280;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Traité de Versailles ?;1919
+281;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Espèce d'ours menacée en Chine — Panda géant ?;Vrai
+282;Cinéma & Séries;Films, prix, répliques;ouverte;Réalisateur de 'Inception';Christopher Nolan
+283;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Terme pour désigner les faux comptes sur les réseaux sociaux — Bots ?;Vrai
+284;Géographie;Capitales;vrai/faux;Vrai ou faux : Skopje est la capitale de Macédoine du Nord ?;Vrai
+285;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Ieoh Ming Pei ?;Pyramide du Louvre
+286;Géographie;Capitales;ouverte;Quelle est la capitale de Cambodge ?;Phnom Penh
+287;Médecine & Corps humain;Anatomie/Soins;ouverte;Gaz utilisé pour l'anesthésie au XIXe siècle (gaz hilarant);Protoxyde d'azote
+288;Musique;Œuvres, genres, artistes;ouverte;Auteur de 'No Woman, No Cry';Bob Marley
+289;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Format d'image compressé avec pertes — JPEG ?;Vrai
+290;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Oiseau incapable de voler, emblème de la Nouvelle-Zélande — Kiwi ?;Vrai
+291;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Djibouti est La Valette ?;Faux (c'est Djibouti)
+292;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à John Locke ?;L'empirisme
+293;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Paraguay est San Salvador ?;Faux (c'est Asuncion)
+294;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à George de Mestral ?;Velcro
+295;Sport;Records & événements;vrai/faux;Vrai ou faux : Pays d'origine du sumo — Japon ?;Vrai
+296;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Smartphone (premier iPhone) est associé(e) à Apple (Steve Jobs) ?;Vrai
+297;Géographie;Capitales;ouverte;Quelle est la capitale de Nigeria ?;Abuja
+298;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Krach de Wall Street ?;1929
+299;Histoire;Dates clés;vrai/faux;Vrai ou faux : Couronnement de Napoléon Ier a eu lieu en 1804 ?;Vrai
+300;Géographie;Capitales;ouverte;De quel pays N'Djamena est-elle la capitale ?;Tchad
+301;Géographie;Capitales;ouverte;Quelle est la capitale de Costa Rica ?;San José
+302;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Guerre et Paix » est de Léon Tolstoï ?;Vrai
+303;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1865 ?;Abolition de l'esclavage aux États-Unis
+304;Nature & Environnement;Faune, flore et climat;ouverte;Oiseau incapable de voler, emblème de la Nouvelle-Zélande;Kiwi
+305;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Origine latine du mot 'agriculture' — ager (champ) + cultura (culture) ?;Vrai
+306;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Teflon ?;Roy Plunkett
+307;Géographie;Capitales;vrai/faux;Vrai ou faux : Washington est la capitale de États-Unis ?;Vrai
+308;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Compositeur de 'Le Bon, la Brute et le Truand' — Ennio Morricone ?;Vrai
+309;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Relativité restreinte ?;Albert Einstein
+310;Sport;Records & événements;vrai/faux;Vrai ou faux : Score parfait au bowling — 300 ?;Vrai
+311;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Kazakhstan est Amman ?;Faux (c'est Astana)
+312;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Journal satirique français fondé en 1970 — Le Canard enchaîné ?;Vrai
+313;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Acteur principal de 'Le Fabuleux Destin d'Amélie Poulain' — Audrey Tautou ?;Vrai
+314;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Procès » ?;Franz Kafka
+315;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Huis clos » est de Jean-Paul Sartre ?;Vrai
+316;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à William Shakespeare ?;Hamlet
+317;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Thomas Hobbes est lié à Le Léviathan ?;Vrai
+318;Géographie;Capitales;ouverte;Quelle est la capitale de Cameroun ?;Yaoundé
+319;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'absurde ?;Albert Camus
+320;Géographie;Capitales;ouverte;De quel pays Kuala Lumpur est-elle la capitale ?;Malaisie
+321;Médecine & Corps humain;Anatomie/Soins;ouverte;Enzyme qui dégrade l'amidon dans la salive;Amylase
+322;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Chanteuse de 'Formation' — Beyoncé ?;Vrai
+323;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Voltaire ?;Candide
+324;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Leonard de Vinci ?;La Joconde
+325;Transports & Explorations;Explorations & engins;ouverte;Nom du rover martien arrivé en 2021;Perseverance
+326;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Explorateur du pôle Sud en 1911 — Roald Amundsen ?;Vrai
+327;Droit & Justice;Institutions & textes;ouverte;Déclaration des droits de l'homme et du citoyen : année;1789
+328;Géographie;Capitales;vrai/faux;Vrai ou faux : Port of Spain est la capitale de Trinité-et-Tobago ?;Vrai
+329;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Institution qui contrôle la constitutionnalité des lois en France — Conseil constitutionnel ?;Vrai
+330;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Indice boursier phare de la France — CAC 40 ?;Vrai
+331;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Hannah Arendt ?;Les Origines du totalitarisme
+332;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Les Joueurs de cartes » ?;Paul Cézanne
+333;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Guerre des mondes » est de H. G. Wells ?;Vrai
+334;Économie & Finance;Concepts & crises;ouverte;Crise financière mondiale liée aux subprimes;2008
+335;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Jean-Jacques Rousseau ?;Le contrat social
+336;Technologies du quotidien;Objets & internet;ouverte;Entreprise créatrice d'Alexa;Amazon
+337;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Partie de l'œil responsable de la vision des couleurs — Les cônes ?;Vrai
+338;Économie & Finance;Concepts & crises;ouverte;Pays ayant connu l'hyperinflation en 1923;Allemagne
+339;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Cuba est Dakar ?;Faux (c'est La Havane)
+340;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Burundi est Nicosie ?;Faux (c'est Gitega)
+341;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Classe de danse » ?;Edgar Degas
+342;Géographie;Capitales;ouverte;De quel pays Pékin est-elle la capitale ?;Chine
+343;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Uruguay est Katmandou ?;Faux (c'est Montevideo)
+344;Chronologies & Premières fois;Pionniers & records;ouverte;Premier film en couleurs aux Oscars (1939);Autant en emporte le vent
+345;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Orgueil et Préjugés » est de Jane Austen ?;Vrai
+346;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Fondateur de la danse contemporaine américaine (mouvements 'chance') — Merce Cunningham ?;Vrai
+347;Géographie;Capitales;ouverte;De quel pays Wellington est-elle la capitale ?;Nouvelle-Zélande
+348;Géographie;Capitales;ouverte;De quel pays Bagdad est-elle la capitale ?;Irak
+349;Sport;Records & événements;vrai/faux;Vrai ou faux : Art martial utilisant projections et immobilisations — Judo ?;Vrai
+350;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Hieronymus Bosch ?;Le Jardin des délices
+351;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Georges Perec ?;La Disparition
+352;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Hannah Arendt est lié à La banalité du mal ?;Vrai
+353;Géographie;Capitales;ouverte;De quel pays Antananarivo est-elle la capitale ?;Madagascar
+354;Droit & Justice;Institutions & textes;ouverte;Première femme à présider la Cour européenne des droits de l'homme;Elisabeth Steiner
+355;Géographie;Capitales;ouverte;De quel pays Madrid est-elle la capitale ?;Espagne
+356;Médecine & Corps humain;Anatomie/Soins;ouverte;Nom scientifique du globule rouge;Érythrocyte
+357;Cinéma & Séries;Films, prix, répliques;ouverte;Personnage qui dit 'Hasta la vista, baby';Terminator
+358;Géographie;Capitales;ouverte;De quel pays Prague est-elle la capitale ?;Tchéquie
+359;Géographie;Capitales;ouverte;Quelle est la capitale de Macédoine du Nord ?;Skopje
+360;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Denis Diderot ?;Jacques le fataliste
+361;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Neil Gaiman ?;American Gods
+362;Géographie;Capitales;vrai/faux;Vrai ou faux : Ankara est la capitale de Turquie ?;Vrai
+363;Géographie;Capitales;vrai/faux;Vrai ou faux : Erevan est la capitale de Arménie ?;Vrai
+364;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Gilles Deleuze ?;Le rhizome
+365;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de République démocratique du Congo est Managua ?;Faux (c'est Kinshasa)
+366;Géographie;Capitales;ouverte;De quel pays Mascate est-elle la capitale ?;Oman
+367;Géographie;Capitales;ouverte;Quelle est la capitale de Canada ?;Ottawa
+368;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Astérix le Gaulois » est de René Goscinny ?;Vrai
+369;Culture populaire;BD, mangas, jeux vidéo;ouverte;Créateur de 'Dragon Ball';Akira Toriyama
+370;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Sagrada Família » ?;Antoni Gaudí
+371;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Relativité restreinte est associé(e) à Albert Einstein ?;Vrai
+372;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Naissance de Vénus » est de Sandro Botticelli ?;Vrai
+373;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Suisse est Bratislava ?;Faux (c'est Berne)
+374;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Série se déroulant à Westeros — Game of Thrones ?;Vrai
+375;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Découverte du vaccin contre la variole — Edward Jenner ?;Vrai
+376;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Ballet 'Le Lac des cygnes' compositeur — Tchaïkovski ?;Vrai
+377;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Michel-Ange ?;La Création d'Adam
+378;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Invention du sandwich attribuée au — Comte de Sandwich ?;Vrai
+379;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Albert Camus est lié à L'absurde ?;Vrai
+380;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Villa Savoye » ?;Le Corbusier
+381;Histoire;Dates clés;vrai/faux;Vrai ou faux : Début de la Première Guerre mondiale a eu lieu en 1914 ?;Vrai
+382;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Laos est Kinshasa ?;Faux (c'est Vientiane)
+383;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Théorie de la 'main invisible' — Adam Smith ?;Vrai
+384;Géographie;Capitales;ouverte;Quelle est la capitale de Serbie ?;Belgrade
+385;Sport;Records & événements;ouverte;Nom du trophée du vainqueur du Tour de France;Maillot jaune
+386;Géographie;Capitales;ouverte;De quel pays Koweït est-elle la capitale ?;Koweït
+387;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Edgar Degas ?;La Classe de danse
+388;Géographie;Capitales;vrai/faux;Vrai ou faux : Copenhague est la capitale de Danemark ?;Vrai
+389;Géographie;Capitales;ouverte;De quel pays Budapest est-elle la capitale ?;Hongrie
+390;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Martin Heidegger ?;L'Être et le Temps
+391;Géographie;Capitales;ouverte;De quel pays Victoria est-elle la capitale ?;Seychelles
+392;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Luxembourg est Koweït ?;Faux (c'est Luxembourg)
+393;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Claude Monet ?;Impression, soleil levant
+394;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Frankenstein » est de Mary Shelley ?;Vrai
+395;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Guerre et Paix » ?;Léon Tolstoï
+396;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Cent ans de solitude » est de Gabriel García Márquez ?;Vrai
+397;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Brunei est Panama ?;Faux (c'est Bandar Seri Begawan)
+398;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Marcel Proust ?;À la recherche du temps perdu
+399;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Comte de Monte-Cristo » ?;Alexandre Dumas
+400;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Kenya est Asmara ?;Faux (c'est Nairobi)
+401;Géographie;Capitales;ouverte;De quel pays Yaoundé est-elle la capitale ?;Cameroun
+402;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Nicaragua est Bucarest ?;Faux (c'est Managua)
+403;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Serbie est Canberra ?;Faux (c'est Belgrade)
+404;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Alfred Nobel ?;Dynamite
+405;Cinéma & Séries;Films, prix, répliques;ouverte;Studio à l'origine de 'Toy Story';Pixar
+406;Nature & Environnement;Faune, flore et climat;ouverte;Couche d'ozone protège de quel type de rayons ?;UV
+407;Cinéma & Séries;Films, prix, répliques;ouverte;Série se déroulant à Westeros;Game of Thrones
+408;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Traité de Maastricht ?;1992
+409;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Myanmar est Guatemala ?;Faux (c'est Naypyidaw)
+410;Géographie;Capitales;ouverte;De quel pays Astana est-elle la capitale ?;Kazakhstan
+411;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Nicéphore Niépce ?;Photographie
+412;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : La performativité du genre ?;Judith Butler
+413;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Promesse de l'aube » ?;Romain Gary
+414;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Rappeur auteur de 'Illmatic' — Nas ?;Vrai
+415;Technologies du quotidien;Objets & internet;ouverte;Format d'image compressé avec pertes;JPEG
+416;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Affichage des 95 thèses de Luther ?;1517
+417;Géographie;Capitales;vrai/faux;Vrai ou faux : Tachkent est la capitale de Ouzbékistan ?;Vrai
+418;Géographie;Capitales;vrai/faux;Vrai ou faux : Montevideo est la capitale de Uruguay ?;Vrai
+419;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Auteur de 'Le Capital' — Karl Marx ?;Vrai
+420;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Jacques le fataliste » est de Denis Diderot ?;Vrai
+421;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Mot français le plus long (souvent cité);Anticonstitutionnellement
+422;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Judith Butler est lié à La performativité du genre ?;Vrai
+423;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Gustav Klimt ?;Le Baiser
+424;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « L'Alchimiste » ?;Paulo Coelho
+425;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Le Cri » est de Edvard Munch ?;Vrai
+426;Géographie;Capitales;ouverte;De quel pays Athènes est-elle la capitale ?;Grèce
+427;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Baruch Spinoza ?;L'éthique
+428;Histoire;Dates clés;vrai/faux;Vrai ou faux : Traité de Rome (CEE) a eu lieu en 1957 ?;Vrai
+429;Géographie;Capitales;ouverte;De quel pays Oslo est-elle la capitale ?;Norvège
+430;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Beloved » est de Toni Morrison ?;Vrai
+431;Géographie;Capitales;ouverte;Quelle est la capitale de Jamaïque ?;Kingston
+432;Sport;Records & événements;ouverte;Capitaine de l'équipe de France championne du monde 2018;Hugo Lloris
+433;Société & Médias;Réseaux, slogans, démographie;ouverte;Première femme Première ministre au Royaume-Uni;Margaret Thatcher
+434;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Belgique est Vilnius ?;Faux (c'est Bruxelles)
+435;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1929 ?;Krach de Wall Street
+436;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Intel (Ted Hoff) ?;Microprocesseur
+437;Géographie;Capitales;ouverte;De quel pays Asuncion est-elle la capitale ?;Paraguay
+438;Géographie;Capitales;ouverte;Quelle est la capitale de Turkménistan ?;Achgabat
+439;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Concept économique : rapport entre prix et demande — Élasticité ?;Vrai
+440;Géographie;Capitales;vrai/faux;Vrai ou faux : Wellington est la capitale de Nouvelle-Zélande ?;Vrai
+441;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 2001 ?;Attentats du 11 septembre
+442;Société & Médias;Réseaux, slogans, démographie;ouverte;Slogan publicitaire 'Just do it' appartient à;Nike
+443;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1492 ?;Découverte de l'Amérique par Christophe Colomb
+444;Géographie;Capitales;ouverte;Quelle est la capitale de Suisse ?;Berne
+445;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « L'Étranger » ?;Albert Camus
+446;Géographie;Capitales;ouverte;De quel pays Zagreb est-elle la capitale ?;Croatie
+447;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Rue des Boutiques Obscures » est de Patrick Modiano ?;Vrai
+448;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Vaccin contre la rage est associé(e) à Louis Pasteur ?;Vrai
+449;Chronologies & Premières fois;Pionniers & records;ouverte;Premier homme à gravir l'Everest;Edmund Hillary
+450;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Pâte feuilletée garnie de pommes caramélisées — Tarte Tatin ?;Vrai
+451;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Jeu vidéo le plus vendu de tous les temps (2024) — Minecraft ?;Vrai
+452;Géographie;Capitales;ouverte;De quel pays La Havane est-elle la capitale ?;Cuba
+453;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Chef français triple étoilé célèbre pour 'cuisine minceur' — Michel Guérard ?;Vrai
+454;Géographie;Capitales;vrai/faux;Vrai ou faux : Victoria est la capitale de Seychelles ?;Vrai
+455;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Premier homme à gravir l'Everest — Edmund Hillary ?;Vrai
+456;Géographie;Capitales;vrai/faux;Vrai ou faux : Lima est la capitale de Pérou ?;Vrai
+457;Musique;Œuvres, genres, artistes;ouverte;Groupe de 'Smells Like Teen Spirit';Nirvana
+458;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Disparition » ?;Georges Perec
+459;Histoire;Dates clés;vrai/faux;Vrai ou faux : Début de la Seconde Guerre mondiale a eu lieu en 1939 ?;Vrai
+460;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Oscar posthume pour le Joker (2008) — Heath Ledger ?;Vrai
+461;Géographie;Capitales;ouverte;De quel pays Doha est-elle la capitale ?;Qatar
+462;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Namibie est Niamey ?;Faux (c'est Windhoek)
+463;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Spiritueux japonais à base de riz — Saké ?;Vrai
+464;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Immanuel Kant ?;L'impératif catégorique
+465;Culture populaire;BD, mangas, jeux vidéo;ouverte;Compilation d'images humoristiques virales en ligne;Meme
+466;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Hamlet » est de William Shakespeare ?;Vrai
+467;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Électricité alternée (AC) ?;Nikola Tesla
+468;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le scepticisme empiriste ?;David Hume
+469;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Albanie est Bratislava ?;Faux (c'est Tirana)
+470;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Principe juridique : 'nul n'est censé ignorer la loi' est un — Adage ?;Vrai
+471;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Première femme Première ministre au Royaume-Uni — Margaret Thatcher ?;Vrai
+472;Géographie;Capitales;ouverte;Quelle est la capitale de Gabon ?;Libreville
+473;Culture populaire;BD, mangas, jeux vidéo;ouverte;Série manga de Eiichiro Oda;One Piece
+474;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Crime et Châtiment » ?;Fiodor Dostoïevski
+475;Transports & Explorations;Explorations & engins;ouverte;Explorateur du pôle Sud en 1911;Roald Amundsen
+476;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Johannes Gutenberg ?;Imprimerie à caractères mobiles
+477;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Étienne Lenoir ?;Moteur à explosion
+478;Géographie;Capitales;ouverte;De quel pays Beyrouth est-elle la capitale ?;Liban
+479;Géographie;Capitales;ouverte;De quel pays Manille est-elle la capitale ?;Philippines
+480;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Cent ans de solitude » ?;Gabriel García Márquez
+481;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Roy Plunkett ?;Teflon
+482;Géographie;Capitales;ouverte;Quelle est la capitale de Burundi ?;Gitega
+483;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Croatie est Islamabad ?;Faux (c'est Zagreb)
+484;Histoire;Dates clés;vrai/faux;Vrai ou faux : Déclaration d'indépendance des États-Unis a eu lieu en 1776 ?;Vrai
+485;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Gabriel García Márquez ?;Cent ans de solitude
+486;Géographie;Capitales;vrai/faux;Vrai ou faux : Vienne est la capitale de Autriche ?;Vrai
+487;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1517 ?;Affichage des 95 thèses de Luther
+488;Géographie;Capitales;vrai/faux;Vrai ou faux : Helsinki est la capitale de Finlande ?;Vrai
+489;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Institution parlementaire européenne siégeant à Strasbourg — Parlement européen ?;Vrai
+490;Sport;Records & événements;vrai/faux;Vrai ou faux : Inventeur du basket-ball — James Naismith ?;Vrai
+491;Gastronomie;Plats & produits;ouverte;Vin pétillant de la région Champagne;Champagne
+492;Géographie;Capitales;vrai/faux;Vrai ou faux : Yamoussoukro est la capitale de Côte d'Ivoire ?;Vrai
+493;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Moldavie est Wellington ?;Faux (c'est Chisinau)
+494;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Léon Tolstoï ?;Guerre et Paix
+495;Cinéma & Séries;Films, prix, répliques;ouverte;Compositeur de 'Le Bon, la Brute et le Truand';Ennio Morricone
+496;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Simone de Beauvoir ?;Le féminisme existentialiste
+497;Géographie;Capitales;vrai/faux;Vrai ou faux : Mogadiscio est la capitale de Somalie ?;Vrai
+498;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à René Goscinny ?;Astérix le Gaulois
+499;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Pacemaker implantable est associé(e) à Paul Zoll ?;Vrai
+500;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Film ayant obtenu l'Oscar du meilleur film en 1994 — Forrest Gump ?;Vrai
+501;Géographie;Capitales;ouverte;De quel pays Djibouti est-elle la capitale ?;Djibouti
+502;Histoire;Dates clés;vrai/faux;Vrai ou faux : Krach de Wall Street a eu lieu en 1929 ?;Vrai
+503;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Liban est Thimphou ?;Faux (c'est Beyrouth)
+504;Géographie;Capitales;ouverte;De quel pays Riyad est-elle la capitale ?;Arabie saoudite
+505;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Langue la plus parlée au monde (locuteurs natifs);Mandarin
+506;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Chili est Thimphou ?;Faux (c'est Santiago)
+507;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'agir communicationnel ?;Jürgen Habermas
+508;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Premier président de la Ve République française — Charles de Gaulle ?;Vrai
+509;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le féminisme existentialiste ?;Simone de Beauvoir
+510;Géographie;Capitales;vrai/faux;Vrai ou faux : Yaoundé est la capitale de Cameroun ?;Vrai
+511;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Islande est Amsterdam ?;Faux (c'est Reykjavik)
+512;Géographie;Capitales;ouverte;De quel pays La Paz est-elle la capitale ?;Bolivie
+513;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Auguste Rodin ?;Le Penseur
+514;Cinéma & Séries;Films, prix, répliques;ouverte;Acteur principal de 'Forrest Gump';Tom Hanks
+515;Géographie;Capitales;vrai/faux;Vrai ou faux : Kuala Lumpur est la capitale de Malaisie ?;Vrai
+516;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Johannes Vermeer ?;La Jeune Fille à la perle
+517;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Téléphone ?;Alexander Graham Bell
+518;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Première ville à atteindre 1 million d'habitants — Rome antique ?;Vrai
+519;Géographie;Capitales;ouverte;De quel pays Accra est-elle la capitale ?;Ghana
+520;Géographie;Capitales;vrai/faux;Vrai ou faux : Berne est la capitale de Suisse ?;Vrai
+521;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Biome caractérisé par un sol gelé en permanence — Pergélisol (permafrost) ?;Vrai
+522;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Guitare à double manche : guitariste de Led Zeppelin — Jimmy Page ?;Vrai
+523;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Harry Potter à l'école des sorciers » est de J. K. Rowling ?;Vrai
+524;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Hongrie est Berlin ?;Faux (c'est Budapest)
+525;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Électricité alternée (AC) est associé(e) à Nikola Tesla ?;Vrai
+526;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Diego Velázquez ?;Les Ménines
+527;Géographie;Capitales;vrai/faux;Vrai ou faux : Quito est la capitale de Équateur ?;Vrai
+528;Géographie;Capitales;ouverte;Quelle est la capitale de Nicaragua ?;Managua
+529;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Danse » est de Henri Matisse ?;Vrai
+530;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Guatemala est Islamabad ?;Faux (c'est Guatemala)
+531;Géographie;Capitales;ouverte;De quel pays Dacca est-elle la capitale ?;Bangladesh
+532;Musique;Œuvres, genres, artistes;ouverte;DJ français de 'Titanium';David Guetta
+533;Cinéma & Séries;Films, prix, répliques;ouverte;Acteur principal de 'Le Fabuleux Destin d'Amélie Poulain';Audrey Tautou
+534;Géographie;Capitales;ouverte;Quelle est la capitale de Italie ?;Rome
+535;Géographie;Capitales;ouverte;De quel pays Pyongyang est-elle la capitale ?;Corée du Nord
+536;Géographie;Capitales;ouverte;De quel pays Libreville est-elle la capitale ?;Gabon
+537;Géographie;Capitales;vrai/faux;Vrai ou faux : Bruxelles est la capitale de Belgique ?;Vrai
+538;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Comédie-ballet de Molière et Lully;Le Bourgeois gentilhomme
+539;Médecine & Corps humain;Anatomie/Soins;ouverte;Organe affecté par la cirrhose;Le foie
+540;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Plus long fleuve du monde — Nil ?;Vrai
+541;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Président américain assassiné à Dallas en 1963 — John F. Kennedy ?;Vrai
+542;Géographie;Capitales;vrai/faux;Vrai ou faux : La Havane est la capitale de Cuba ?;Vrai
+543;Géographie;Capitales;ouverte;De quel pays Belgrade est-elle la capitale ?;Serbie
+544;Cinéma & Séries;Films, prix, répliques;ouverte;Réalisateur du 'Parrain';Francis Ford Coppola
+545;Géographie;Capitales;ouverte;De quel pays Ouagadougou est-elle la capitale ?;Burkina Faso
+546;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Venezuela est Athènes ?;Faux (c'est Caracas)
+547;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Impression, soleil levant » ?;Claude Monet
+548;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Nom du rover martien arrivé en 2021 — Perseverance ?;Vrai
+549;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Hormone régulant la glycémie — L'insuline ?;Vrai
+550;Géographie;Capitales;vrai/faux;Vrai ou faux : Kampala est la capitale de Ouganda ?;Vrai
+551;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Friedrich Nietzsche est lié à Le surhomme ?;Vrai
+552;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Introduction de l'euro fiduciaire ?;2002
+553;Histoire;Dates clés;vrai/faux;Vrai ou faux : Traité de Maastricht a eu lieu en 1992 ?;Vrai
+554;Gastronomie;Plats & produits;ouverte;Invention du sandwich attribuée au;Comte de Sandwich
+555;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Technique de chiffrement qui utilise une paire de clés — Cryptographie asymétrique ?;Vrai
+556;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Tadjikistan est Lisbonne ?;Faux (c'est Douchanbé)
+557;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Karl Marx est lié à Le matérialisme historique ?;Vrai
+558;Géographie;Capitales;ouverte;De quel pays Rome est-elle la capitale ?;Italie
+559;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : GPS ?;Département de la Défense des États-Unis
+560;Géographie;Capitales;vrai/faux;Vrai ou faux : Antananarivo est la capitale de Madagascar ?;Vrai
+561;Sport;Records & événements;ouverte;Art martial utilisant projections et immobilisations;Judo
+562;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Servante écarlate » est de Margaret Atwood ?;Vrai
+563;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Gaz utilisé pour l'anesthésie au XIXe siècle (gaz hilarant) — Protoxyde d'azote ?;Vrai
+564;Géographie;Capitales;vrai/faux;Vrai ou faux : Vilnius est la capitale de Lituanie ?;Vrai
+565;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Premier message envoyé sur ARPANET — LOGIN ?;Vrai
+566;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Classe de danse » est de Edgar Degas ?;Vrai
+567;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Niger est Pékin ?;Faux (c'est Niamey)
+568;Géographie;Capitales;ouverte;Quelle est la capitale de Ukraine ?;Kiev
+569;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : David Hume est lié à Le scepticisme empiriste ?;Vrai
+570;Géographie;Capitales;vrai/faux;Vrai ou faux : Mexico est la capitale de Mexique ?;Vrai
+571;Géographie;Capitales;ouverte;Quelle est la capitale de Chili ?;Santiago
+572;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Huis clos » ?;Jean-Paul Sartre
+573;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Marilyn Diptych » est de Andy Warhol ?;Vrai
+574;Géographie;Capitales;vrai/faux;Vrai ou faux : Saint-Domingue est la capitale de République dominicaine ?;Vrai
+575;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Origine latine du mot 'agriculture';ager (champ) + cultura (culture)
+576;Géographie;Capitales;ouverte;De quel pays Gitega est-elle la capitale ?;Burundi
+577;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Côte d'Ivoire est Tachkent ?;Faux (c'est Yamoussoukro)
+578;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Chanteuse de 'Rolling in the Deep' — Adele ?;Vrai
+579;Géographie;Capitales;ouverte;Quelle est la capitale de Népal ?;Katmandou
+580;Géographie;Capitales;ouverte;De quel pays Helsinki est-elle la capitale ?;Finlande
+581;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Navire du premier tour du monde de Magellan — Victoria ?;Vrai
+582;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Irlande est Luxembourg ?;Faux (c'est Dublin)
+583;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1994 ?;Fin officielle de l'apartheid en Afrique du Sud
+584;Géographie;Capitales;vrai/faux;Vrai ou faux : Thimphou est la capitale de Bhoutan ?;Vrai
+585;Géographie;Capitales;vrai/faux;Vrai ou faux : Ottawa est la capitale de Canada ?;Vrai
+586;Géographie;Capitales;vrai/faux;Vrai ou faux : Maputo est la capitale de Mozambique ?;Vrai
+587;Sport;Records & événements;vrai/faux;Vrai ou faux : Nombre de points marqués par un essai au rugby — 5 ?;Vrai
+588;Géographie;Capitales;ouverte;Quelle est la capitale de Roumanie ?;Bucarest
+589;Géographie;Capitales;ouverte;Quelle est la capitale de Zimbabwe ?;Harare
+590;Géographie;Capitales;ouverte;Quelle est la capitale de Slovaquie ?;Bratislava
+591;Gastronomie;Plats & produits;ouverte;Chef français triple étoilé célèbre pour 'cuisine minceur';Michel Guérard
+592;Histoire;Dates clés;vrai/faux;Vrai ou faux : Référendum sur le Brexit a eu lieu en 2016 ?;Vrai
+593;Géographie;Capitales;ouverte;Quelle est la capitale de Cuba ?;La Havane
+594;Géographie;Capitales;vrai/faux;Vrai ou faux : Athènes est la capitale de Grèce ?;Vrai
+595;Géographie;Capitales;ouverte;Quelle est la capitale de Autriche ?;Vienne
+596;Géographie;Capitales;vrai/faux;Vrai ou faux : Mascate est la capitale de Oman ?;Vrai
+597;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Aristote ?;La métaphysique
+598;Géographie;Capitales;ouverte;Quelle est la capitale de Laos ?;Vientiane
+599;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : DJ français de 'Titanium' — David Guetta ?;Vrai
+600;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Guernica » ?;Pablo Picasso
+601;Géographie;Capitales;ouverte;Quelle est la capitale de Singapour ?;Singapour
+602;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à J. R. R. Tolkien ?;Le Seigneur des Anneaux
+603;Sport;Records & événements;vrai/faux;Vrai ou faux : Capitale des JO d'été 2012 — Londres ?;Vrai
+604;Géographie;Capitales;vrai/faux;Vrai ou faux : Manille est la capitale de Philippines ?;Vrai
+605;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Slogan publicitaire 'Just do it' appartient à — Nike ?;Vrai
+606;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Les Origines du totalitarisme » est de Hannah Arendt ?;Vrai
+607;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Les Cerfs-volants de Kaboul » est de Khaled Hosseini ?;Vrai
+608;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Apple (Steve Jobs) ?;Smartphone (premier iPhone)
+609;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Éthiopie est Riga ?;Faux (c'est Addis-Abeba)
+610;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Lituanie est Abuja ?;Faux (c'est Vilnius)
+611;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Espagne est Kingston ?;Faux (c'est Madrid)
+612;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Création de l'ONU ?;1945
+613;Géographie;Capitales;vrai/faux;Vrai ou faux : Damas est la capitale de Syrie ?;Vrai
+614;Cinéma & Séries;Films, prix, répliques;ouverte;Compositeur de la musique de 'Star Wars';John Williams
+615;Géographie;Capitales;vrai/faux;Vrai ou faux : Lusaka est la capitale de Zambie ?;Vrai
+616;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Danse traditionnelle argentine en couple — Tango ?;Vrai
+617;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Singapour est Panama ?;Faux (c'est Singapour)
+618;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Chute de l'Empire romain d'Occident ?;476
+619;Chronologies & Premières fois;Pionniers & records;ouverte;Première encyclopédie collaborative en ligne majeure;Wikipedia (2001)
+620;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Zénon de Citium ?;Le stoïcisme
+621;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Imprimante 3D est associé(e) à Chuck Hull ?;Vrai
+622;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Pablo Picasso ?;Guernica
+623;Sport;Records & événements;ouverte;Jeu d'échecs : nombre de cases du plateau;64
+624;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Instrument à 88 touches — Piano ?;Vrai
+625;Géographie;Capitales;vrai/faux;Vrai ou faux : Niamey est la capitale de Niger ?;Vrai
+626;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : La banalité du mal ?;Hannah Arendt
+627;Nature & Environnement;Faune, flore et climat;ouverte;Processus de disparition d'une espèce;Extinction
+628;Géographie;Capitales;ouverte;Quelle est la capitale de Irlande ?;Dublin
+629;Géographie;Capitales;ouverte;Quelle est la capitale de Somalie ?;Mogadiscio
+630;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Kafka sur le rivage » est de Haruki Murakami ?;Vrai
+631;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Thomas Hobbes ?;Le Léviathan
+632;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nom de la bactérie de la tuberculose — Mycobacterium tuberculosis ?;Vrai
+633;Géographie;Capitales;ouverte;Quelle est la capitale de Haïti ?;Port-au-Prince
+634;Culture populaire;BD, mangas, jeux vidéo;ouverte;Nom du sabre laser bleu de Luke Skywalker;Anakin/Luke Lightsaber
+635;Géographie;Capitales;ouverte;De quel pays Hanoï est-elle la capitale ?;Vietnam
+636;Musique;Œuvres, genres, artistes;ouverte;Genre musical né à La Nouvelle-Orléans vers 1900;Jazz
+637;Géographie;Capitales;vrai/faux;Vrai ou faux : Bamako est la capitale de Mali ?;Vrai
+638;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Dov Moran (M-Systems) ?;Clé USB
+639;Histoire;Dates clés;vrai/faux;Vrai ou faux : Premier pas sur la Lune a eu lieu en 1969 ?;Vrai
+640;Transports & Explorations;Explorations & engins;ouverte;Aéronef géant allemand des années 1930;Zeppelin
+641;Géographie;Capitales;ouverte;De quel pays Canberra est-elle la capitale ?;Australie
+642;Médecine & Corps humain;Anatomie/Soins;ouverte;Pays d'apparition du virus Ebola;République démocratique du Congo
+643;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Michel Foucault est lié à Le biopouvoir ?;Vrai
+644;Géographie;Capitales;ouverte;De quel pays Luanda est-elle la capitale ?;Angola
+645;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Si par une nuit d'hiver un voyageur » ?;Italo Calvino
+646;Sport;Records & événements;ouverte;Premier marathonien officiel moderne (1896);Spyridon Louis
+647;Géographie;Capitales;ouverte;De quel pays Tbilissi est-elle la capitale ?;Géorgie
+648;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « 1984 » ?;George Orwell
+649;Économie & Finance;Concepts & crises;ouverte;Concept économique : rapport entre prix et demande;Élasticité
+650;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Transistor est associé(e) à John Bardeen, William Shockley et Walter Brattain ?;Vrai
+651;Politique & Institutions;Chefs d'État & organisations;ouverte;Vote d'une loi par le peuple : processus appelé;Référendum
+652;Histoire;Dates clés;vrai/faux;Vrai ou faux : Attentats du 11 septembre a eu lieu en 2001 ?;Vrai
+653;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Qatar est Gaborone ?;Faux (c'est Doha)
+654;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Je sais pourquoi chante l'oiseau en cage » est de Maya Angelou ?;Vrai
+655;Géographie;Capitales;ouverte;Quelle est la capitale de Kenya ?;Nairobi
+656;Médecine & Corps humain;Anatomie/Soins;ouverte;Organe qui produit la bile;Le foie
+657;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Grèce est Tachkent ?;Faux (c'est Athènes)
+658;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Synonyme de 'pérégrination' — Voyage ?;Vrai
+659;Géographie;Capitales;ouverte;Quelle est la capitale de Émirats arabes unis ?;Abou Dabi
+660;Nature & Environnement;Faune, flore et climat;ouverte;Processus par lequel les plantes produisent du sucre;Photosynthèse
+661;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : BD belge mettant en scène un reporter à houppe — Tintin ?;Vrai
+662;Cinéma & Séries;Films, prix, répliques;ouverte;Série avec un professeur de chimie devenu baron de la drogue;Breaking Bad
+663;Politique & Institutions;Chefs d'État & organisations;ouverte;Président américain assassiné à Dallas en 1963;John F. Kennedy
+664;Politique & Institutions;Chefs d'État & organisations;ouverte;Régime politique où le pouvoir est détenu par le peuple;Démocratie
+665;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Botswana est Rabat ?;Faux (c'est Gaborone)
+666;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « American Gothic » ?;Grant Wood
+667;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Maroc est Rome ?;Faux (c'est Rabat)
+668;Géographie;Capitales;vrai/faux;Vrai ou faux : Tripoli est la capitale de Libye ?;Vrai
+669;Géographie;Capitales;ouverte;De quel pays Nairobi est-elle la capitale ?;Kenya
+670;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Corée du Sud est Saint-Domingue ?;Faux (c'est Séoul)
+671;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Réalisateur de 'Parasite' — Bong Joon-ho ?;Vrai
+672;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Piet Mondrian ?;Composition avec rouge, jaune et bleu
+673;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 2002 ?;Introduction de l'euro fiduciaire
+674;Géographie;Capitales;ouverte;De quel pays Nicosie est-elle la capitale ?;Chypre
+675;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Italo Calvino ?;Si par une nuit d'hiver un voyageur
+676;Transports & Explorations;Explorations & engins;ouverte;Nom du train à grande vitesse français;TGV
+677;Géographie;Capitales;ouverte;Quelle est la capitale de Maurice ?;Port-Louis
+678;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à René Descartes ?;Le cogito
+679;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Si par une nuit d'hiver un voyageur » est de Italo Calvino ?;Vrai
+680;Médecine & Corps humain;Anatomie/Soins;ouverte;Nom de l'os du bras entre épaule et coude;L'humérus
+681;Géographie;Capitales;ouverte;De quel pays Addis-Abeba est-elle la capitale ?;Éthiopie
+682;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Route » ?;Cormac McCarthy
+683;Nature & Environnement;Faune, flore et climat;ouverte;Gaz à effet de serre le plus abondant;CO2
+684;Géographie;Capitales;ouverte;Quelle est la capitale de Bahreïn ?;Manama
+685;Culture populaire;BD, mangas, jeux vidéo;ouverte;Super-héros possédant un marteau nommé Mjölnir;Thor
+686;Géographie;Capitales;vrai/faux;Vrai ou faux : La Valette est la capitale de Malte ?;Vrai
+687;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Route » est de Cormac McCarthy ?;Vrai
+688;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1453 ?;Chute de Constantinople
+689;Histoire;Dates clés;vrai/faux;Vrai ou faux : Commune de Paris a eu lieu en 1871 ?;Vrai
+690;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Simone de Beauvoir est lié à Le féminisme existentialiste ?;Vrai
+691;Gastronomie;Plats & produits;ouverte;Spiritueux japonais à base de riz;Saké
+692;Géographie;Capitales;ouverte;Quelle est la capitale de Égypte ?;Le Caire
+693;Technologies du quotidien;Objets & internet;ouverte;Réseau d'objets connectés en anglais;Internet of Things
+694;Géographie;Capitales;vrai/faux;Vrai ou faux : Dacca est la capitale de Bangladesh ?;Vrai
+695;Géographie;Capitales;vrai/faux;Vrai ou faux : Tirana est la capitale de Albanie ?;Vrai
+696;Médecine & Corps humain;Anatomie/Soins;ouverte;Date du premier cœur artificiel implanté avec succès;1982
+697;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nom de l'os du bras entre épaule et coude — L'humérus ?;Vrai
+698;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Pierre Bourdieu est lié à L'habitus ?;Vrai
+699;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Je sais pourquoi chante l'oiseau en cage » ?;Maya Angelou
+700;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Comte de Monte-Cristo » est de Alexandre Dumas ?;Vrai
+701;Transports & Explorations;Explorations & engins;ouverte;Premier homme à traverser l'Atlantique en avion en solitaire;Charles Lindbergh
+702;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Figure de style consistant à répéter un mot en tête de phrase;Anaphore
+703;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Peter Singer est lié à L'altruisme efficace ?;Vrai
+704;Géographie;Capitales;vrai/faux;Vrai ou faux : Abuja est la capitale de Nigeria ?;Vrai
+705;Médecine & Corps humain;Anatomie/Soins;ouverte;Hormone régulant la glycémie;L'insuline
+706;Géographie;Capitales;ouverte;Quelle est la capitale de Équateur ?;Quito
+707;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'ataraxie ?;Epicure
+708;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Four à micro-ondes ?;Percy Spencer
+709;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Laser ?;Theodore Maiman
+710;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Oman est Caracas ?;Faux (c'est Mascate)
+711;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Traité de Rome (CEE) ?;1957
+712;Géographie;Capitales;ouverte;De quel pays Paris est-elle la capitale ?;France
+713;Géographie;Capitales;vrai/faux;Vrai ou faux : Riyad est la capitale de Arabie saoudite ?;Vrai
+714;Géographie;Capitales;ouverte;De quel pays Kinshasa est-elle la capitale ?;République démocratique du Congo
+715;Technologies du quotidien;Objets & internet;ouverte;Application qui a popularisé les vidéos courtes verticales;TikTok
+716;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Vietnam est Tokyo ?;Faux (c'est Hanoï)
+717;Médecine & Corps humain;Anatomie/Soins;ouverte;Maladie causée par le VIH;Le SIDA
+718;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Différence entre homonyme et homophone;Homophone: son identique, Homonyme: sens différents même forme
+719;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Protocole qui sécurise les sites web (https) — TLS ?;Vrai
+720;Géographie;Capitales;ouverte;De quel pays Gaborone est-elle la capitale ?;Botswana
+721;Géographie;Capitales;ouverte;De quel pays Vienne est-elle la capitale ?;Autriche
+722;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Jackson Pollock ?;Number 1A
+723;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « American Gods » ?;Neil Gaiman
+724;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Personnage qui dit 'Hasta la vista, baby' — Terminator ?;Vrai
+725;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Les Ménines » ?;Diego Velázquez
+726;Politique & Institutions;Chefs d'État & organisations;ouverte;Chef d'État sud-africain libéré en 1990 et élu en 1994;Nelson Mandela
+727;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Victor Hugo ?;Les Misérables
+728;Géographie;Capitales;ouverte;De quel pays Mogadiscio est-elle la capitale ?;Somalie
+729;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Premier satellite artificiel — Spoutnik 1 ?;Vrai
+730;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Mot français le plus long (souvent cité) — Anticonstitutionnellement ?;Vrai
+731;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bulgarie est Kigali ?;Faux (c'est Sofia)
+732;Gastronomie;Plats & produits;ouverte;Plat national espagnol à base de riz;Paella
+733;Géographie;Capitales;ouverte;Quelle est la capitale de Vietnam ?;Hanoï
+734;Géographie;Capitales;ouverte;De quel pays Jakarta est-elle la capitale ?;Indonésie
+735;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Platon ?;La théorie des Idées
+736;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Anglicisme pour 'brunch' signifie;Petit-déjeuner + déjeuner
+737;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Don Quichotte » est de Miguel de Cervantès ?;Vrai
+738;Droit & Justice;Institutions & textes;ouverte;Âge de la majorité civile en France;18 ans
+739;Droit & Justice;Institutions & textes;ouverte;Droit accordé aux femmes de voter en France : année;1944
+740;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1917 ?;Révolution russe
+741;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Karl Marx ?;Le matérialisme historique
+742;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Arménie est Abuja ?;Faux (c'est Erevan)
+743;Géographie;Capitales;ouverte;De quel pays Santiago est-elle la capitale ?;Chili
+744;Géographie;Capitales;ouverte;Quelle est la capitale de Inde ?;New Delhi
+745;Géographie;Capitales;ouverte;Quelle est la capitale de Mozambique ?;Maputo
+746;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Déclaration universelle des droits de l'homme ?;1948
+747;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Iran est Djibouti ?;Faux (c'est Téhéran)
+748;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : La justice comme équité ?;John Rawls
+749;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Brésil est Kiev ?;Faux (c'est Brasília)
+750;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Pénicilline ?;Alexander Fleming
+751;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Meilleur des mondes » ?;Aldous Huxley
+752;Nature & Environnement;Faune, flore et climat;ouverte;Parc national emblématique américain créé en 1872;Yellowstone
+753;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Jennifer Doudna et Emmanuelle Charpentier ?;CRISPR-Cas9
+754;Géographie;Capitales;ouverte;De quel pays Bruxelles est-elle la capitale ?;Belgique
+755;Géographie;Capitales;ouverte;De quel pays Bakou est-elle la capitale ?;Azerbaïdjan
+756;Géographie;Capitales;ouverte;De quel pays Douchanbé est-elle la capitale ?;Tadjikistan
+757;Histoire;Dates clés;vrai/faux;Vrai ou faux : Fin officielle de l'apartheid en Afrique du Sud a eu lieu en 1994 ?;Vrai
+758;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Opéra 'Carmen' compositeur;Georges Bizet
+759;Géographie;Capitales;ouverte;De quel pays Bratislava est-elle la capitale ?;Slovaquie
+760;Géographie;Capitales;vrai/faux;Vrai ou faux : Amsterdam est la capitale de Pays-Bas ?;Vrai
+761;Géographie;Capitales;ouverte;Quelle est la capitale de Bahamas ?;Nassau
+762;Histoire;Dates clés;vrai/faux;Vrai ou faux : Magna Carta signée en Angleterre a eu lieu en 1215 ?;Vrai
+763;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : John Locke est lié à L'empirisme ?;Vrai
+764;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Herman Melville ?;Moby Dick
+765;Géographie;Capitales;vrai/faux;Vrai ou faux : Gitega est la capitale de Burundi ?;Vrai
+766;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Prix Nobel d'économie 2001 pour l'asymétrie d'information — Joseph Stiglitz ?;Vrai
+767;Histoire;Dates clés;vrai/faux;Vrai ou faux : Couronnement de Charlemagne a eu lieu en 800 ?;Vrai
+768;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Os le plus long du corps humain — Le fémur ?;Vrai
+769;Médecine & Corps humain;Anatomie/Soins;ouverte;Nom de la vitamine C;Acide ascorbique
+770;Géographie;Capitales;ouverte;De quel pays Djouba est-elle la capitale ?;Soudan du Sud
+771;Géographie;Capitales;ouverte;Quelle est la capitale de Oman ?;Mascate
+772;Géographie;Capitales;ouverte;Quelle est la capitale de Djibouti ?;Djibouti
+773;Géographie;Capitales;vrai/faux;Vrai ou faux : Séoul est la capitale de Corée du Sud ?;Vrai
+774;Géographie;Capitales;ouverte;Quelle est la capitale de République démocratique du Congo ?;Kinshasa
+775;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Premier journal quotidien français — La Presse (1836) ?;Vrai
+776;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Ray Bradbury ?;Fahrenheit 451
+777;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Impasse des deux palais » ?;Naguib Mahfouz
+778;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Seychelles est Oulan-Bator ?;Faux (c'est Victoria)
+779;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Percy Spencer ?;Four à micro-ondes
+780;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Robert Jarvik ?;Cœur artificiel
+781;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Nom de la rose » ?;Umberto Eco
+782;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Acteur principal de 'Forrest Gump' — Tom Hanks ?;Vrai
+783;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Seigneur des Anneaux » ?;J. R. R. Tolkien
+784;Histoire;Dates clés;vrai/faux;Vrai ou faux : Baptême de Clovis a eu lieu en 496 ?;Vrai
+785;Géographie;Capitales;vrai/faux;Vrai ou faux : Naypyidaw est la capitale de Myanmar ?;Vrai
+786;Géographie;Capitales;ouverte;De quel pays Ottawa est-elle la capitale ?;Canada
+787;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Pacemaker implantable ?;Paul Zoll
+788;Économie & Finance;Concepts & crises;ouverte;Prix Nobel d'économie 2001 pour l'asymétrie d'information;Joseph Stiglitz
+789;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Opéra 'Carmen' compositeur — Georges Bizet ?;Vrai
+790;Géographie;Capitales;ouverte;Quelle est la capitale de Japon ?;Tokyo
+791;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Albert Camus ?;L'absurde
+792;Histoire;Dates clés;vrai/faux;Vrai ou faux : Bombardement d'Hiroshima a eu lieu en 1945 ?;Vrai
+793;Géographie;Capitales;vrai/faux;Vrai ou faux : Tegucigalpa est la capitale de Honduras ?;Vrai
+794;Nature & Environnement;Faune, flore et climat;ouverte;Forêt tropicale couvrant l'Amazonie;Amazonie
+795;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Pâte italienne farcie de viande ou ricotta — Ravioli ?;Vrai
+796;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Marilyn Diptych » ?;Andy Warhol
+797;Géographie;Capitales;vrai/faux;Vrai ou faux : Caracas est la capitale de Venezuela ?;Vrai
+798;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Système d'exploitation mobile de Google — Android ?;Vrai
+799;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Naissance de Vénus » ?;Sandro Botticelli
+800;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : CRISPR-Cas9 ?;Jennifer Doudna et Emmanuelle Charpentier
+801;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Académie française fondée en;1635
+802;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de El Salvador est Antananarivo ?;Faux (c'est San Salvador)
+803;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Printemps arabe ?;2011
+804;Géographie;Capitales;ouverte;Quelle est la capitale de Turquie ?;Ankara
+805;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Moteur à explosion ?;Étienne Lenoir
+806;Sport;Records & événements;ouverte;Record du 100 m masculin (9,58 s);Usain Bolt
+807;Médecine & Corps humain;Anatomie/Soins;ouverte;Découverte du vaccin contre la variole;Edward Jenner
+808;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « À la recherche du temps perdu » est de Marcel Proust ?;Vrai
+809;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bangladesh est Séoul ?;Faux (c'est Dacca)
+810;Géographie;Capitales;ouverte;De quel pays San Salvador est-elle la capitale ?;El Salvador
+811;Géographie;Capitales;ouverte;De quel pays Berne est-elle la capitale ?;Suisse
+812;Géographie;Capitales;vrai/faux;Vrai ou faux : Colombo est la capitale de Sri Lanka ?;Vrai
+813;Sport;Records & événements;ouverte;Sport pratiqué par Michael Phelps;Natation
+814;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 496 ?;Baptême de Clovis
+815;Histoire;Dates clés;vrai/faux;Vrai ou faux : Printemps arabe a eu lieu en 2011 ?;Vrai
+816;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Jules Verne ?;Vingt mille lieues sous les mers
+817;Société & Médias;Réseaux, slogans, démographie;ouverte;Série de comics 'Spider-Man' publiée par;Marvel
+818;Géographie;Capitales;vrai/faux;Vrai ou faux : Paris est la capitale de France ?;Vrai
+819;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Servante écarlate » ?;Margaret Atwood
+820;Géographie;Capitales;ouverte;Quelle est la capitale de Russie ?;Moscou
+821;Géographie;Capitales;ouverte;De quel pays Manama est-elle la capitale ?;Bahreïn
+822;Géographie;Capitales;ouverte;De quel pays Brasília est-elle la capitale ?;Brésil
+823;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Figure de style consistant à répéter un mot en tête de phrase — Anaphore ?;Vrai
+824;Géographie;Capitales;ouverte;Quelle est la capitale de Malte ?;La Valette
+825;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Ukraine est Kampala ?;Faux (c'est Kiev)
+826;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Studio à l'origine de 'Toy Story' — Pixar ?;Vrai
+827;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Compilation d'images humoristiques virales en ligne — Meme ?;Vrai
+828;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Mot-valise formé de 'informatique' et 'automatique';Informatique
+829;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Abolition de l'esclavage aux États-Unis ?;1865
+830;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Spécialité lyonnaise de charcuterie — Saucisson brioché ?;Vrai
+831;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Peste » ?;Albert Camus
+832;Géographie;Capitales;ouverte;De quel pays Bucarest est-elle la capitale ?;Roumanie
+833;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Orgueil et Préjugés » ?;Jane Austen
+834;Musique;Œuvres, genres, artistes;ouverte;Auteur de 'Hallelujah';Leonard Cohen
+835;Géographie;Capitales;ouverte;De quel pays Copenhague est-elle la capitale ?;Danemark
+836;Sport;Records & événements;vrai/faux;Vrai ou faux : Club ayant gagné le plus de Ligues des champions — Real Madrid ?;Vrai
+837;Géographie;Capitales;vrai/faux;Vrai ou faux : Achgabat est la capitale de Turkménistan ?;Vrai
+838;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Imprimerie à caractères mobiles est associé(e) à Johannes Gutenberg ?;Vrai
+839;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Rwanda est Zagreb ?;Faux (c'est Kigali)
+840;Géographie;Capitales;vrai/faux;Vrai ou faux : Bakou est la capitale de Azerbaïdjan ?;Vrai
+841;Géographie;Capitales;ouverte;Quelle est la capitale de Bhoutan ?;Thimphou
+842;Géographie;Capitales;ouverte;De quel pays Maputo est-elle la capitale ?;Mozambique
+843;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le contrat social ?;Jean-Jacques Rousseau
+844;Cinéma & Séries;Films, prix, répliques;ouverte;Festival de cinéma sur la Croisette;Cannes
+845;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Irak est Buenos Aires ?;Faux (c'est Bagdad)
+846;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Toni Morrison ?;Beloved
+847;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Honduras est Ouagadougou ?;Faux (c'est Tegucigalpa)
+848;Cinéma & Séries;Films, prix, répliques;ouverte;Film ayant obtenu l'Oscar du meilleur film en 1994;Forrest Gump
+849;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Umberto Eco ?;Le Nom de la rose
+850;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Heydar Aliyev Center » est de Zaha Hadid ?;Vrai
+851;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1347 ?;Peste noire en Europe
+852;Géographie;Capitales;vrai/faux;Vrai ou faux : Nairobi est la capitale de Kenya ?;Vrai
+853;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Albert Camus ?;La Peste
+854;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Plateforme de microblogging créée en 2006 — Twitter ?;Vrai
+855;Géographie;Capitales;ouverte;De quel pays Sarajevo est-elle la capitale ?;Bosnie-Herzégovine
+856;Géographie;Capitales;vrai/faux;Vrai ou faux : Kingston est la capitale de Jamaïque ?;Vrai
+857;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Fallingwater » ?;Frank Lloyd Wright
+858;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Maldives est Helsinki ?;Faux (c'est Malé)
+859;Géographie;Capitales;ouverte;Quelle est la capitale de Ouzbékistan ?;Tachkent
+860;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Romain Gary ?;La Promesse de l'aube
+861;Géographie;Capitales;ouverte;Quelle est la capitale de Biélorussie ?;Minsk
+862;Musique;Œuvres, genres, artistes;ouverte;Roi de la pop;Michael Jackson
+863;Géographie;Capitales;vrai/faux;Vrai ou faux : Stockholm est la capitale de Suède ?;Vrai
+864;Nature & Environnement;Faune, flore et climat;ouverte;Plus grand désert chaud du monde;Sahara
+865;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1871 ?;Commune de Paris
+866;Géographie;Capitales;vrai/faux;Vrai ou faux : Douchanbé est la capitale de Tadjikistan ?;Vrai
+867;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Turquie est La Paz ?;Faux (c'est Ankara)
+868;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Soudan est Zagreb ?;Faux (c'est Khartoum)
+869;Géographie;Capitales;vrai/faux;Vrai ou faux : Brazzaville est la capitale de Congo ?;Vrai
+870;Géographie;Capitales;vrai/faux;Vrai ou faux : Reykjavik est la capitale de Islande ?;Vrai
+871;Culture populaire;BD, mangas, jeux vidéo;ouverte;Héroïne de la franchise 'The Legend of Zelda';Zelda
+872;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Langue la plus parlée au monde (locuteurs natifs) — Mandarin ?;Vrai
+873;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Plus grand organe du corps humain — La peau ?;Vrai
+874;Médecine & Corps humain;Anatomie/Soins;ouverte;Médecin grec considéré comme le père de la médecine;Hippocrate
+875;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'altruisme efficace ?;Peter Singer
+876;Géographie;Capitales;ouverte;Quelle est la capitale de Pérou ?;Lima
+877;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Pyramide du Louvre » est de Ieoh Ming Pei ?;Vrai
+878;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Microprocesseur ?;Intel (Ted Hoff)
+879;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Application qui a popularisé les vidéos courtes verticales — TikTok ?;Vrai
+880;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Clé USB est associé(e) à Dov Moran (M-Systems) ?;Vrai
+881;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Pakistan est Ouagadougou ?;Faux (c'est Islamabad)
+882;Sport;Records & événements;vrai/faux;Vrai ou faux : Tennis : « GOAT » aux 24 titres du Grand Chelem — Novak Djokovic ?;Vrai
+883;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Post-it ?;Art Fry
+884;Géographie;Capitales;ouverte;De quel pays Sofia est-elle la capitale ?;Bulgarie
+885;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Carré noir » ?;Kazimir Malevitch
+886;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Fiodor Dostoïevski ?;Crime et Châtiment
+887;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1919 ?;Traité de Versailles
+888;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Nuit étoilée » est de Vincent van Gogh ?;Vrai
+889;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Auteur de 'Phèdre' — Jean Racine ?;Vrai
+890;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Sri Lanka est Astana ?;Faux (c'est Colombo)
+891;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Jimson Weed » ?;Georgia O'Keeffe
+892;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : World Wide Web est associé(e) à Tim Berners-Lee ?;Vrai
+893;Géographie;Capitales;vrai/faux;Vrai ou faux : Dublin est la capitale de Irlande ?;Vrai
+894;Géographie;Capitales;ouverte;Quelle est la capitale de Corée du Nord ?;Pyongyang
+895;Géographie;Capitales;ouverte;De quel pays Skopje est-elle la capitale ?;Macédoine du Nord
+896;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Groupe de 'Smells Like Teen Spirit' — Nirvana ?;Vrai
+897;Culture populaire;BD, mangas, jeux vidéo;ouverte;Jeu vidéo le plus vendu de tous les temps (2024);Minecraft
+898;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Ballet russe créé par Diaghilev en 1913;Le Sacre du printemps
+899;Géographie;Capitales;ouverte;De quel pays Malé est-elle la capitale ?;Maldives
+900;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Argentine est Oulan-Bator ?;Faux (c'est Buenos Aires)
+901;Géographie;Capitales;ouverte;De quel pays Abuja est-elle la capitale ?;Nigeria
+902;Géographie;Capitales;ouverte;Quelle est la capitale de Guatemala ?;Guatemala
+903;Économie & Finance;Concepts & crises;ouverte;Indice boursier phare de la France;CAC 40
+904;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Super-héros possédant un marteau nommé Mjölnir — Thor ?;Vrai
+905;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Crime de l'Orient-Express » est de Agatha Christie ?;Vrai
+906;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Photographie est associé(e) à Nicéphore Niépce ?;Vrai
+907;Géographie;Capitales;ouverte;De quel pays Islamabad est-elle la capitale ?;Pakistan
+908;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Jour de dépassement (Overshoot Day) mesure quoi ? — La date où l'humanité a consommé les ressources annuelles de la Terre ?;Vrai
+909;Géographie;Capitales;ouverte;De quel pays Damas est-elle la capitale ?;Syrie
+910;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Petit Prince » ?;Antoine de Saint-Exupéry
+911;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Azerbaïdjan est Naypyidaw ?;Faux (c'est Bakou)
+912;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le stoïcisme ?;Zénon de Citium
+913;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Danse traditionnelle argentine en couple;Tango
+914;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nom de la maladie de la vache folle — Encéphalopathie spongiforme bovine ?;Vrai
+915;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Accord commercial nord-américain, sigle — ALENA ?;Vrai
+916;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Peter Singer ?;L'altruisme efficace
+917;Géographie;Capitales;ouverte;Quelle est la capitale de Colombie ?;Bogota
+918;Droit & Justice;Institutions & textes;ouverte;Traité garantissant la protection des réfugiés (ONU);Convention de Genève de 1951
+919;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Pandémie de COVID-19 déclarée par l'OMS ?;2020
+920;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Petit Prince » est de Antoine de Saint-Exupéry ?;Vrai
+921;Géographie;Capitales;ouverte;Quelle est la capitale de Israël ?;Jérusalem
+922;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Frankenstein » ?;Mary Shelley
+923;Géographie;Capitales;vrai/faux;Vrai ou faux : Sarajevo est la capitale de Bosnie-Herzégovine ?;Vrai
+924;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Gaz à effet de serre le plus abondant — CO2 ?;Vrai
+925;Géographie;Capitales;ouverte;De quel pays Bogota est-elle la capitale ?;Colombie
+926;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Père Goriot » est de Honoré de Balzac ?;Vrai
+927;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bosnie-Herzégovine est Managua ?;Faux (c'est Sarajevo)
+928;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Film culte français avec la réplique 'On n'est pas bien là?' — Les Bronzés font du ski ?;Vrai
+929;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Entreprise créatrice d'Alexa — Amazon ?;Vrai
+930;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Frères Lumière ?;Cinématographe
+931;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Cinématographe est associé(e) à Frères Lumière ?;Vrai
+932;Géographie;Capitales;ouverte;Quelle est la capitale de Botswana ?;Gaborone
+933;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Roi de la pop — Michael Jackson ?;Vrai
+934;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Baruch Spinoza est lié à L'éthique ?;Vrai
+935;Musique;Œuvres, genres, artistes;ouverte;Compositeur de la 9e symphonie 'Choral';Ludwig van Beethoven
+936;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Koweït est Yamoussoukro ?;Faux (c'est Koweït)
+937;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Harry Potter à l'école des sorciers » ?;J. K. Rowling
+938;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Ouganda est Oslo ?;Faux (c'est Kampala)
+939;Géographie;Capitales;ouverte;Quelle est la capitale de Australie ?;Canberra
+940;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Réalisateur de 'Inception' — Christopher Nolan ?;Vrai
+941;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Procès de Nuremberg : période — 1945-1946 ?;Vrai
+942;Musique;Œuvres, genres, artistes;ouverte;Guitare à double manche : guitariste de Led Zeppelin;Jimmy Page
+943;Géographie;Capitales;ouverte;De quel pays Dakar est-elle la capitale ?;Sénégal
+944;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Géorgie est Zagreb ?;Faux (c'est Tbilissi)
+945;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Premier pas sur la Lune ?;1969
+946;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Epicure ?;L'ataraxie
+947;Gastronomie;Plats & produits;ouverte;Spécialité lyonnaise de charcuterie;Saucisson brioché
+948;Histoire;Dates clés;vrai/faux;Vrai ou faux : Pandémie de COVID-19 déclarée par l'OMS a eu lieu en 2020 ?;Vrai
+949;Géographie;Capitales;vrai/faux;Vrai ou faux : Kinshasa est la capitale de République démocratique du Congo ?;Vrai
+950;Géographie;Capitales;vrai/faux;Vrai ou faux : Managua est la capitale de Nicaragua ?;Vrai
+951;Sport;Records & événements;ouverte;Capitale des JO d'été 2012;Londres
+952;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Slovaquie est Islamabad ?;Faux (c'est Bratislava)
+953;Géographie;Capitales;ouverte;De quel pays Lisbonne est-elle la capitale ?;Portugal
+954;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Pays de neige » ?;Yasunari Kawabata
+955;Géographie;Capitales;vrai/faux;Vrai ou faux : Luanda est la capitale de Angola ?;Vrai
+956;Géographie;Capitales;vrai/faux;Vrai ou faux : Khartoum est la capitale de Soudan ?;Vrai
+957;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Jean-Paul Sartre ?;Huis clos
+958;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Bombardement d'Hiroshima ?;1945
+959;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Pièce de Beckett avec deux vagabonds — En attendant Godot ?;Vrai
+960;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Événement climatique El Niño touche principalement quel océan ? — Pacifique ?;Vrai
+961;Géographie;Capitales;vrai/faux;Vrai ou faux : Port-au-Prince est la capitale de Haïti ?;Vrai
+962;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Dynamite ?;Alfred Nobel
+963;Géographie;Capitales;ouverte;Quelle est la capitale de Mongolie ?;Oulan-Bator
+964;Nature & Environnement;Faune, flore et climat;ouverte;Nom du protocole international sur le climat (1997);Protocole de Kyoto
+965;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Première femme à présider la Cour européenne des droits de l'homme — Elisabeth Steiner ?;Vrai
+966;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Honoré de Balzac ?;Le Père Goriot
+967;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'habitus ?;Pierre Bourdieu
+968;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Pologne est Tegucigalpa ?;Faux (c'est Varsovie)
+969;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Équateur est Tbilissi ?;Faux (c'est Quito)
+970;Géographie;Capitales;ouverte;De quel pays Téhéran est-elle la capitale ?;Iran
+971;Géographie;Capitales;vrai/faux;Vrai ou faux : Rome est la capitale de Italie ?;Vrai
+972;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Rayons X est associé(e) à Wilhelm Röntgen ?;Vrai
+973;Géographie;Capitales;vrai/faux;Vrai ou faux : Pyongyang est la capitale de Corée du Nord ?;Vrai
+974;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Art Fry ?;Post-it
+975;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Germinal » ?;Émile Zola
+976;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Couronnement de Charlemagne ?;800
+977;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Le Cri » ?;Edvard Munch
+978;Géographie;Capitales;vrai/faux;Vrai ou faux : New Delhi est la capitale de Inde ?;Vrai
+979;Géographie;Capitales;ouverte;Quelle est la capitale de Brunei ?;Bandar Seri Begawan
+980;Géographie;Capitales;ouverte;Quelle est la capitale de Trinité-et-Tobago ?;Port of Spain
+981;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Première encyclopédie collaborative en ligne majeure — Wikipedia (2001) ?;Vrai
+982;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Papouasie-Nouvelle-Guinée est Port-Louis ?;Faux (c'est Port Moresby)
+983;Géographie;Capitales;ouverte;De quel pays Panama est-elle la capitale ?;Panama
+984;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Organe affecté par la cirrhose — Le foie ?;Vrai
+985;Géographie;Capitales;vrai/faux;Vrai ou faux : Santiago est la capitale de Chili ?;Vrai
+986;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Techno : ville de naissance du genre — Detroit ?;Vrai
+987;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « L'Amie prodigieuse » ?;Elena Ferrante
+988;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Pénicilline est associé(e) à Alexander Fleming ?;Vrai
+989;Géographie;Capitales;ouverte;De quel pays Luxembourg est-elle la capitale ?;Luxembourg
+990;Géographie;Capitales;ouverte;Quelle est la capitale de Philippines ?;Manille
+991;Gastronomie;Plats & produits;ouverte;Pâte feuilletée garnie de pommes caramélisées;Tarte Tatin
+992;Histoire;Dates clés;vrai/faux;Vrai ou faux : Révolution iranienne a eu lieu en 1979 ?;Vrai
+993;Histoire;Dates clés;vrai/faux;Vrai ou faux : Chute de Constantinople a eu lieu en 1453 ?;Vrai
+994;Nature & Environnement;Faune, flore et climat;ouverte;Cycle naturel de l'eau s'appelle;Cycle hydrologique
+995;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Maurice est Nassau ?;Faux (c'est Port-Louis)
+996;Sport;Records & événements;ouverte;Pays d'origine du sumo;Japon
+997;Géographie;Capitales;ouverte;De quel pays Saint-Domingue est-elle la capitale ?;République dominicaine
+998;Géographie;Capitales;ouverte;De quel pays Windhoek est-elle la capitale ?;Namibie
+999;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Edvard Munch ?;Le Cri
+1000;Géographie;Capitales;ouverte;De quel pays New Delhi est-elle la capitale ?;Inde
+1001;Géographie;Capitales;ouverte;Quelle est la capitale de Tchéquie ?;Prague
+1002;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Département de la Défense des États-Unis ?;GPS
+1003;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Crime de l'Orient-Express » ?;Agatha Christie
+1004;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de République dominicaine est Yamoussoukro ?;Faux (c'est Saint-Domingue)
+1005;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Elena Ferrante ?;L'Amie prodigieuse
+1006;Droit & Justice;Institutions & textes;ouverte;Institution qui contrôle la constitutionnalité des lois en France;Conseil constitutionnel
+1007;Géographie;Capitales;vrai/faux;Vrai ou faux : Tokyo est la capitale de Japon ?;Vrai
+1008;Histoire;Dates clés;vrai/faux;Vrai ou faux : Chute de l'Empire romain d'Occident a eu lieu en 476 ?;Vrai
+1009;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Hamlet » ?;William Shakespeare
+1010;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à H. G. Wells ?;La Guerre des mondes
+1011;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Ampoule électrique à filament ?;Thomas Edison
+1012;Géographie;Capitales;ouverte;Quelle est la capitale de Seychelles ?;Victoria
+1013;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Libye est Tokyo ?;Faux (c'est Tripoli)
+1014;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Beloved » ?;Toni Morrison
+1015;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Israël est Doha ?;Faux (c'est Jérusalem)
+1016;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Epicure est lié à L'ataraxie ?;Vrai
+1017;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Jean de La Fontaine ?;Fables
+1018;Histoire;Dates clés;vrai/faux;Vrai ou faux : Affichage des 95 thèses de Luther a eu lieu en 1517 ?;Vrai
+1019;Géographie;Capitales;ouverte;Quelle est la capitale de Corée du Sud ?;Séoul
+1020;Histoire;Dates clés;vrai/faux;Vrai ou faux : Création de l'ONU a eu lieu en 1945 ?;Vrai
+1021;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'impératif catégorique ?;Immanuel Kant
+1022;Cinéma & Séries;Films, prix, répliques;ouverte;Film d'animation japonais de Miyazaki sur une princesse et les esprits;Princesse Mononoké
+1023;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Moby Dick » ?;Herman Melville
+1024;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Médecin grec considéré comme le père de la médecine — Hippocrate ?;Vrai
+1025;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Joconde » est de Leonard de Vinci ?;Vrai
+1026;Géographie;Capitales;ouverte;De quel pays Naypyidaw est-elle la capitale ?;Myanmar
+1027;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Georgia O'Keeffe ?;Jimson Weed
+1028;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Rouge et le Noir » est de Stendhal ?;Vrai
+1029;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Art Spiegelman ?;Maus
+1030;Géographie;Capitales;ouverte;Quelle est la capitale de Panama ?;Panama
+1031;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'empirisme ?;John Locke
+1032;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Velcro est associé(e) à George de Mestral ?;Vrai
+1033;Géographie;Capitales;ouverte;De quel pays Amsterdam est-elle la capitale ?;Pays-Bas
+1034;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1992 ?;Traité de Maastricht
+1035;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Capacité minimale pour qu'une image soit considérée 'HD' (p) — 720 ?;Vrai
+1036;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Jane Austen ?;Orgueil et Préjugés
+1037;Technologies du quotidien;Objets & internet;ouverte;Capacité minimale pour qu'une image soit considérée 'HD' (p);720
+1038;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Les Misérables » est de Victor Hugo ?;Vrai
+1039;Géographie;Capitales;ouverte;Quelle est la capitale de Pologne ?;Varsovie
+1040;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Chef d'État sud-africain libéré en 1990 et élu en 1994 — Nelson Mandela ?;Vrai
+1041;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1215 ?;Magna Carta signée en Angleterre
+1042;Géographie;Capitales;ouverte;Quelle est la capitale de Paraguay ?;Asuncion
+1043;Culture populaire;BD, mangas, jeux vidéo;ouverte;Jeu de cartes à collectionner avec Pikachu;Pokémon
+1044;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Biélorussie est Tokyo ?;Faux (c'est Minsk)
+1045;Géographie;Capitales;vrai/faux;Vrai ou faux : Libreville est la capitale de Gabon ?;Vrai
+1046;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Yasunari Kawabata ?;Pays de neige
+1047;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Seigneur des Anneaux » est de J. R. R. Tolkien ?;Vrai
+1048;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Vote d'une loi par le peuple : processus appelé — Référendum ?;Vrai
+1049;Géographie;Capitales;ouverte;Quelle est la capitale de Suède ?;Stockholm
+1050;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Compositeur du 'Boléro' — Maurice Ravel ?;Vrai
+1051;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Couronnement de Napoléon Ier ?;1804
+1052;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Malaisie est Reykjavik ?;Faux (c'est Kuala Lumpur)
+1053;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Thomas Edison ?;Ampoule électrique à filament
+1054;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Indonésie est Bichkek ?;Faux (c'est Jakarta)
+1055;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à George Orwell ?;1984
+1056;Géographie;Capitales;ouverte;Quelle est la capitale de Arabie saoudite ?;Riyad
+1057;Sport;Records & événements;ouverte;Nombre de points marqués par un essai au rugby;5
+1058;Géographie;Capitales;vrai/faux;Vrai ou faux : Harare est la capitale de Zimbabwe ?;Vrai
+1059;Géographie;Capitales;vrai/faux;Vrai ou faux : Guatemala est la capitale de Guatemala ?;Vrai
+1060;Sport;Records & événements;vrai/faux;Vrai ou faux : Tournoi du Grand Chelem joué sur terre battue — Roland-Garros ?;Vrai
+1061;Géographie;Capitales;vrai/faux;Vrai ou faux : Nassau est la capitale de Bahamas ?;Vrai
+1062;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Nombre approximatif d'habitants sur Terre (2023) — 8 milliards ?;Vrai
+1063;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Damadian, Lauterbur, Mansfield ?;IRM (imagerie par résonance magnétique)
+1064;Géographie;Capitales;ouverte;De quel pays Londres est-elle la capitale ?;Royaume-Uni
+1065;Musique;Œuvres, genres, artistes;ouverte;Opéra 'La Traviata';Giuseppe Verdi
+1066;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nombre de chromosomes chez l'humain — 46 ?;Vrai
+1067;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Danemark est Abou Dabi ?;Faux (c'est Copenhague)
+1068;Géographie;Capitales;vrai/faux;Vrai ou faux : Kiev est la capitale de Ukraine ?;Vrai
+1069;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Nom du protocole international sur le climat (1997) — Protocole de Kyoto ?;Vrai
+1070;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Angola est Ouagadougou ?;Faux (c'est Luanda)
+1071;Musique;Œuvres, genres, artistes;ouverte;Chanteuse de 'Like a Prayer';Madonna
+1072;Géographie;Capitales;vrai/faux;Vrai ou faux : Sofia est la capitale de Bulgarie ?;Vrai
+1073;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Autriche est Kigali ?;Faux (c'est Vienne)
+1074;Musique;Œuvres, genres, artistes;ouverte;Rappeur auteur de 'Illmatic';Nas
+1075;Société & Médias;Réseaux, slogans, démographie;ouverte;Plateforme de microblogging créée en 2006;Twitter
+1076;Géographie;Capitales;ouverte;Quelle est la capitale de Qatar ?;Doha
+1077;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Isaac Asimov ?;Fondation
+1078;Géographie;Capitales;ouverte;De quel pays Oulan-Bator est-elle la capitale ?;Mongolie
+1079;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Photographie ?;Nicéphore Niépce
+1080;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Référendum sur le Brexit ?;2016
+1081;Histoire;Dates clés;vrai/faux;Vrai ou faux : Déclaration universelle des droits de l'homme a eu lieu en 1948 ?;Vrai
+1082;Gastronomie;Plats & produits;ouverte;Cuisine indienne : pain plat cuit au tandoor;Naan
+1083;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Texte suprême des États-Unis — Constitution des États-Unis ?;Vrai
+1084;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Indépendance de l'Inde ?;1947
+1085;Sport;Records & événements;vrai/faux;Vrai ou faux : Lieu du Super Bowl LIII (2019) — Atlanta ?;Vrai
+1086;Géographie;Capitales;ouverte;Quelle est la capitale de Irak ?;Bagdad
+1087;Médecine & Corps humain;Anatomie/Soins;ouverte;Antidote de l'intoxication aux opioïdes;Naloxone
+1088;Géographie;Capitales;ouverte;Quelle est la capitale de Ghana ?;Accra
+1089;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Les Deux Fridas » est de Frida Kahlo ?;Vrai
+1090;Géographie;Capitales;ouverte;De quel pays Séoul est-elle la capitale ?;Corée du Sud
+1091;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Les Origines du totalitarisme » ?;Hannah Arendt
+1092;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Canada est Podgorica ?;Faux (c'est Ottawa)
+1093;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à John Bardeen, William Shockley et Walter Brattain ?;Transistor
+1094;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Paulo Coelho ?;L'Alchimiste
+1095;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Suède est Managua ?;Faux (c'est Stockholm)
+1096;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Transistor ?;John Bardeen, William Shockley et Walter Brattain
+1097;Économie & Finance;Concepts & crises;ouverte;Monnaie unique de la zone euro;Euro
+1098;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Carré noir » est de Kazimir Malevitch ?;Vrai
+1099;Technologies du quotidien;Objets & internet;ouverte;Système d'exploitation mobile de Google;Android
+1100;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Fables » est de Jean de La Fontaine ?;Vrai
+1101;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Fin officielle de l'apartheid en Afrique du Sud ?;1994
+1102;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Tout s'effondre » ?;Chinua Achebe
+1103;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Finlande est La Havane ?;Faux (c'est Helsinki)
+1104;Transports & Explorations;Explorations & engins;ouverte;Première femme dans l'espace;Valentina Terechkova
+1105;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Nuit étoilée » ?;Vincent van Gogh
+1106;Géographie;Capitales;vrai/faux;Vrai ou faux : Sanaa est la capitale de Yémen ?;Vrai
+1107;Géographie;Capitales;ouverte;De quel pays Lusaka est-elle la capitale ?;Zambie
+1108;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Jean-Jacques Rousseau est lié à Le contrat social ?;Vrai
+1109;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Ballet russe créé par Diaghilev en 1913 — Le Sacre du printemps ?;Vrai
+1110;Société & Médias;Réseaux, slogans, démographie;ouverte;Concept sociologique de 'capital culturel';Pierre Bourdieu
+1111;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Concept sociologique de 'capital culturel' — Pierre Bourdieu ?;Vrai
+1112;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Tout s'effondre » est de Chinua Achebe ?;Vrai
+1113;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 800 ?;Couronnement de Charlemagne
+1114;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Germinal » est de Émile Zola ?;Vrai
+1115;Géographie;Capitales;ouverte;Quelle est la capitale de Espagne ?;Madrid
+1116;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Mot-valise formé de 'informatique' et 'automatique' — Informatique ?;Vrai
+1117;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Antoine de Saint-Exupéry ?;Le Petit Prince
+1118;Géographie;Capitales;ouverte;Quelle est la capitale de Royaume-Uni ?;Londres
+1119;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Chinua Achebe ?;Tout s'effondre
+1120;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Philip K. Dick ?;Ubik
+1121;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Somalie est Riyad ?;Faux (c'est Mogadiscio)
+1122;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Monténégro est Bandar Seri Begawan ?;Faux (c'est Podgorica)
+1123;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Agatha Christie ?;Le Crime de l'Orient-Express
+1124;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Composition avec rouge, jaune et bleu » est de Piet Mondrian ?;Vrai
+1125;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Imprimante 3D ?;Chuck Hull
+1126;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1968 ?;Mai 68 en France
+1127;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Les Années » est de Annie Ernaux ?;Vrai
+1128;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Chien des Baskerville » est de Arthur Conan Doyle ?;Vrai
+1129;Politique & Institutions;Chefs d'État & organisations;ouverte;Organisation créée en 1949 pour la défense collective (sigle);OTAN
+1130;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Série manga de Eiichiro Oda — One Piece ?;Vrai
+1131;Géographie;Capitales;ouverte;Quelle est la capitale de Myanmar ?;Naypyidaw
+1132;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Deuxième Sexe » ?;Simone de Beauvoir
+1133;Géographie;Capitales;ouverte;De quel pays Port-Louis est-elle la capitale ?;Maurice
+1134;Géographie;Capitales;ouverte;Quelle est la capitale de Maldives ?;Malé
+1135;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Corée du Nord est Washington ?;Faux (c'est Pyongyang)
+1136;Géographie;Capitales;ouverte;De quel pays Washington est-elle la capitale ?;États-Unis
+1137;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Satoshi Nakamoto ?;Blockchain (Bitcoin)
+1138;Histoire;Dates clés;vrai/faux;Vrai ou faux : Traité de Versailles a eu lieu en 1919 ?;Vrai
+1139;Histoire;Dates clés;vrai/faux;Vrai ou faux : Chute du mur de Berlin a eu lieu en 1989 ?;Vrai
+1140;Géographie;Capitales;ouverte;Quelle est la capitale de Yémen ?;Sanaa
+1141;Géographie;Capitales;ouverte;Quelle est la capitale de Maroc ?;Rabat
+1142;Géographie;Capitales;ouverte;De quel pays Bichkek est-elle la capitale ?;Kirghizistan
+1143;Géographie;Capitales;vrai/faux;Vrai ou faux : Nicosie est la capitale de Chypre ?;Vrai
+1144;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Impression, soleil levant » est de Claude Monet ?;Vrai
+1145;Géographie;Capitales;vrai/faux;Vrai ou faux : Koweït est la capitale de Koweït ?;Vrai
+1146;Géographie;Capitales;ouverte;De quel pays Tunis est-elle la capitale ?;Tunisie
+1147;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Friedrich Nietzsche ?;Le surhomme
+1148;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Nikola Tesla ?;Électricité alternée (AC)
+1149;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Bahreïn est Washington ?;Faux (c'est Manama)
+1150;Géographie;Capitales;vrai/faux;Vrai ou faux : Djouba est la capitale de Soudan du Sud ?;Vrai
+1151;Géographie;Capitales;vrai/faux;Vrai ou faux : Téhéran est la capitale de Iran ?;Vrai
+1152;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Les Ménines » est de Diego Velázquez ?;Vrai
+1153;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Villa Savoye » est de Le Corbusier ?;Vrai
+1154;Géographie;Capitales;ouverte;De quel pays Vientiane est-elle la capitale ?;Laos
+1155;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Création d'Adam » ?;Michel-Ange
+1156;Sport;Records & événements;ouverte;Équipement commun au hockey et au patinage artistique;Patins
+1157;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « L'Amie prodigieuse » est de Elena Ferrante ?;Vrai
+1158;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'Être et le Temps ?;Martin Heidegger
+1159;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Persistance de la mémoire » est de Salvador Dalí ?;Vrai
+1160;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Révolution russe ?;1917
+1161;Médecine & Corps humain;Anatomie/Soins;ouverte;Plus grand organe du corps humain;La peau
+1162;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Différence entre homonyme et homophone — Homophone: son identique, Homonyme: sens différents même forme ?;Vrai
+1163;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Premier jeu vidéo de Nintendo mettant en scène Mario — Donkey Kong ?;Vrai
+1164;Géographie;Capitales;ouverte;De quel pays Tokyo est-elle la capitale ?;Japon
+1165;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Number 1A » ?;Jackson Pollock
+1166;Géographie;Capitales;ouverte;Quelle est la capitale de République dominicaine ?;Saint-Domingue
+1167;Géographie;Capitales;vrai/faux;Vrai ou faux : Asmara est la capitale de Érythrée ?;Vrai
+1168;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Smartphone (premier iPhone) ?;Apple (Steve Jobs)
+1169;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Plat national espagnol à base de riz — Paella ?;Vrai
+1170;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Le Jardin des délices » est de Hieronymus Bosch ?;Vrai
+1171;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Imprimerie à caractères mobiles ?;Johannes Gutenberg
+1172;Géographie;Capitales;ouverte;Quelle est la capitale de Papouasie-Nouvelle-Guinée ?;Port Moresby
+1173;Géographie;Capitales;ouverte;Quelle est la capitale de Zambie ?;Lusaka
+1174;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « American Gods » est de Neil Gaiman ?;Vrai
+1175;Géographie;Capitales;vrai/faux;Vrai ou faux : Panama est la capitale de Panama ?;Vrai
+1176;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Italie est New Delhi ?;Faux (c'est Rome)
+1177;Géographie;Capitales;vrai/faux;Vrai ou faux : Katmandou est la capitale de Népal ?;Vrai
+1178;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Égypte est Bandar Seri Begawan ?;Faux (c'est Le Caire)
+1179;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Compositeur de la 9e symphonie 'Choral' — Ludwig van Beethoven ?;Vrai
+1180;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le biopouvoir ?;Michel Foucault
+1181;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Deuxième Sexe » est de Simone de Beauvoir ?;Vrai
+1182;Géographie;Capitales;vrai/faux;Vrai ou faux : N'Djamena est la capitale de Tchad ?;Vrai
+1183;Médecine & Corps humain;Anatomie/Soins;ouverte;Nom de la maladie de la vache folle;Encéphalopathie spongiforme bovine
+1184;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Arthur Conan Doyle ?;Le Chien des Baskerville
+1185;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Henri Matisse ?;La Danse
+1186;Géographie;Capitales;ouverte;De quel pays Chisinau est-elle la capitale ?;Moldavie
+1187;Technologies du quotidien;Objets & internet;ouverte;Inventeur de la souris informatique;Douglas Engelbart
+1188;Géographie;Capitales;ouverte;De quel pays Khartoum est-elle la capitale ?;Soudan
+1189;Géographie;Capitales;vrai/faux;Vrai ou faux : Bratislava est la capitale de Slovaquie ?;Vrai
+1190;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Pièce de théâtre où Figaro est valet — Le Mariage de Figaro ?;Vrai
+1191;Géographie;Capitales;ouverte;De quel pays Katmandou est-elle la capitale ?;Népal
+1192;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Gabon est Kinshasa ?;Faux (c'est Libreville)
+1193;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Organisation créée en 1949 pour la défense collective (sigle) — OTAN ?;Vrai
+1194;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1776 ?;Déclaration d'indépendance des États-Unis
+1195;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Académie française fondée en — 1635 ?;Vrai
+1196;Transports & Explorations;Explorations & engins;ouverte;Autoroute maritime reliant Atlantique et Pacifique;Canal de Panama
+1197;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1989 ?;Chute du mur de Berlin
+1198;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Alexander Graham Bell ?;Téléphone
+1199;Géographie;Capitales;ouverte;De quel pays Achgabat est-elle la capitale ?;Turkménistan
+1200;Géographie;Capitales;ouverte;De quel pays Mexico est-elle la capitale ?;Mexique
+1201;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Philippines est Phnom Penh ?;Faux (c'est Manille)
+1202;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Fallingwater » est de Frank Lloyd Wright ?;Vrai
+1203;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à John Rawls ?;La justice comme équité
+1204;Transports & Explorations;Explorations & engins;ouverte;Navire du premier tour du monde de Magellan;Victoria
+1205;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Salvador Dalí ?;La Persistance de la mémoire
+1206;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Déclaration des droits de l'homme et du citoyen : année — 1789 ?;Vrai
+1207;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Composition avec rouge, jaune et bleu » ?;Piet Mondrian
+1208;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1939 ?;Début de la Seconde Guerre mondiale
+1209;Sport;Records & événements;vrai/faux;Vrai ou faux : Vainqueur de la Coupe du monde 1998 — France ?;Vrai
+1210;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Monnaie unique de la zone euro — Euro ?;Vrai
+1211;Droit & Justice;Institutions & textes;ouverte;Document qui interdit la torture et les traitements inhumains (ONU, 1984);Convention contre la torture
+1212;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Kirghizistan est Khartoum ?;Faux (c'est Bichkek)
+1213;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Chute de Constantinople ?;1453
+1214;Géographie;Capitales;ouverte;Quelle est la capitale de France ?;Paris
+1215;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Four à micro-ondes est associé(e) à Percy Spencer ?;Vrai
+1216;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Promesse de l'aube » est de Romain Gary ?;Vrai
+1217;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Magna Carta signée en Angleterre ?;1215
+1218;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Nom scientifique du globule rouge — Érythrocyte ?;Vrai
+1219;Géographie;Capitales;ouverte;Quelle est la capitale de Nouvelle-Zélande ?;Wellington
+1220;Transports & Explorations;Explorations & engins;ouverte;Premier satellite artificiel;Spoutnik 1
+1221;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Ubik » est de Philip K. Dick ?;Vrai
+1222;Chronologies & Premières fois;Pionniers & records;ouverte;Premier message envoyé sur ARPANET;LOGIN
+1223;Géographie;Capitales;ouverte;Quelle est la capitale de Barbade ?;Bridgetown
+1224;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Processus par lequel les plantes produisent du sucre — Photosynthèse ?;Vrai
+1225;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 476 ?;Chute de l'Empire romain d'Occident
+1226;Chronologies & Premières fois;Pionniers & records;ouverte;Première greffe de cœur humaine;1967
+1227;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1948 ?;Déclaration universelle des droits de l'homme
+1228;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Patrick Modiano ?;Rue des Boutiques Obscures
+1229;Histoire;Dates clés;vrai/faux;Vrai ou faux : Prise de la Bastille a eu lieu en 1789 ?;Vrai
+1230;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Gilles Deleuze est lié à Le rhizome ?;Vrai
+1231;Histoire;Dates clés;vrai/faux;Vrai ou faux : Première croisade a eu lieu en 1099 ?;Vrai
+1232;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Jamaïque est Pretoria ?;Faux (c'est Kingston)
+1233;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Acteur interprétant Iron Man dans le MCU — Robert Downey Jr. ?;Vrai
+1234;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Ballet 'Le Lac des cygnes' compositeur;Tchaïkovski
+1235;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Lettonie est Budapest ?;Faux (c'est Riga)
+1236;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Astérix le Gaulois » ?;René Goscinny
+1237;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Don Quichotte » ?;Miguel de Cervantès
+1238;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Cameroun est Bakou ?;Faux (c'est Yaoundé)
+1239;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Sequençage du génome humain ?;Projet génome humain
+1240;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Alexander Fleming ?;Pénicilline
+1241;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de France est Ljubljana ?;Faux (c'est Paris)
+1242;Cinéma & Séries;Films, prix, répliques;ouverte;Acteur interprétant Iron Man dans le MCU;Robert Downey Jr.
+1243;Droit & Justice;Institutions & textes;ouverte;Procès de Nuremberg : période;1945-1946
+1244;Géographie;Capitales;ouverte;De quel pays Abou Dabi est-elle la capitale ?;Émirats arabes unis
+1245;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Première femme à remporter Roland-Garros (1925) — Suzanne Lenglen ?;Vrai
+1246;Technologies du quotidien;Objets & internet;vrai/faux;Vrai ou faux : Réseau d'objets connectés en anglais — Internet of Things ?;Vrai
+1247;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Patrick Süskind ?;Le Parfum
+1248;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Film d'animation japonais de Miyazaki sur une princesse et les esprits — Princesse Mononoké ?;Vrai
+1249;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : John Rawls est lié à La justice comme équité ?;Vrai
+1250;Cinéma & Séries;Films, prix, répliques;vrai/faux;Vrai ou faux : Premier long métrage parlant (1927) — Le Chanteur de jazz ?;Vrai
+1251;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Vincent van Gogh ?;La Nuit étoilée
+1252;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Fromage à pâte persillée d'Auvergne — Roquefort ?;Vrai
+1253;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 2020 ?;Pandémie de COVID-19 déclarée par l'OMS
+1254;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Joconde » ?;Leonard de Vinci
+1255;Sport;Records & événements;vrai/faux;Vrai ou faux : Jeu d'échecs : nombre de cases du plateau — 64 ?;Vrai
+1256;Géographie;Capitales;vrai/faux;Vrai ou faux : San José est la capitale de Costa Rica ?;Vrai
+1257;Géographie;Capitales;vrai/faux;Vrai ou faux : Moscou est la capitale de Russie ?;Vrai
+1258;Nature & Environnement;Faune, flore et climat;ouverte;Biome caractérisé par un sol gelé en permanence;Pergélisol (permafrost)
+1259;Sport;Records & événements;vrai/faux;Vrai ou faux : Nombre de joueurs sur le terrain en équipe de rugby à XV — 15 ?;Vrai
+1260;Géographie;Capitales;ouverte;De quel pays Pretoria est-elle la capitale ?;Afrique du Sud
+1261;Société & Médias;Réseaux, slogans, démographie;vrai/faux;Vrai ou faux : Série de comics 'Spider-Man' publiée par — Marvel ?;Vrai
+1262;Nature & Environnement;Faune, flore et climat;ouverte;Espèce d'ours menacée en Chine;Panda géant
+1263;Géographie;Capitales;ouverte;Quelle est la capitale de Finlande ?;Helsinki
+1264;Histoire;Dates clés;vrai/faux;Vrai ou faux : Mai 68 en France a eu lieu en 1968 ?;Vrai
+1265;Chronologies & Premières fois;Pionniers & records;ouverte;Première femme à remporter Roland-Garros (1925);Suzanne Lenglen
+1266;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Khaled Hosseini ?;Les Cerfs-volants de Kaboul
+1267;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Jürgen Habermas ?;L'agir communicationnel
+1268;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Émile Zola ?;Germinal
+1269;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Mongolie est Mascate ?;Faux (c'est Oulan-Bator)
+1270;Géographie;Capitales;vrai/faux;Vrai ou faux : Riga est la capitale de Lettonie ?;Vrai
+1271;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Premier ordinateur personnel grand public d'Apple — Apple II (1977) ?;Vrai
+1272;Histoire;Dates clés;vrai/faux;Vrai ou faux : Indépendance de l'Inde a eu lieu en 1947 ?;Vrai
+1273;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Impasse des deux palais » est de Naguib Mahfouz ?;Vrai
+1274;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Burkina Faso est Bakou ?;Faux (c'est Ouagadougou)
+1275;Géographie;Capitales;ouverte;Quelle est la capitale de Norvège ?;Oslo
+1276;Géographie;Capitales;ouverte;Quelle est la capitale de Angola ?;Luanda
+1277;Géographie;Capitales;vrai/faux;Vrai ou faux : Gaborone est la capitale de Botswana ?;Vrai
+1278;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Découverte de l'Amérique par Christophe Colomb ?;1492
+1279;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Albert Camus ?;L'Étranger
+1280;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Jimson Weed » est de Georgia O'Keeffe ?;Vrai
+1281;Géographie;Capitales;ouverte;Quelle est la capitale de Congo ?;Brazzaville
+1282;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Mozambique est Reykjavik ?;Faux (c'est Maputo)
+1283;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Le Penseur » est de Auguste Rodin ?;Vrai
+1284;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Russie est Koweït ?;Faux (c'est Moscou)
+1285;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « La Peste » est de Albert Camus ?;Vrai
+1286;Géographie;Capitales;ouverte;De quel pays San José est-elle la capitale ?;Costa Rica
+1287;Géographie;Capitales;vrai/faux;Vrai ou faux : Vientiane est la capitale de Laos ?;Vrai
+1288;Géographie;Capitales;vrai/faux;Vrai ou faux : Beyrouth est la capitale de Liban ?;Vrai
+1289;Géographie;Capitales;ouverte;Quelle est la capitale de Érythrée ?;Asmara
+1290;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Vingt mille lieues sous les mers » est de Jules Verne ?;Vrai
+1291;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1969 ?;Premier pas sur la Lune
+1292;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Afrique du Sud est Vilnius ?;Faux (c'est Pretoria)
+1293;Géographie;Capitales;vrai/faux;Vrai ou faux : Oslo est la capitale de Norvège ?;Vrai
+1294;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « La Guerre des mondes » ?;H. G. Wells
+1295;Géographie;Capitales;vrai/faux;Vrai ou faux : Port Moresby est la capitale de Papouasie-Nouvelle-Guinée ?;Vrai
+1296;Géographie;Capitales;ouverte;Quelle est la capitale de Malaisie ?;Kuala Lumpur
+1297;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Aéronef géant allemand des années 1930 — Zeppelin ?;Vrai
+1298;Géographie;Capitales;ouverte;Quelle est la capitale de Thaïlande ?;Bangkok
+1299;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Festival de musique de Woodstock (année) — 1969 ?;Vrai
+1300;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Première femme dans l'espace — Valentina Terechkova ?;Vrai
+1301;Médecine & Corps humain;Anatomie/Soins;ouverte;Os le plus long du corps humain;Le fémur
+1302;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Le Tartuffe » ?;Molière
+1303;Géographie;Capitales;vrai/faux;Vrai ou faux : Asuncion est la capitale de Paraguay ?;Vrai
+1304;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Première femme prix Nobel de physique — Marie Curie ?;Vrai
+1305;Géographie;Capitales;vrai/faux;Vrai ou faux : Dodoma est la capitale de Tanzanie ?;Vrai
+1306;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Candide » est de Voltaire ?;Vrai
+1307;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Mot français signifiant littéralement 'apéritif dînatoire' en anglais;Potluck
+1308;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Miguel de Cervantès ?;Don Quichotte
+1309;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Prise de la Bastille ?;1789
+1310;Géographie;Capitales;ouverte;De quel pays Varsovie est-elle la capitale ?;Pologne
+1311;Géographie;Capitales;ouverte;De quel pays Bridgetown est-elle la capitale ?;Barbade
+1312;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Tintin au Tibet » ?;Hergé
+1313;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Népal est Managua ?;Faux (c'est Katmandou)
+1314;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : IRM (imagerie par résonance magnétique) est associé(e) à Damadian, Lauterbur, Mansfield ?;Vrai
+1315;Sport;Records & événements;ouverte;Club ayant gagné le plus de Ligues des champions;Real Madrid
+1316;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Cycle naturel de l'eau s'appelle — Cycle hydrologique ?;Vrai
+1317;Géographie;Capitales;ouverte;De quel pays Ankara est-elle la capitale ?;Turquie
+1318;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Velcro ?;George de Mestral
+1319;Géographie;Capitales;ouverte;De quel pays Thimphou est-elle la capitale ?;Bhoutan
+1320;Chronologies & Premières fois;Pionniers & records;ouverte;Première femme prix Nobel de physique;Marie Curie
+1321;Géographie;Capitales;ouverte;De quel pays Tegucigalpa est-elle la capitale ?;Honduras
+1322;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Nom du phénomène inverse de l'acidification des océans — Alcalinisation (ou augmentation du pH) ?;Vrai
+1323;Médecine & Corps humain;Anatomie/Soins;ouverte;Nombre de chromosomes chez l'humain;46
+1324;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Maya Angelou ?;Je sais pourquoi chante l'oiseau en cage
+1325;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : IRM (imagerie par résonance magnétique) ?;Damadian, Lauterbur, Mansfield
+1326;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Persistance de la mémoire » ?;Salvador Dalí
+1327;Géographie;Capitales;vrai/faux;Vrai ou faux : Hanoï est la capitale de Vietnam ?;Vrai
+1328;Géographie;Capitales;ouverte;Quelle est la capitale de Syrie ?;Damas
+1329;Économie & Finance;Concepts & crises;ouverte;Théorie de la 'main invisible';Adam Smith
+1330;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Trinité-et-Tobago est Ankara ?;Faux (c'est Port of Spain)
+1331;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1979 ?;Révolution iranienne
+1332;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Allemagne est Luxembourg ?;Faux (c'est Berlin)
+1333;Géographie;Capitales;vrai/faux;Vrai ou faux : Prague est la capitale de Tchéquie ?;Vrai
+1334;Géographie;Capitales;vrai/faux;Vrai ou faux : Manama est la capitale de Bahreïn ?;Vrai
+1335;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Héroïne de la franchise 'The Legend of Zelda' — Zelda ?;Vrai
+1336;Musique;Œuvres, genres, artistes;vrai/faux;Vrai ou faux : Chanteur de 'Ne me quitte pas' — Jacques Brel ?;Vrai
+1337;Géographie;Capitales;ouverte;De quel pays Lima est-elle la capitale ?;Pérou
+1338;Géographie;Capitales;ouverte;Quelle est la capitale de Bulgarie ?;Sofia
+1339;Géographie;Capitales;vrai/faux;Vrai ou faux : Djibouti est la capitale de Djibouti ?;Vrai
+1340;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le Léviathan ?;Thomas Hobbes
+1341;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Martin Heidegger est lié à L'Être et le Temps ?;Vrai
+1342;Géographie;Capitales;ouverte;Quelle est la capitale de Jordanie ?;Amman
+1343;Musique;Œuvres, genres, artistes;ouverte;Chanteur de 'Ne me quitte pas';Jacques Brel
+1344;Géographie;Capitales;ouverte;Quelle est la capitale de Éthiopie ?;Addis-Abeba
+1345;Histoire;Dates clés;vrai/faux;Vrai ou faux : Introduction de l'euro fiduciaire a eu lieu en 2002 ?;Vrai
+1346;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Tanzanie est Bratislava ?;Faux (c'est Dodoma)
+1347;Cinéma & Séries;Films, prix, répliques;ouverte;Actrice oscarisée pour 'La Môme';Marion Cotillard
+1348;Géographie;Capitales;ouverte;De quel pays Tachkent est-elle la capitale ?;Ouzbékistan
+1349;Géographie;Capitales;ouverte;De quel pays Sanaa est-elle la capitale ?;Yémen
+1350;Géographie;Capitales;vrai/faux;Vrai ou faux : Bangkok est la capitale de Thaïlande ?;Vrai
+1351;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Theodore Maiman ?;Laser
+1352;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Panama est Kiev ?;Faux (c'est Panama)
+1353;Géographie;Capitales;ouverte;Quelle est la capitale de El Salvador ?;San Salvador
+1354;Géographie;Capitales;ouverte;De quel pays Amman est-elle la capitale ?;Jordanie
+1355;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Japon est Jérusalem ?;Faux (c'est Tokyo)
+1356;Géographie;Capitales;ouverte;Quelle est la capitale de Uruguay ?;Montevideo
+1357;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Première croisade ?;1099
+1358;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Cœur artificiel ?;Robert Jarvik
+1359;Géographie;Capitales;ouverte;Quelle est la capitale de Portugal ?;Lisbonne
+1360;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Moteur à explosion est associé(e) à Étienne Lenoir ?;Vrai
+1361;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Organisation européenne des droits de l'homme (sigle) — CEDH ?;Vrai
+1362;Cinéma & Séries;Films, prix, répliques;ouverte;Oscar posthume pour le Joker (2008);Heath Ledger
+1363;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Peste noire en Europe ?;1347
+1364;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Chuck Hull ?;Imprimante 3D
+1365;Politique & Institutions;Chefs d'État & organisations;ouverte;Nombre de membres permanents au Conseil de sécurité de l'ONU;5
+1366;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Cambodge est Vientiane ?;Faux (c'est Phnom Penh)
+1367;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Turkménistan est Hanoï ?;Faux (c'est Achgabat)
+1368;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « 1984 » est de George Orwell ?;Vrai
+1369;Géographie;Capitales;ouverte;Quelle est la capitale de Soudan ?;Khartoum
+1370;Langue française & Linguistique;Mots, figures et étymologie;vrai/faux;Vrai ou faux : Anglicisme pour 'brunch' signifie — Petit-déjeuner + déjeuner ?;Vrai
+1371;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Madame Bovary » est de Gustave Flaubert ?;Vrai
+1372;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Chine est Mexico ?;Faux (c'est Pékin)
+1373;Société & Médias;Réseaux, slogans, démographie;ouverte;Nombre approximatif d'habitants sur Terre (2023);8 milliards
+1374;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le rhizome ?;Gilles Deleuze
+1375;Géographie;Capitales;ouverte;Quelle est la capitale de Rwanda ?;Kigali
+1376;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : CRISPR-Cas9 est associé(e) à Jennifer Doudna et Emmanuelle Charpentier ?;Vrai
+1377;Géographie;Capitales;vrai/faux;Vrai ou faux : Chisinau est la capitale de Moldavie ?;Vrai
+1378;Géographie;Capitales;ouverte;Quelle est la capitale de Bolivie ?;La Paz
+1379;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Organe qui produit la bile — Le foie ?;Vrai
+1380;Musique;Œuvres, genres, artistes;ouverte;Instrument à 88 touches;Piano
+1381;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Andy Warhol ?;Marilyn Diptych
+1382;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Portugal est Guatemala ?;Faux (c'est Lisbonne)
+1383;Géographie;Capitales;ouverte;Quelle est la capitale de Moldavie ?;Chisinau
+1384;Société & Médias;Réseaux, slogans, démographie;ouverte;Premier journal quotidien français;La Presse (1836)
+1385;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Number 1A » est de Jackson Pollock ?;Vrai
+1386;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1099 ?;Première croisade
+1387;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Pays ayant connu l'hyperinflation en 1923 — Allemagne ?;Vrai
+1388;Politique & Institutions;Chefs d'État & organisations;vrai/faux;Vrai ou faux : Régime politique où le pouvoir est détenu par le peuple — Démocratie ?;Vrai
+1389;Géographie;Capitales;ouverte;Quelle est la capitale de Chine ?;Pékin
+1390;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Nom de la rose » est de Umberto Eco ?;Vrai
+1391;Gastronomie;Plats & produits;vrai/faux;Vrai ou faux : Cuisine indienne : pain plat cuit au tandoor — Naan ?;Vrai
+1392;Géographie;Capitales;ouverte;Quelle est la capitale de Tunisie ?;Tunis
+1393;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Commune de Paris ?;1871
+1394;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Nom scientifique de l'espèce humaine — Homo sapiens ?;Vrai
+1395;Géographie;Capitales;vrai/faux;Vrai ou faux : Addis-Abeba est la capitale de Éthiopie ?;Vrai
+1396;Géographie;Capitales;vrai/faux;Vrai ou faux : Bagdad est la capitale de Irak ?;Vrai
+1397;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1914 ?;Début de la Première Guerre mondiale
+1398;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Albert Einstein ?;Relativité restreinte
+1399;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Maladie causée par le VIH — Le SIDA ?;Vrai
+1400;Sport;Records & événements;vrai/faux;Vrai ou faux : Sport pratiqué par Michael Phelps — Natation ?;Vrai
+1401;Nature & Environnement;Faune, flore et climat;ouverte;Plus long fleuve du monde;Nil
+1402;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Fahrenheit 451 » est de Ray Bradbury ?;Vrai
+1403;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de États-Unis est Mascate ?;Faux (c'est Washington)
+1404;Musique;Œuvres, genres, artistes;ouverte;Album 'The Dark Side of the Moon';Pink Floyd
+1405;Géographie;Capitales;ouverte;De quel pays Kiev est-elle la capitale ?;Ukraine
+1406;Sport;Records & événements;vrai/faux;Vrai ou faux : Nom du trophée du vainqueur du Tour de France — Maillot jaune ?;Vrai
+1407;Sport;Records & événements;vrai/faux;Vrai ou faux : Record du 100 m masculin (9,58 s) — Usain Bolt ?;Vrai
+1408;Géographie;Capitales;ouverte;Quelle est la capitale de Soudan du Sud ?;Djouba
+1409;Médecine & Corps humain;Anatomie/Soins;ouverte;Nom de la bactérie de la tuberculose;Mycobacterium tuberculosis
+1410;Géographie;Capitales;ouverte;De quel pays Port-au-Prince est-elle la capitale ?;Haïti
+1411;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Fables » ?;Jean de La Fontaine
+1412;Géographie;Capitales;ouverte;De quel pays Rabat est-elle la capitale ?;Maroc
+1413;Nature & Environnement;Faune, flore et climat;ouverte;Stratégie 'zéro déchet' vise à;Réduire drastiquement la production de déchets
+1414;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Estonie est Ouagadougou ?;Faux (c'est Tallinn)
+1415;Sport;Records & événements;ouverte;Lieu du Super Bowl LIII (2019);Atlanta
+1416;Géographie;Capitales;ouverte;Quelle est la capitale de Lettonie ?;Riga
+1417;Géographie;Capitales;ouverte;Quelle est la capitale de Côte d'Ivoire ?;Yamoussoukro
+1418;Géographie;Capitales;ouverte;Quelle est la capitale de États-Unis ?;Washington
+1419;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Pierre Bourdieu ?;L'habitus
+1420;Géographie;Capitales;ouverte;Quelle est la capitale de Slovénie ?;Ljubljana
+1421;Géographie;Capitales;vrai/faux;Vrai ou faux : Phnom Penh est la capitale de Cambodge ?;Vrai
+1422;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Cinématographe ?;Frères Lumière
+1423;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Zénon de Citium est lié à Le stoïcisme ?;Vrai
+1424;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Pyramide du Louvre » ?;Ieoh Ming Pei
+1425;Sport;Records & événements;ouverte;Score parfait au bowling;300
+1426;Géographie;Capitales;vrai/faux;Vrai ou faux : Bucarest est la capitale de Roumanie ?;Vrai
+1427;Géographie;Capitales;ouverte;De quel pays Ljubljana est-elle la capitale ?;Slovénie
+1428;Histoire;Dates clés;vrai/faux;Vrai ou faux : Abolition de l'esclavage aux États-Unis a eu lieu en 1865 ?;Vrai
+1429;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Première greffe de cœur humaine — 1967 ?;Vrai
+1430;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Microprocesseur est associé(e) à Intel (Ted Hoff) ?;Vrai
+1431;Sport;Records & événements;ouverte;Vainqueur de la Coupe du monde 1998;France
+1432;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Slovénie est La Valette ?;Faux (c'est Ljubljana)
+1433;Géographie;Capitales;ouverte;De quel pays Harare est-elle la capitale ?;Zimbabwe
+1434;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Baptême de Clovis ?;496
+1435;Géographie;Capitales;ouverte;Quelle est la capitale de Niger ?;Niamey
+1436;Géographie;Capitales;ouverte;De quel pays Bangkok est-elle la capitale ?;Thaïlande
+1437;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : Søren Kierkegaard est lié à L'angoisse existentielle ?;Vrai
+1438;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Parc national emblématique américain créé en 1872 — Yellowstone ?;Vrai
+1439;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : Clé USB ?;Dov Moran (M-Systems)
+1440;Gastronomie;Plats & produits;ouverte;Fromage à pâte persillée d'Auvergne;Roquefort
+1441;Technologies du quotidien;Objets & internet;ouverte;Protocole qui sécurise les sites web (https);TLS
+1442;Géographie;Capitales;ouverte;Quelle est la capitale de Kirghizistan ?;Bichkek
+1443;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Danse » ?;Henri Matisse
+1444;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Jordanie est Belgrade ?;Faux (c'est Amman)
+1445;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Kafka sur le rivage » ?;Haruki Murakami
+1446;Géographie;Capitales;ouverte;Quelle est la capitale de Allemagne ?;Berlin
+1447;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Franz Kafka ?;Le Procès
+1448;Géographie;Capitales;ouverte;De quel pays Singapour est-elle la capitale ?;Singapour
+1449;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Pièce de théâtre où Figaro est valet;Le Mariage de Figaro
+1450;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Cormac McCarthy ?;La Route
+1451;Géographie;Capitales;ouverte;De quel pays Kigali est-elle la capitale ?;Rwanda
+1452;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : Le cogito ?;René Descartes
+1453;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Auteur de 'Phèdre';Jean Racine
+1454;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Les Années » ?;Annie Ernaux
+1455;Géographie;Capitales;ouverte;Quelle est la capitale de Indonésie ?;Jakarta
+1456;Géographie;Capitales;ouverte;Quelle est la capitale de Algérie ?;Alger
+1457;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Pérou est Accra ?;Faux (c'est Lima)
+1458;Géographie;Capitales;vrai/faux;Vrai ou faux : Luxembourg est la capitale de Luxembourg ?;Vrai
+1459;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Blockchain (Bitcoin) est associé(e) à Satoshi Nakamoto ?;Vrai
+1460;Droit & Justice;Institutions & textes;vrai/faux;Vrai ou faux : Droit accordé aux femmes de voter en France : année — 1944 ?;Vrai
+1461;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Roumanie est Washington ?;Faux (c'est Bucarest)
+1462;Géographie;Capitales;ouverte;Quelle est la capitale de Venezuela ?;Caracas
+1463;Sciences & Tech;Inventions;ouverte;Quelle invention/découverte est associée à Paul Zoll ?;Pacemaker implantable
+1464;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « La Jeune Fille à la perle » ?;Johannes Vermeer
+1465;Géographie;Capitales;vrai/faux;Vrai ou faux : Minsk est la capitale de Biélorussie ?;Vrai
+1466;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Érythrée est Harare ?;Faux (c'est Asmara)
+1467;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Grant Wood ?;American Gothic
+1468;Théâtre & Danse;Pièces, opéras, ballets;ouverte;Pièce de Beckett avec deux vagabonds;En attendant Godot
+1469;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Ghana est Riga ?;Faux (c'est Accra)
+1470;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Fondation » est de Isaac Asimov ?;Vrai
+1471;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Inde est Victoria ?;Faux (c'est New Delhi)
+1472;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Le Baiser » est de Gustav Klimt ?;Vrai
+1473;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : GPS est associé(e) à Département de la Défense des États-Unis ?;Vrai
+1474;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Nom du sabre laser bleu de Luke Skywalker — Anakin/Luke Lightsaber ?;Vrai
+1475;Géographie;Capitales;ouverte;Quelle est la capitale de Burkina Faso ?;Ouagadougou
+1476;Géographie;Capitales;ouverte;De quel pays Asmara est-elle la capitale ?;Érythrée
+1477;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Costa Rica est La Havane ?;Faux (c'est San José)
+1478;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Attentats du 11 septembre ?;2001
+1479;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Margaret Atwood ?;La Servante écarlate
+1480;Géographie;Capitales;ouverte;Quelle est la capitale de Monténégro ?;Podgorica
+1481;Géographie;Capitales;ouverte;De quel pays Caracas est-elle la capitale ?;Venezuela
+1482;Économie & Finance;Concepts & crises;vrai/faux;Vrai ou faux : Organisation qui prête aux États en difficulté (sigle) — FMI ?;Vrai
+1483;Droit & Justice;Institutions & textes;ouverte;Organisation européenne des droits de l'homme (sigle);CEDH
+1484;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Processus de disparition d'une espèce — Extinction ?;Vrai
+1485;Géographie;Capitales;vrai/faux;Vrai ou faux : Belgrade est la capitale de Serbie ?;Vrai
+1486;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Kazimir Malevitch ?;Carré noir
+1487;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Vingt mille lieues sous les mers » ?;Jules Verne
+1488;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Le Meilleur des mondes » est de Aldous Huxley ?;Vrai
+1489;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Molière ?;Le Tartuffe
+1490;Littérature;Œuvres et auteurs;vrai/faux;Vrai ou faux : « Tintin au Tibet » est de Hergé ?;Vrai
+1491;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Forêt tropicale couvrant l'Amazonie — Amazonie ?;Vrai
+1492;Géographie;Capitales;vrai/faux;Vrai ou faux : Bogota est la capitale de Colombie ?;Vrai
+1493;Géographie;Capitales;ouverte;De quel pays Quito est-elle la capitale ?;Équateur
+1494;Géographie;Capitales;ouverte;De quel pays Niamey est-elle la capitale ?;Niger
+1495;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Annie Ernaux ?;Les Années
+1496;Culture populaire;BD, mangas, jeux vidéo;vrai/faux;Vrai ou faux : Jeu de cartes à collectionner avec Pikachu — Pokémon ?;Vrai
+1497;Géographie;Capitales;ouverte;De quel pays Le Caire est-elle la capitale ?;Égypte
+1498;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Quelle œuvre célèbre est associée à Frank Lloyd Wright ?;Fallingwater
+1499;Médecine & Corps humain;Anatomie/Soins;ouverte;Partie de l'œil responsable de la vision des couleurs;Les cônes
+1500;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Antidote de l'intoxication aux opioïdes — Naloxone ?;Vrai
+1501;Chronologies & Premières fois;Pionniers & records;vrai/faux;Vrai ou faux : Premier marathon olympique moderne — 1896 ?;Vrai
+1502;Géographie;Capitales;vrai/faux;Vrai ou faux : Pékin est la capitale de Chine ?;Vrai
+1503;Politique & Institutions;Chefs d'État & organisations;ouverte;Texte suprême des États-Unis;Constitution des États-Unis
+1504;Géographie;Capitales;vrai/faux;Vrai ou faux : Kigali est la capitale de Rwanda ?;Vrai
+1505;Philosophie & Pensée;Concepts clés;ouverte;Quel philosophe associe-t-on à : L'angoisse existentielle ?;Søren Kierkegaard
+1506;Nature & Environnement;Faune, flore et climat;ouverte;Nom scientifique de l'espèce humaine;Homo sapiens
+1507;Géographie;Capitales;vrai/faux;Vrai ou faux : Oulan-Bator est la capitale de Mongolie ?;Vrai
+1508;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Algérie est Ljubljana ?;Faux (c'est Alger)
+1509;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Judith Butler ?;La performativité du genre
+1510;Théâtre & Danse;Pièces, opéras, ballets;vrai/faux;Vrai ou faux : Opéra italien célèbre 'Nessun dorma' tiré de — Turandot ?;Vrai
+1511;Histoire;Dates clés;ouverte;En quelle année a eu lieu : Mai 68 en France ?;1968
+1512;Géographie;Capitales;ouverte;Quelle est la capitale de Islande ?;Reykjavik
+1513;Géographie;Capitales;vrai/faux;Vrai ou faux : Tallinn est la capitale de Estonie ?;Vrai
+1514;Géographie;Capitales;ouverte;Quelle est la capitale de Madagascar ?;Antananarivo
+1515;Géographie;Capitales;ouverte;Quelle est la capitale de Bosnie-Herzégovine ?;Sarajevo
+1516;Musique;Œuvres, genres, artistes;ouverte;Inventeur du theremin;Léon Theremin
+1517;Transports & Explorations;Explorations & engins;vrai/faux;Vrai ou faux : Nom du train à grande vitesse français — TGV ?;Vrai
+1518;Géographie;Capitales;ouverte;De quel pays Vilnius est-elle la capitale ?;Lituanie
+1519;Géographie;Capitales;vrai/faux;Vrai ou faux : Madrid est la capitale de Espagne ?;Vrai
+1520;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Zambie est Kampala ?;Faux (c'est Lusaka)
+1521;Sport;Records & événements;vrai/faux;Vrai ou faux : Record du monde du saut à la perche (6,23 m en 2023) — Armand Duplantis ?;Vrai
+1522;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Madagascar est Beyrouth ?;Faux (c'est Antananarivo)
+1523;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Laser est associé(e) à Theodore Maiman ?;Vrai
+1524;Sport;Records & événements;ouverte;Record du monde du saut à la perche (6,23 m en 2023);Armand Duplantis
+1525;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Royaume-Uni est Berne ?;Faux (c'est Londres)
+1526;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 2016 ?;Référendum sur le Brexit
+1527;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Macédoine du Nord est Sofia ?;Faux (c'est Skopje)
+1528;Géographie;Capitales;ouverte;Quelle est la capitale de Namibie ?;Windhoek
+1529;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Soudan du Sud est Katmandou ?;Faux (c'est Djouba)
+1530;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Haïti est Washington ?;Faux (c'est Port-au-Prince)
+1531;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « La Ronde de nuit » est de Rembrandt ?;Vrai
+1532;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Ampoule électrique à filament est associé(e) à Thomas Edison ?;Vrai
+1533;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Guernica » est de Pablo Picasso ?;Vrai
+1534;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à J. K. Rowling ?;Harry Potter à l'école des sorciers
+1535;Droit & Justice;Institutions & textes;ouverte;Principe juridique : 'nul n'est censé ignorer la loi' est un;Adage
+1536;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Plus grand récif corallien du monde — Grande Barrière de corail ?;Vrai
+1537;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Les Cerfs-volants de Kaboul » ?;Khaled Hosseini
+1538;Histoire;Dates clés;ouverte;Quel événement historique s'est produit en 1804 ?;Couronnement de Napoléon Ier
+1539;Transports & Explorations;Explorations & engins;ouverte;Sonde ayant quitté l'héliosphère (2012);Voyager 1
+1540;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Congo est Abuja ?;Faux (c'est Brazzaville)
+1541;Langue française & Linguistique;Mots, figures et étymologie;ouverte;Synonyme de 'pérégrination';Voyage
+1542;Culture populaire;BD, mangas, jeux vidéo;ouverte;BD belge mettant en scène un reporter à houppe;Tintin
+1543;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Sequençage du génome humain est associé(e) à Projet génome humain ?;Vrai
+1544;Géographie;Capitales;ouverte;De quel pays Kampala est-elle la capitale ?;Ouganda
+1545;Littérature;Œuvres et auteurs;ouverte;Quelle œuvre majeure doit-on à Aldous Huxley ?;Le Meilleur des mondes
+1546;Cinéma & Séries;Films, prix, répliques;ouverte;Réalisateur de 'Parasite';Bong Joon-ho
+1547;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Dynamite est associé(e) à Alfred Nobel ?;Vrai
+1548;Géographie;Capitales;vrai/faux;Vrai ou faux : Amman est la capitale de Jordanie ?;Vrai
+1549;Géographie;Capitales;vrai/faux;Vrai ou faux : Singapour est la capitale de Singapour ?;Vrai
+1550;Sciences & Tech;Inventions;vrai/faux;Vrai ou faux : Teflon est associé(e) à Roy Plunkett ?;Vrai
+1551;Arts plastiques & Architecture;Œuvres emblématiques;ouverte;Qui a peint/sculpté « Heydar Aliyev Center » ?;Zaha Hadid
+1552;Nature & Environnement;Faune, flore et climat;vrai/faux;Vrai ou faux : Gaz majoritaire dans l'atmosphère terrestre — Azote ?;Vrai
+1553;Géographie;Capitales;vrai/faux;Vrai ou faux : Bridgetown est la capitale de Barbade ?;Vrai
+1554;Géographie;Capitales;ouverte;De quel pays Nassau est-elle la capitale ?;Bahamas
+1555;Sciences & Tech;Inventions;ouverte;Qui a inventé/découvert : World Wide Web ?;Tim Berners-Lee
+1556;Géographie;Capitales;ouverte;De quel pays Riga est-elle la capitale ?;Lettonie
+1557;Philosophie & Pensée;Concepts clés;ouverte;Quel concept/ouvrage est lié à Søren Kierkegaard ?;L'angoisse existentielle
+1558;Culture populaire;BD, mangas, jeux vidéo;ouverte;Premier jeu vidéo de Nintendo mettant en scène Mario;Donkey Kong
+1559;Géographie;Capitales;vrai/faux;Vrai ou faux : La capitale de Mexique est Niamey ?;Faux (c'est Mexico)
+1560;Géographie;Capitales;ouverte;De quel pays La Valette est-elle la capitale ?;Malte
+1561;Médecine & Corps humain;Anatomie/Soins;vrai/faux;Vrai ou faux : Date du premier cœur artificiel implanté avec succès — 1982 ?;Vrai
+1562;Géographie;Capitales;ouverte;De quel pays Tripoli est-elle la capitale ?;Libye
+1563;Géographie;Capitales;vrai/faux;Vrai ou faux : Ljubljana est la capitale de Slovénie ?;Vrai
+1564;Géographie;Capitales;vrai/faux;Vrai ou faux : Tunis est la capitale de Tunisie ?;Vrai
