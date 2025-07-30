@@ -86,7 +86,7 @@ loadCultureCSV();
 loadScenesCSV();
 
 /* =======================
-   Paramètres quiz
+   Paramètres quiz 
    ======================= */
 const NB_Q = 20;                 // nombre de questions par partie
 const SCENE_RATIO = 0.25;       // % de questions "scènes de film"
