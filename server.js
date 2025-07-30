@@ -366,4 +366,5 @@ io.on("connection", (sock) => {
   });
 });
 
-server.listen(4000, () => console.log("WS :4000 — Quiz OK"));
+const PORT = process.env.PORT || 4000;      // Render fournit PORT
+server.listen(PORT, "0.0.0.0", () => console.log(`WS :${PORT} — Quiz OK`));
