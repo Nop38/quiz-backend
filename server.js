@@ -126,9 +126,11 @@ const NB_Q = 20;
 const SCENE_RATIO = 0.25;
 const ACTOR_RATIO = 0.15;
 const STAR_RATIO = 0.15;
+
 const MIN_SCENES = 3;
 const MIN_ACTORS = 2;
 const MIN_STARS = 2;
+
 const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
 function buildQuestions() {
