@@ -20,6 +20,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 
 let QUESTION_BANK = [];
 let SCENES = [];
+let ACTORS = [];
 
 function safeParseCSV(filePath, opts) {
   try {
@@ -32,25 +33,37 @@ function safeParseCSV(filePath, opts) {
 }
 
 function loadCultureCSV() {
-  
+  const p = path.join(__dirname, "questions_culture_generale_tres_variees.csv");
   if (!fs.existsSync(p)) return;
 
+  // Le fichier est en « ; » → on précise delimiter
   const rows = safeParseCSV(p, {
     columns: true,
     skip_empty_lines: true,
-    delimiter: ",",
+    delimiter: ";",
     trim: true,
   });
 
-  SCENES = rows
-    .map((r) => ({
-      title: (r.title || r.film || r.movie || "").trim(),
-      url: (r.url || r.image || r.img || "").trim(),
-    }))
-    .filter((s) => s.title && s.url);
+  const seen = new Set();
+
+  QUESTION_BANK = rows
+    .map((r) => {
+      // Adapter à tes colonnes exactes
+      // Header attendu : id;theme;soustheme;type;question;reponse
+      const text = (r.question || r.text || "").trim();
+      const answer = (r.reponse || r.answer || "").trim();
+      const image = (r.image || "").trim() || null;
+      return { text, answer, image };
+    })
+    .filter((q) => q.text && q.answer)
+    .filter((q) => {
+      const k = `${q.text}__${q.answer}`;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    });
 }
 
-loadCultureCSV();
 function loadScenesCSV() {
   const p = path.join(__dirname, "tmdb_scenes.csv");
   if (!fs.existsSync(p)) return;
@@ -69,6 +82,8 @@ function loadScenesCSV() {
     }))
     .filter((s) => s.title && s.url);
 }
+
+loadCultureCSV();
 loadScenesCSV();
 function loadActorsCSV() {
   const p = path.join(__dirname, "actors_500.csv");
