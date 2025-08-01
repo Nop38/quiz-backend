@@ -20,6 +20,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 
 let QUESTION_BANK = [];
 let SCENES = [];
+let ACTORS = []; // ← ajout pour questions personnalités
 
 function safeParseCSV(filePath, opts) {
   try {
@@ -64,6 +65,28 @@ function loadCultureCSV() {
 }
 
 function loadScenesCSV() {
+
+function loadActorsCSV() {
+  const p = path.join(__dirname, "actors_500.csv");
+  if (!fs.existsSync(p)) return;
+
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  ACTORS = rows
+    .map((r) => ({
+      text: "Qui est cette personnalité ?",
+      answer: (r.name || "").trim(),
+      image: (r.photo_url || "").trim(),
+    }))
+    .filter((q) => q.answer && q.image);
+}
+
+
   const p = path.join(__dirname, "tmdb_scenes.csv");
   if (!fs.existsSync(p)) return;
 
@@ -84,6 +107,7 @@ function loadScenesCSV() {
 
 loadCultureCSV();
 loadScenesCSV();
+loadActorsCSV();
 
 /* =======================
    Paramètres quiz 
@@ -95,12 +119,14 @@ const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
 /* Génère la liste de questions */
 function buildQuestions() {
-  if (!QUESTION_BANK.length && !SCENES.length) return [];
+if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length) return [];
 
-  let nbScenes = Math.max(Math.round(NB_Q * SCENE_RATIO), MIN_SCENES);
-  nbScenes = Math.min(nbScenes, SCENES.length, NB_Q);
-  const nbCulture = NB_Q - nbScenes;
+  const total = NB_Q;
+  const nbActors = Math.min(Math.round(total * 0.15), ACTORS.length);
+  const nbScenes = Math.max(Math.round(total * SCENE_RATIO), MIN_SCENES, 0);
+  const nbCulture = total - nbActors - nbScenes;
 
+  const culture = shuffle([...QUESTION_BANK]).slice(0, nbCulture);
   const scenes = shuffle([...SCENES])
     .slice(0, nbScenes)
     .map((s) => ({
@@ -108,27 +134,9 @@ function buildQuestions() {
       answer: s.title,
       image: s.url,
     }));
+  const actors = shuffle([...ACTORS]).slice(0, nbActors);
 
-  const culture = shuffle([...QUESTION_BANK])
-    .slice(0, nbCulture)
-    .map((q) => ({
-      text: q.text,
-      answer: q.answer,
-      image: q.image || null,
-    }));
-
-  const combined = shuffle([...scenes, ...culture]);
-  const seen = new Set();
-  const out = [];
-  for (const q of combined) {
-    const k = `${q.text}__${q.answer}`;
-    if (!seen.has(k)) {
-      seen.add(k);
-      out.push(q);
-      if (out.length === NB_Q) break;
-    }
-  }
-  return out;
+  return shuffle([...culture, ...scenes, ...actors]);
 }
 
 /* =======================
