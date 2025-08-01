@@ -20,7 +20,6 @@ const io = new Server(server, { cors: { origin: "*" } });
 
 let QUESTION_BANK = [];
 let SCENES = [];
-let ACTORS = []; // ← ajout pour questions personnalités
 
 function safeParseCSV(filePath, opts) {
   try {
@@ -33,39 +32,44 @@ function safeParseCSV(filePath, opts) {
 }
 
 function loadCultureCSV() {
-  const p = path.join(__dirname, "questions_culture_generale_tres_variees.csv");
+  
   if (!fs.existsSync(p)) return;
 
-  // Le fichier est en « ; » → on précise delimiter
   const rows = safeParseCSV(p, {
     columns: true,
     skip_empty_lines: true,
-    delimiter: ";",
+    delimiter: ",",
     trim: true,
   });
 
-  const seen = new Set();
-
-  QUESTION_BANK = rows
-    .map((r) => {
-      // Adapter à tes colonnes exactes
-      // Header attendu : id;theme;soustheme;type;question;reponse
-      const text = (r.question || r.text || "").trim();
-      const answer = (r.reponse || r.answer || "").trim();
-      const image = (r.image || "").trim() || null;
-      return { text, answer, image };
-    })
-    .filter((q) => q.text && q.answer)
-    .filter((q) => {
-      const k = `${q.text}__${q.answer}`;
-      if (seen.has(k)) return false;
-      seen.add(k);
-      return true;
-    });
+  SCENES = rows
+    .map((r) => ({
+      title: (r.title || r.film || r.movie || "").trim(),
+      url: (r.url || r.image || r.img || "").trim(),
+    }))
+    .filter((s) => s.title && s.url);
 }
 
+loadCultureCSV();
 function loadScenesCSV() {
+  const p = path.join(__dirname, "tmdb_scenes.csv");
+  if (!fs.existsSync(p)) return;
 
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  SCENES = rows
+    .map((r) => ({
+      title: (r.title || r.film || r.movie || "").trim(),
+      url: (r.url || r.image || r.img || "").trim(),
+    }))
+    .filter((s) => s.title && s.url);
+}
+loadScenesCSV();
 function loadActorsCSV() {
   const p = path.join(__dirname, "actors_500.csv");
   if (!fs.existsSync(p)) return;
@@ -85,28 +89,6 @@ function loadActorsCSV() {
     }))
     .filter((q) => q.answer && q.image);
 }
-
-
-  const p = path.join(__dirname, "tmdb_scenes.csv");
-  if (!fs.existsSync(p)) return;
-
-  const rows = safeParseCSV(p, {
-    columns: true,
-    skip_empty_lines: true,
-    delimiter: ",",
-    trim: true,
-  });
-
-  SCENES = rows
-    .map((r) => ({
-      title: (r.title || r.film || r.movie || "").trim(),
-      url: (r.url || r.image || r.img || "").trim(),
-    }))
-    .filter((s) => s.title && s.url);
-}
-
-loadCultureCSV();
-loadScenesCSV();
 loadActorsCSV();
 
 /* =======================
@@ -119,14 +101,12 @@ const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
 /* Génère la liste de questions */
 function buildQuestions() {
-if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length) return [];
+  if (!QUESTION_BANK.length && !SCENES.length) return [];
 
-  const total = NB_Q;
-  const nbActors = Math.min(Math.round(total * 0.15), ACTORS.length);
-  const nbScenes = Math.max(Math.round(total * SCENE_RATIO), MIN_SCENES, 0);
-  const nbCulture = total - nbActors - nbScenes;
+  let nbScenes = Math.max(Math.round(NB_Q * SCENE_RATIO), MIN_SCENES);
+  nbScenes = Math.min(nbScenes, SCENES.length, NB_Q);
+  const nbCulture = NB_Q - nbScenes;
 
-  const culture = shuffle([...QUESTION_BANK]).slice(0, nbCulture);
   const scenes = shuffle([...SCENES])
     .slice(0, nbScenes)
     .map((s) => ({
@@ -134,9 +114,27 @@ if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length) return [];
       answer: s.title,
       image: s.url,
     }));
-  const actors = shuffle([...ACTORS]).slice(0, nbActors);
 
-  return shuffle([...culture, ...scenes, ...actors]);
+  const culture = shuffle([...QUESTION_BANK])
+    .slice(0, nbCulture)
+    .map((q) => ({
+      text: q.text,
+      answer: q.answer,
+      image: q.image || null,
+    }));
+
+  const combined = shuffle([...scenes, ...culture]);
+  const seen = new Set();
+  const out = [];
+  for (const q of combined) {
+    const k = `${q.text}__${q.answer}`;
+    if (!seen.has(k)) {
+      seen.add(k);
+      out.push(q);
+      if (out.length === NB_Q) break;
+    }
+  }
+  return out;
 }
 
 /* =======================
