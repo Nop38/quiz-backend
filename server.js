@@ -16,6 +16,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 let QUESTION_BANK = [];
 let SCENES = [];
 let ACTORS = [];
+let STARS = [];
 
 function safeParseCSV(filePath, opts) {
   try {
@@ -94,9 +95,29 @@ function loadActorsCSV() {
     .filter((a) => a.name && a.url);
 }
 
+function loadStarsCSV() {
+  const p = path.join(__dirname, "stars.csv");
+  if (!fs.existsSync(p)) return;
+
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  STARS = rows
+    .map((r) => ({
+      name: (r.name || "").trim(),
+      url: (r.photo_url || r.url || "").trim(),
+    }))
+    .filter((s) => s.name && s.url);
+}
+
 loadCultureCSV();
 loadScenesCSV();
 loadActorsCSV();
+loadStarsCSV();
 
 /* =======================
    Paramètres quiz 
@@ -104,12 +125,14 @@ loadActorsCSV();
 const NB_Q = 20;
 const SCENE_RATIO = 0.25;
 const ACTOR_RATIO = 0.15;
+const STAR_RATIO = 0.15;
 const MIN_SCENES = 3;
 const MIN_ACTORS = 2;
+const MIN_STARS = 2;
 const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
 function buildQuestions() {
-  if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length) return [];
+  if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length && !STARS.length) return [];
 
   let nbScenes = Math.max(Math.round(NB_Q * SCENE_RATIO), MIN_SCENES);
   nbScenes = Math.min(nbScenes, SCENES.length, NB_Q);
@@ -117,7 +140,10 @@ function buildQuestions() {
   let nbActors = Math.max(Math.round(NB_Q * ACTOR_RATIO), MIN_ACTORS);
   nbActors = Math.min(nbActors, ACTORS.length, NB_Q - nbScenes);
 
-  const nbCulture = NB_Q - nbScenes - nbActors;
+  let nbStars = Math.max(Math.round(NB_Q * STAR_RATIO), MIN_STARS);
+  nbStars = Math.min(nbStars, STARS.length, NB_Q - nbScenes - nbActors);
+
+  const nbCulture = NB_Q - nbScenes - nbActors - nbStars;
 
   const scenes = shuffle([...SCENES])
     .slice(0, nbScenes)
@@ -135,6 +161,14 @@ function buildQuestions() {
       image: a.url,
     }));
 
+  const stars = shuffle([...STARS])
+    .slice(0, nbStars)
+    .map((s) => ({
+      text: "Qui est ce sportif ?",
+      answer: s.name,
+      image: s.url,
+    }));
+
   const culture = shuffle([...QUESTION_BANK])
     .slice(0, nbCulture)
     .map((q) => ({
@@ -143,7 +177,7 @@ function buildQuestions() {
       image: q.image || null,
     }));
 
-  const combined = shuffle([...scenes, ...actors, ...culture]);
+  const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
   const seen = new Set();
   const out = [];
   for (const q of combined) {
