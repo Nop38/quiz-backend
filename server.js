@@ -184,7 +184,7 @@ function initValidations(l) {
    ======================= */
 io.on("connection", (sock) => {
   /* CREATE */
-  sock.on("createLobby", ({ name, avatar, questionCount }) => {
+  sock.on("createLobby", ({ name, avatar }) => {
     const questions = buildQuestions();
     if (!questions.length) return sock.emit("errorMsg", "Aucune question dispo.");
 
