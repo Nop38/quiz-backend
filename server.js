@@ -1,8 +1,3 @@
-/* ────────────────────────────────
-   QUIZ BACK-END (avatars, timeouts, validations, classement)
-   CSV culture générale séparé par « ; »
-   ──────────────────────────────── */
-
 const fs = require("fs");
 const path = require("path");
 const { parse } = require("csv-parse/sync");
@@ -36,7 +31,6 @@ function loadCultureCSV() {
   const p = path.join(__dirname, "questions_culture_generale_tres_variees.csv");
   if (!fs.existsSync(p)) return;
 
-  // Le fichier est en « ; » → on précise delimiter
   const rows = safeParseCSV(p, {
     columns: true,
     skip_empty_lines: true,
@@ -48,8 +42,6 @@ function loadCultureCSV() {
 
   QUESTION_BANK = rows
     .map((r) => {
-      // Adapter à tes colonnes exactes
-      // Header attendu : id;theme;soustheme;type;question;reponse
       const text = (r.question || r.text || "").trim();
       const answer = (r.reponse || r.answer || "").trim();
       const image = (r.image || "").trim() || null;
@@ -83,8 +75,6 @@ function loadScenesCSV() {
     .filter((s) => s.title && s.url);
 }
 
-loadCultureCSV();
-loadScenesCSV();
 function loadActorsCSV() {
   const p = path.join(__dirname, "actors_500.csv");
   if (!fs.existsSync(p)) return;
@@ -98,29 +88,36 @@ function loadActorsCSV() {
 
   ACTORS = rows
     .map((r) => ({
-      text: "Qui est cette personnalité ?",
-      answer: (r.name || "").trim(),
-      image: (r.photo_url || "").trim(),
+      name: (r.name || "").trim(),
+      url: (r.photo_url || r.url || "").trim(),
     }))
-    .filter((q) => q.answer && q.image);
+    .filter((a) => a.name && a.url);
 }
+
+loadCultureCSV();
+loadScenesCSV();
 loadActorsCSV();
 
 /* =======================
    Paramètres quiz 
    ======================= */
-const NB_Q = 20;                 // nombre de questions par partie
-const SCENE_RATIO = 0.25;       // % de questions "scènes de film"
-const MIN_SCENES = 3;           // min de scènes à insérer
+const NB_Q = 20;
+const SCENE_RATIO = 0.25;
+const ACTOR_RATIO = 0.15;
+const MIN_SCENES = 3;
+const MIN_ACTORS = 2;
 const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
-/* Génère la liste de questions */
 function buildQuestions() {
-  if (!QUESTION_BANK.length && !SCENES.length) return [];
+  if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length) return [];
 
   let nbScenes = Math.max(Math.round(NB_Q * SCENE_RATIO), MIN_SCENES);
   nbScenes = Math.min(nbScenes, SCENES.length, NB_Q);
-  const nbCulture = NB_Q - nbScenes;
+
+  let nbActors = Math.max(Math.round(NB_Q * ACTOR_RATIO), MIN_ACTORS);
+  nbActors = Math.min(nbActors, ACTORS.length, NB_Q - nbScenes);
+
+  const nbCulture = NB_Q - nbScenes - nbActors;
 
   const scenes = shuffle([...SCENES])
     .slice(0, nbScenes)
@@ -128,6 +125,14 @@ function buildQuestions() {
       text: "De quel film cette scène provient ?",
       answer: s.title,
       image: s.url,
+    }));
+
+  const actors = shuffle([...ACTORS])
+    .slice(0, nbActors)
+    .map((a) => ({
+      text: "Qui est cette personnalité ?",
+      answer: a.name,
+      image: a.url,
     }));
 
   const culture = shuffle([...QUESTION_BANK])
@@ -138,7 +143,7 @@ function buildQuestions() {
       image: q.image || null,
     }));
 
-  const combined = shuffle([...scenes, ...culture]);
+  const combined = shuffle([...scenes, ...actors, ...culture]);
   const seen = new Set();
   const out = [];
   for (const q of combined) {
@@ -163,7 +168,6 @@ const lobbies = {};
 const gid = () => Math.random().toString(36).slice(2, 8).toUpperCase();
 const pid = () => Math.random().toString(36).slice(2, 12);
 
-/** Map joueurs en tableau propre pour le front */
 const arrP = (l) =>
   Object.values(l.players).map(({ id, name, score, answers, token, avatar }) => ({
     id,
@@ -204,7 +208,6 @@ function initValidations(l) {
    Socket.IO
    ======================= */
 io.on("connection", (sock) => {
-  /* CREATE */
   sock.on("createLobby", ({ name, avatar }) => {
     const questions = buildQuestions();
     if (!questions.length) return sock.emit("errorMsg", "Aucune question dispo.");
@@ -244,7 +247,6 @@ io.on("connection", (sock) => {
     emitState(lobbyId);
   });
 
-  /* JOIN */
   sock.on("joinLobby", ({ lobbyId, name, avatar }) => {
     const l = lobbies[lobbyId];
     if (!l) return sock.emit("errorMsg", "Lobby introuvable.");
@@ -271,7 +273,6 @@ io.on("connection", (sock) => {
     emitState(lobbyId);
   });
 
-  /* REJOIN */
   sock.on("rejoinLobby", ({ lobbyId, token }) => {
     const l = lobbies[lobbyId];
     const p = l?.players[token];
@@ -295,7 +296,6 @@ io.on("connection", (sock) => {
 
   sock.on("requestState", ({ lobbyId }) => emitState(lobbyId));
 
-  /* START QUIZ */
   sock.on("startQuiz", ({ lobbyId, token }) => {
     const l = lobbies[lobbyId];
     if (!l || l.creatorToken !== token) return;
@@ -304,7 +304,6 @@ io.on("connection", (sock) => {
     emitState(lobbyId);
   });
 
-  /* SUBMIT ANSWER */
   sock.on("submitAnswer", ({ lobbyId, token, questionIndex, answer, timedOut }) => {
     const l = lobbies[lobbyId];
     const p = l?.players[token];
@@ -334,7 +333,6 @@ io.on("connection", (sock) => {
     }
   });
 
-  /* VALIDATE ANSWER */
   sock.on("validateAnswer", ({ lobbyId, token, playerToken, questionIndex, isCorrect }) => {
     const l = lobbies[lobbyId];
     if (!l || l.creatorToken !== token || l.phase !== "validation") return;
@@ -373,19 +371,17 @@ io.on("connection", (sock) => {
     }
   });
 
-  /* LEAVE LOBBY / ABANDON */
   sock.on("leaveLobby", ({ lobbyId, token }) => {
     const l = lobbies[lobbyId];
     if (!l) return;
     delete l.players[token];
     io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-    // Si plus personne → supprimer lobby
     if (!Object.keys(l.players).length) {
       delete lobbies[lobbyId];
     }
   });
 });
 
-const PORT = process.env.PORT || 4000;      // Render fournit PORT
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, "0.0.0.0", () => console.log(`WS :${PORT} — Quiz OK`));
