@@ -177,18 +177,35 @@ function buildQuestions() {
       image: s.url,
     }));
 
-  const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
+  
+  const fixedQuestion = {
+    text: "Est ce que cet homme est beau ?",
+    answer: "oui bien sur",
+    image: "data/10.webp",
+  };
+
+const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
   const seen = new Set();
+  
   const out = [];
+  let inserted = false;
   for (const q of combined) {
     const k = `${q.text}__${q.answer}`;
     if (!seen.has(k)) {
       seen.add(k);
+      if (out.length === 9 && !inserted) {
+        out.push(fixedQuestion); // insertion en 10e position
+        inserted = true;
+      }
       out.push(q);
       if (out.length === NB_Q) break;
     }
   }
+  if (!inserted && out.length < NB_Q) {
+    out.splice(9, 0, fixedQuestion);
+  }
   return out;
+
 }
 
 /* =======================
