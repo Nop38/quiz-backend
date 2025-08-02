@@ -1713,3 +1713,106 @@ id;theme;soustheme;type;question;reponse
 1712;Langue française;Orthographe;vrai/faux;Vrai ou faux : on écrit 'je vais au marchés' ?;Faux
 1713;Série;Netflix;ouverte;Dans quelle série retrouve-t-on le personnage Geralt de Riv ?;The Witcher
 1714;Animaux;Records;ouverte;Quel est l'animal terrestre le plus rapide ?;Guépard
+1715;Cinéma;Répliques célèbres;ouverte;De quel film est tirée la réplique « Que la Force soit avec toi » ?;Star Wars
+1716;Histoire;Personnages célèbres;ouverte;Quel général français est devenu empereur en 1804 ?;Napoléon Bonaparte
+1717;Géographie;Pays et frontières;vrai/faux;Vrai ou faux : Le Chili partage une frontière avec le Brésil ?;Faux
+1718;Sciences;Astronomie;ouverte;Quelle est la planète la plus proche du Soleil ?;Mercure
+1719;Mythologie;Grèce antique;ouverte;Quel héros grec a tué le Minotaure ?;Thésée
+1720;Musique;Groupes célèbres;ouverte;Quel groupe britannique a sorti l’album « Abbey Road » ?;The Beatles
+1721;Disney;Films classiques;ouverte;Quel animal est Bambi ?;Un faon
+1722;Technologie;Internet;vrai/faux;Vrai ou faux : Le langage HTML est un langage de programmation ?;Faux
+1723;Littérature;Romans classiques;ouverte;Qui a écrit « Les Misérables » ?;Victor Hugo
+1724;Sport;Jeux Olympiques;ouverte;Dans quelle ville ont eu lieu les Jeux Olympiques d'été de 2008 ?;Pékin
+1725;Histoire;Révolutions;ouverte;En quelle année a débuté la Révolution française ?;1789
+1726;Histoire;Conflits majeurs;ouverte;Quel événement a déclenché la Première Guerre mondiale ?;L'assassinat de l'archiduc François-Ferdinand
+1727;Géographie;Rivières et fleuves;ouverte;Quel fleuve traverse Paris ?;La Seine
+1728;Géographie;Montagnes;ouverte;Quel est le plus haut sommet d’Afrique ?;Kilimandjaro
+1729;Sciences;Chimie;ouverte;Quel est le symbole chimique de l’or ?;Au
+1730;Sciences;Physique;vrai/faux;Vrai ou faux : L’eau bout à 100°C au niveau de la mer ?;Vrai
+1731;Art;Peinture;ouverte;Quel artiste est célèbre pour ses Tournesols ?;Vincent van Gogh
+1732;Art;Sculpture;ouverte;Qui a sculpté Le Penseur ?;Auguste Rodin
+1733;Littérature;Romans contemporains;ouverte;Qui est l’auteur de « L’Alchimiste » ?;Paulo Coelho
+1734;Littérature;Contes et fables;ouverte;Quel auteur français est célèbre pour ses fables d’animaux ?;Jean de La Fontaine
+1735;Cinéma;Oscars;ouverte;Quel film a remporté l’Oscar du meilleur film en 1998 avec Leonardo DiCaprio ?;Titanic
+1736;Cinéma;Réalisateurs;ouverte;Qui a réalisé le film « Inception » ?;Christopher Nolan
+1737;Disney;Personnages;ouverte;Comment s’appelle la petite sirène dans le film Disney ?;Ariel
+1738;Disney;Chansons;ouverte;Dans quel film Disney entend-on la chanson « Libérée, délivrée » ?;La Reine des Neiges
+1739;Sport;Football;vrai/faux;Vrai ou faux : Lionel Messi a joué pour le PSG ?;Vrai
+1740;Sport;Tennis;ouverte;Combien de tournois du Grand Chelem y a-t-il chaque année ?;4
+1741;Technologie;Informatique;ouverte;Quel système d’exploitation est développé par Microsoft ?;Windows
+1742;Technologie;Objets connectés;vrai/faux;Vrai ou faux : Une smartwatch peut mesurer votre rythme cardiaque ?;Vrai
+1743;Mythologie;Norse;ouverte;Quel dieu nordique manie un marteau appelé Mjöllnir ?;Thor
+1744;Mythologie;Égypte ancienne;ouverte;Quel dieu égyptien a une tête de faucon ?;Horus
+1745;Musique;Genres musicaux;ouverte;Quel genre musical est associé à Bob Marley ?;Reggae
+1746;Musique;Instruments;ouverte;Combien de cordes a un violon ?;4
+1747;Histoire;Monarchie;ouverte;Qui était la dernière reine de France avant la Révolution ?;Marie-Antoinette
+1748;Histoire;Inventions;ouverte;Qui a inventé l'imprimerie au XVe siècle ?;Gutenberg
+1749;Géographie;Îles;ouverte;Sur quelle île se trouve le volcan Etna ?;Sicile
+1750;Géographie;Déserts;ouverte;Quel est le plus grand désert chaud du monde ?;Sahara
+1751;Sciences;Biologie;ouverte;Quel organe pompe le sang dans tout le corps ?;Le cœur
+1752;Sciences;Mathématiques;ouverte;Combien de côtés a un hexagone ?;6
+1753;Art;Musées;ouverte;Dans quel musée peut-on voir La Joconde ?;Le Louvre
+1754;Art;Courants artistiques;ouverte;Quel courant artistique est associé à Salvador Dalí ?;Surréalisme
+1755;Littérature;Théâtre;ouverte;Qui a écrit « Roméo et Juliette » ?;William Shakespeare
+1756;Littérature;Fantasy;ouverte;Qui est l’auteur de la saga « Le Seigneur des Anneaux » ?;J.R.R. Tolkien
+1757;Cinéma;Films d’animation;ouverte;Quel est le prénom du poisson-clown dans « Le Monde de Nemo » ?;Nemo
+1758;Cinéma;Genres;ouverte;À quel genre appartient le film « Alien » ?;Science-fiction
+1759;Disney;Films Pixar;ouverte;Quel jouet est un cow-boy dans « Toy Story » ?;Woody
+1760;Disney;Animaux;ouverte;Quel animal est Dumbo ?;Un éléphant
+1761;Sport;Basket;ouverte;Quel joueur est surnommé « King James » ?;LeBron James
+1762;Sport;Cyclisme;ouverte;Quelle course cycliste célèbre se termine sur les Champs-Élysées ?;Le Tour de France
+1763;Technologie;Objets du quotidien;ouverte;Quel objet utilise-t-on pour numériser une photo papier ?;Un scanner
+1764;Technologie;Histoire;ouverte;Quel est le nom du premier ordinateur personnel d’Apple ?;Apple I
+1765;Mythologie;Rome antique;ouverte;Quel dieu romain est l’équivalent de Zeus ?;Jupiter
+1766;Mythologie;Créatures;ouverte;Quel animal mythique a un corps de lion et une tête humaine ?;Sphinx
+1767;Disney;Personnages;ouverte;Quel personnage a une pantoufle de verre ?;Cendrillon
+1768;Disney;Personnages;ouverte;Quel est le nom du lionceau héros du « Roi Lion » ?;Simba
+1769;Disney;Personnages;ouverte;Quel est le nom du lionceau héros du « Roi Lion » ?;Simba
+1770;Sport;Football;ouverte;Quel footballeur argentin a remporté la Coupe du monde 2022 ?;Lionel Messi
+1771;Sciences;Biologie;ouverte;Quel est l'organe principal de la respiration humaine ?;Poumon
+1772;Histoire;Révolutions;ouverte;Quel événement marque le début de la Révolution française ?;La prise de la Bastille
+1773;Disney;Chansons;ouverte;Dans quel film Disney entend-on « Libérée, délivrée » ?;La Reine des Neiges
+1774;Géographie;Monuments;vrai/faux;Vrai ou faux : La Tour de Pise se trouve en Espagne ?;Faux
+1775;Musique;Pop;ouverte;Quelle artiste est connue pour les titres « Bad Romance » et « Poker Face » ?;Lady Gaga
+1776;Sciences;Espace;vrai/faux;Vrai ou faux : La Terre possède deux lunes naturelles ?;Faux
+1777;Jeux vidéo;Classiques;vrai/faux;Vrai ou faux : Mario est un personnage de la société Sega ?;Faux
+1778;Géographie;Monuments;vrai/faux;Vrai ou faux : La Tour de Pise se trouve en Espagne ?;Faux
+1779;Mythologie;Dieux et créatures;ouverte;Dans la mythologie grecque, qui est le dieu de la mer ?;Poséidon
+1780;Art;Peinture;vrai/faux;Vrai ou faux : Léonard de Vinci a peint « La Cène » ?;Vrai
+1781;Géographie;Monuments;vrai/faux;Vrai ou faux : La Tour de Pise se trouve en Espagne ?;Faux
+1782;Sciences;Espace;vrai/faux;Vrai ou faux : La Terre possède deux lunes naturelles ?;Faux
+1783;Géographie;Monuments;vrai/faux;Vrai ou faux : La Tour de Pise se trouve en Espagne ?;Faux
+1784;Histoire;Révolutions;ouverte;Quel événement marque le début de la Révolution française ?;La prise de la Bastille
+1785;Sport;Jeux Olympiques;vrai/faux;Vrai ou faux : Les JO d'hiver 2022 ont eu lieu à Pékin ?;Vrai
+1786;Histoire;Guerres mondiales;vrai/faux;Vrai ou faux : La Première Guerre mondiale a commencé en 1914 ?;Vrai
+1787;Musique;Pop;ouverte;Quelle artiste est connue pour les titres « Bad Romance » et « Poker Face » ?;Lady Gaga
+1788;Jeux vidéo;Classiques;vrai/faux;Vrai ou faux : Mario est un personnage de la société Sega ?;Faux
+1789;Sport;Football;ouverte;Quel footballeur argentin a remporté la Coupe du monde 2022 ?;Lionel Messi
+1790;Mythologie;Créatures;vrai/faux;Vrai ou faux : Le Minotaure a une tête de cheval ?;Faux
+1791;Sciences;Biologie;ouverte;Quel est l'organe principal de la respiration humaine ?;Poumon
+1792;Art;Peinture;vrai/faux;Vrai ou faux : Léonard de Vinci a peint « La Cène » ?;Vrai
+1793;Sciences;Espace;vrai/faux;Vrai ou faux : La Terre possède deux lunes naturelles ?;Faux
+1794;Jeux vidéo;Classiques;vrai/faux;Vrai ou faux : Mario est un personnage de la société Sega ?;Faux
+1795;Cinéma;Répliques cultes;ouverte;Quelle réplique culte entend-on dans le film « Terminator » ?;I'll be back
+1796;Histoire;Guerres mondiales;vrai/faux;Vrai ou faux : La Première Guerre mondiale a commencé en 1914 ?;Vrai
+1797;Sport;Football;ouverte;Quel footballeur argentin a remporté la Coupe du monde 2022 ?;Lionel Messi
+1798;Histoire;Guerres mondiales;vrai/faux;Vrai ou faux : La Première Guerre mondiale a commencé en 1914 ?;Vrai
+1799;Disney;Chansons;ouverte;Dans quel film Disney entend-on « Libérée, délivrée » ?;La Reine des Neiges
+1800;Art;Peinture;vrai/faux;Vrai ou faux : Léonard de Vinci a peint « La Cène » ?;Vrai
+1801;Cinéma;Films d'animation;vrai/faux;Vrai ou faux : Le film « Là-Haut » met en scène un garçon scout et un vieil homme ?;Vrai
+1802;Jeux vidéo;Personnages;ouverte;Quel personnage de jeu vidéo est célèbre pour sa casquette rouge et sa moustache ?;Mario
+1803;Sport;Jeux Olympiques;vrai/faux;Vrai ou faux : Les JO d'hiver 2022 ont eu lieu à Pékin ?;Vrai
+1804;Cinéma;Films d'animation;vrai/faux;Vrai ou faux : Le film « Là-Haut » met en scène un garçon scout et un vieil homme ?;Vrai
+1805;Art;Peinture;vrai/faux;Vrai ou faux : Léonard de Vinci a peint « La Cène » ?;Vrai
+1806;Mythologie;Créatures;vrai/faux;Vrai ou faux : Le Minotaure a une tête de cheval ?;Faux
+1807;Musique;Pop;ouverte;Quelle artiste est connue pour les titres « Bad Romance » et « Poker Face » ?;Lady Gaga
+1808;Sport;Jeux Olympiques;vrai/faux;Vrai ou faux : Les JO d'hiver 2022 ont eu lieu à Pékin ?;Vrai
+1809;Histoire;Guerres mondiales;vrai/faux;Vrai ou faux : La Première Guerre mondiale a commencé en 1914 ?;Vrai
+1810;Cinéma;Films d'animation;vrai/faux;Vrai ou faux : Le film « Là-Haut » met en scène un garçon scout et un vieil homme ?;Vrai
+1811;Jeux vidéo;Personnages;ouverte;Quel personnage de jeu vidéo est célèbre pour sa casquette rouge et sa moustache ?;Mario
+1812;Histoire;Révolutions;ouverte;Quel événement marque le début de la Révolution française ?;La prise de la Bastille
+1813;Disney;Chansons;ouverte;Dans quel film Disney entend-on « Libérée, délivrée » ?;La Reine des Neiges
+1814;Disney;Chansons;ouverte;Dans quel film Disney entend-on « Libérée, délivrée » ?;La Reine des Neiges
+1815;Art;Peinture;ouverte;Quel peintre est célèbre pour avoir peint des tournesols ?;Vincent Van Gogh
+1816;Histoire;Révolutions;ouverte;Quel événement marque le début de la Révolution française ?;La prise de la Bastille
+1817;Disney;Personnages;ouverte;Quel est le nom du lionceau héros du « Roi Lion » ?;Simba
