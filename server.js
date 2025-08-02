@@ -181,7 +181,7 @@ function buildQuestions() {
   const fixedQuestion = {
     text: "Est ce que cet homme est beau ?",
     answer: "oui bien sur",
-    image: "/10.webp",
+    image: "https://raw.githubusercontent.com/Nop38/quiz-frontend/refs/heads/master/src/10.webp",
   };
 
 const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
