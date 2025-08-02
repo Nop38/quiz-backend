@@ -147,6 +147,12 @@ function buildQuestions() {
 
   const nbCulture = NB_Q - nbScenes - nbActors - nbStars;
 
+  const capitales = QUESTION_BANK.filter(q => /capitale/i.test(q.text));
+  const autres = QUESTION_BANK.filter(q => !/capitale/i.test(q.text));
+  const selectedCapitales = shuffle(capitales).slice(0, 2);
+  const selectedAutres = shuffle(autres).slice(0, nbCulture - selectedCapitales.length);
+  const culture = shuffle([...selectedCapitales, ...selectedAutres]);
+
   const scenes = shuffle([...SCENES])
     .slice(0, nbScenes)
     .map((s) => ({
@@ -169,14 +175,6 @@ function buildQuestions() {
       text: "Qui est ce sportif ?",
       answer: s.name,
       image: s.url,
-    }));
-
-  const culture = shuffle([...QUESTION_BANK])
-    .slice(0, nbCulture)
-    .map((q) => ({
-      text: q.text,
-      answer: q.answer,
-      image: q.image || null,
     }));
 
   const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
