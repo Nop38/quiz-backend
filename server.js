@@ -418,7 +418,7 @@ io.on("connection", (sock) => {
       io.to(lobbyId).emit("validationEnded", { classement });
       emitState(lobbyId);
     }
-  }, 500); // délai pour laisser l'animation s'afficher
+  }, 300); // délai pour laisser l'animation s'afficher
 }
  else {
       emitState(lobbyId);
