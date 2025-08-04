@@ -365,21 +365,28 @@ io.on("connection", (sock) => {
     io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
     io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-    if (everyoneFinished(l.players)) {
-      l.currentQ = 0;
-      initValidations(l);
-
+   if (finishedQ) {
+  setTimeout(() => {
+    if (l.currentQ < l.questions.length - 1) {
+      l.currentQ++;
       const payload = {
         phase: "validation",
-        questionIndex: 0,
+        questionIndex: l.currentQ,
         players: arrP(l),
         questions: l.questions,
         validations: l.validations,
       };
       io.to(lobbyId).emit("startValidation", payload);
-      broadcastPhase(lobbyId, "validation");
       emitState(lobbyId);
     } else {
+      broadcastPhase(lobbyId, "result");
+      const classement = arrP(l).sort((a, b) => b.score - a.score);
+      io.to(lobbyId).emit("validationEnded", { classement });
+      emitState(lobbyId);
+    }
+  }, 500); // délai pour laisser l'animation s'afficher
+}
+ else {
       emitState(lobbyId);
     }
   });
