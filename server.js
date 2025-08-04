@@ -365,7 +365,41 @@ io.on("connection", (sock) => {
     io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
     io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-   if (finishedQ) {
+    if (everyoneFinished(l.players)) {
+      l.currentQ = 0;
+      initValidations(l);
+
+      const payload = {
+        phase: "validation",
+        questionIndex: 0,
+        players: arrP(l),
+        questions: l.questions,
+        validations: l.validations,
+      };
+      io.to(lobbyId).emit("startValidation", payload);
+      broadcastPhase(lobbyId, "validation");
+      emitState(lobbyId);
+    } else {
+      emitState(lobbyId);
+    }
+  });
+
+  sock.on("validateAnswer", ({ lobbyId, token, playerToken, questionIndex, isCorrect }) => {
+    const l = lobbies[lobbyId];
+    if (!l || l.creatorToken !== token || l.phase !== "validation") return;
+
+    l.validations[playerToken][questionIndex] = isCorrect;
+    if (isCorrect) l.players[playerToken].score++;
+
+    io.to(lobbyId).emit("validationUpdated", {
+      playerId: playerToken,
+      questionIndex,
+      isCorrect,
+      score: l.players[playerToken].score,
+    });
+
+    const finishedQ = Object.values(l.validations).every((arr) => arr[questionIndex] !== null);
+    if (finishedQ) {
   setTimeout(() => {
     if (l.currentQ < l.questions.length - 1) {
       l.currentQ++;
@@ -387,44 +421,6 @@ io.on("connection", (sock) => {
   }, 500); // délai pour laisser l'animation s'afficher
 }
  else {
-      emitState(lobbyId);
-    }
-  });
-
-  sock.on("validateAnswer", ({ lobbyId, token, playerToken, questionIndex, isCorrect }) => {
-    const l = lobbies[lobbyId];
-    if (!l || l.creatorToken !== token || l.phase !== "validation") return;
-
-    l.validations[playerToken][questionIndex] = isCorrect;
-    if (isCorrect) l.players[playerToken].score++;
-
-    io.to(lobbyId).emit("validationUpdated", {
-      playerId: playerToken,
-      questionIndex,
-      isCorrect,
-      score: l.players[playerToken].score,
-    });
-
-    const finishedQ = Object.values(l.validations).every((arr) => arr[questionIndex] !== null);
-    if (finishedQ) {
-      if (l.currentQ < l.questions.length - 1) {
-        l.currentQ++;
-        const payload = {
-          phase: "validation",
-          questionIndex: l.currentQ,
-          players: arrP(l),
-          questions: l.questions,
-          validations: l.validations,
-        };
-        io.to(lobbyId).emit("startValidation", payload);
-        emitState(lobbyId);
-      } else {
-        broadcastPhase(lobbyId, "result");
-        const classement = arrP(l).sort((a, b) => b.score - a.score);
-        io.to(lobbyId).emit("validationEnded", { classement });
-        emitState(lobbyId);
-      }
-    } else {
       emitState(lobbyId);
     }
   });
