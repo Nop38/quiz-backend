@@ -569,7 +569,7 @@ id;theme;soustheme;type;question;reponse
 568;Géographie;Capitales;ouverte;Quelle est la capitale de Ukraine ?;Kiev
 569;Philosophie & Pensée;Concepts clés;vrai/faux;Vrai ou faux : David Hume est lié à Le scepticisme empiriste ?;Vrai
 570;Géographie;Capitales;vrai/faux;Vrai ou faux : Mexico est la capitale de Mexique ?;Vrai
-571;Géographie;Capitales;ouverte;Quelle est la capitale de Chili ?;Santiago
+571;Géographie;Capitales;ouverte;Quelle est la capitale du Chili ?;Santiago
 572;Littérature;Œuvres et auteurs;ouverte;Qui a écrit « Huis clos » ?;Jean-Paul Sartre
 573;Arts plastiques & Architecture;Œuvres emblématiques;vrai/faux;Vrai ou faux : « Marilyn Diptych » est de Andy Warhol ?;Vrai
 574;Géographie;Capitales;vrai/faux;Vrai ou faux : Saint-Domingue est la capitale de République dominicaine ?;Vrai
@@ -1865,3 +1865,300 @@ id;theme;soustheme;type;question;reponse
 1864;Géographie;Capitales;texte;Quelle est la capitale du Maroc ?;Rabat
 1865;Géographie;Capitales;texte;Quelle est la capitale de l'Algérie ?;Alger
 1866;Géographie;Capitales;texte;Quelle est la capitale de la Tunisie ?;Tunis
+1867;Culture Générale;questions;texte;Qui a été la première femme à recevoir un prix Nobel en 1903 ?;Marie Curie
+1868;Culture Générale;questions;texte;En quelle année le mur de Berlin est-il tombé ?;1989
+1869;Culture Générale;questions;texte;Quel est l'élément dont le symbole chimique est Au ?;L'or
+1870;Culture Générale;questions;texte;Quel est le signe opposé au Scorpion dans le zodiaque ?;Le Taureau
+1871;Culture Générale;questions;texte;Qui a écrit le roman américain classique Their Eyes Were Watching God?;Zora Neale Hurston
+1872;Culture Générale;questions;texte;Qui a tiré le coup de feu en 1914 qui a déclenché la Première Guerre mondiale ?;L'archiduc François-Ferdinand
+1873;Culture Générale;questions;texte;Quelle est la plus petite planète de notre système solaire ?;Mercure
+1874;Culture Générale;questions;texte;Quel est le spectacle de Broadway qui a été le plus lucratif de tous les temps ?;Le Roi Lion
+1875;Culture Générale;questions;texte;Dans quel bar de New York s'est déroulé un soulèvement en 1969, considéré comme le point de départ du mouvement moderne en faveur des droits des personnes LGBTQ+ ?;Le Stonewall Inn
+1876;Culture Générale;questions;texte;Comment s'appellent les 22 premières cartes d'un jeu de tarot ?;Les Arcanes Majeurs
+1877;Culture Générale;questions;texte;Quel est le nom de l'hôtel possédé dans le roman (et le film) The Shining de Steven King, basé sur le véritable Stanley Hotel dans le Colorado ?;L'hôtel Overlook
+1878;Culture Générale;questions;texte;Quelle est la capitale de l'Inde ? La réponse : New Delhi 13. Quels sont les deux États américains qui partagent le plus de frontières avec d'autres États ?;Le Tennessee et le Missouri
+1879;Culture Générale;questions;texte;Quel est le nom le plus populaire du portrait officiellement intitulé “La Gioconda”, peint à Florence en 1503 ?;La Joconde
+1880;Culture Générale;questions;texte;Dans un restaurant, sous quel nom la viande de cerf apparaît-elle sur le menu ?;Le chevreuil
+1881;Culture Générale;questions;texte;"Sous quel pseudonyme l'auteur des célèbres ""romans napolitains"", une série de quatre livres à succès désormais adaptée en série par HBO, publie-t-il ses œuvres ?";Elana Ferante
+1882;Culture Générale;questions;texte;Selon l'Organisation météorologique mondiale, où a-t-on enregistré la température la plus élevée jamais enregistrée sur Terre ?;La Vallée de la Mort, en Californie (où la température a atteint 134 degrés Fahrenheit en juillet 1913).
+1883;Culture Générale;questions;texte;"Qui détient le record du plus grand nombre de victoires aux Primetime Emmy Awards dans la catégorie ""Meilleur animateur d'un programme de téléréalité ou de compétition"" ?";RuPaul
+1884;Culture Générale;questions;texte;Quel a été le premier livre publié par Honoré de Balzac ?;Les Chouans
+1885;Culture Générale;questions;texte;Quels sont les deux pays qui ont la plus longue frontière internationale commune ?;le Canada et les États-Unis
+1886;Culture Générale;questions;texte;Quelle ville a accueilli les Jeux olympiques d'hiver de 2014 ?;Sotchi, Russie
+1887;Culture Générale;questions;texte;Quel est le spectacle le plus ancien de Broadway ?;Le Fantôme de l'Opéra, qui a finalement fermé ses portes en avril 2023 après un record de 13 981 représentations.
+1888;Culture Générale;questions;texte;Quel est le plus grand organe du corps humain ?;La peau Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+1889;Culture Générale;questions;texte;En quelle année le premier iPhone a-t-il été commercialisé ?;2007
+1890;Culture Générale;questions;texte;"Quels sont les prénoms des quatre personnages principaux de la série ""H"" ?";Jamel, Brahim, Aymé et Kader.
+1891;Culture Générale;questions;texte;Quelle est la plus longue chaîne de montagnes au-dessus de l'eau ? Les Andes 27. En quelle année Netflix, qui était auparavant une entreprise de location de DVD, a-t-il lancé des services de streaming ?;2007
+1892;Culture Générale;questions;texte;Combien de pieds y a-t-il dans une cour ?;Trois
+1893;Culture Générale;questions;texte;Combien d'os les requins ont-ils ?;Zéro !
+1894;Culture Générale;questions;texte;Quel est le mammifère le plus mortel ?;L'hippopotame
+1895;Culture Générale;questions;texte;Quel est l'animal le plus mortel au monde ?;Le moustique
+1896;Culture Générale;questions;texte;Dans quel pays est né le révolutionnaire marxiste Che Guevara ?;L'Argentine
+1897;Culture Générale;questions;texte;Quelle est la capitale de Singapour ?;Singapour (c'est une île-État).
+1898;Culture Générale;questions;texte;Quel est le nom de l'événement météorologique également appelé ouragan hivernal ?;Un cyclone-bombe
+1899;Culture Générale;questions;texte;Quel a été le premier pays à accorder le droit de vote aux femmes ?;"La Nouvelle-Zélande - en 1893, toutes les femmes, toutes ethnies confondues, qui étaient ""sujets britanniques"" en Nouvelle-Zélande ont obtenu le droit de vote. Cela incluait les femmes indigènes, comme les femmes Māori, mais excluait les groupes qui n'avaient pas la citoyenneté néo-zélandaise, comme les femmes chinoises."
+1900;Culture Générale;questions;texte;En quelle année l'affaire Obergefell v. Hodges, qui a fait date en matière de droits civils et de droits des personnes LGBTQ+, a-t-elle été jugée ?;"2015 ; on l'appelle plus communément l'affaire de l'égalité des mariages."
+1901;Culture Générale;questions;texte;Quels sont les noms des quatre sœurs March dans Les filles du Dr March ?;Meg, Jo, Beth et Amy : Meg, Jo, Beth et Amy
+1902;Culture Générale;questions;texte;Quelle garniture de dessert, composée de blancs d'œufs et de crème de tartre, est souvent utilisée pour les tartes ?;La meringue
+1903;Culture Générale;questions;texte;Dans la mythologie grecque, qui était connu comme le messager des dieux ?;Hermès
+1904;Culture Générale;questions;texte;Quel était le nom de jeune fille d'Eleanor Roosevelt avant son mariage avec FDR ?;Roosevelt (elle et Franklin étaient cousins au cinquième degré !)
+1905;Culture Générale;questions;texte;Quel était le nom de naissance de la légende de la boxe Muhammad Ali ?;Cassius Clay
+1906;Culture Générale;questions;texte;Dans quelle ville les premières infections par le COVID-19 ont-elles été découvertes ?;à Wuhan, en Chine : Wuhan, Chine
+1907;Culture Générale;questions;texte;Aux échecs, dans quelle direction un fou peut-il se déplacer ?;En diagonale
+1908;Culture Générale;questions;texte;Quelle célébrité a inspiré le nom du premier animal cloné au monde, un mouton, en 1996 ?;Dolly Parton
+1909;Culture Générale;questions;texte;Quel est le nom de l'événement solaire qui se produit le 20 ou le 21 mars de chaque année ?;L'équinoxe de printemps
+1910;Culture Générale;questions;texte;Quel est le raccourci de la fonction coller sur la plupart des ordinateurs ?;Ctrl+V Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+1911;Culture Générale;questions;texte;Quel est le fleuve qui traverse Paris ?;La Seine
+1912;Culture Générale;questions;texte;Quelle est la capitale de l'Iowa ?;Des Moines
+1913;Culture Générale;questions;texte;Quelle est la langue la plus parlée au Brésil ?;Le portugais
+1914;Culture Générale;questions;texte;À quel artiste attribue-t-on cette célèbre citation : “Je suis ma propre muse, je suis la personne que je connais le mieux. Le sujet que je veux le mieux connaître.” ?;Frida Kahlo
+1915;Culture Générale;questions;texte;Combien de couleurs trouve-t-on dans un sachet normal de M&Ms ?;Six
+1916;Culture Générale;questions;texte;Quel pays a offert la statue de la Liberté aux États-Unis ?;La France
+1917;Culture Générale;questions;texte;Combien de femmes Henry VIII a-t-il eues ?;Six
+1918;Culture Générale;questions;texte;Quel est le groupe sanguin le plus rare ?;AB négatif
+1919;Culture Générale;questions;texte;Quel célèbre mouvement artistique Pablo Picasso a-t-il co-créé ?;Le cubisme
+1920;Culture Générale;questions;texte;Quel président américain figure sur le billet de 2 dollars ?;Thomas Jefferson
+1921;Culture Générale;questions;texte;Dans quelle phase la lune entre-t-elle après avoir été pleine ?;La phase gibbeuse
+1922;Culture Générale;questions;texte;Quelle est la place de l'aubergine dans la pyramide alimentaire ?;Dans la section des fruits
+1923;Culture Générale;questions;texte;Quelle boisson alcoolisée est fabriquée à partir de baies de genévrier ?;Le gin
+1924;Culture Générale;questions;texte;Combien de nuits dure la célébration de la fête de Hanoukka ?;Huit
+1925;Culture Générale;questions;texte;Quelle organisation religieuse et politique Malcolm X a-t-il rejoint en 1952, l'aidant à se développer de manière exponentielle avant de couper les ponts avec elle en 1964 ?;La Nation de l'Islam
+1926;Culture Générale;questions;texte;Quel est le pays qui compte le plus grand nombre de citoyens âgés de plus de 65 ans ?;Le Japon
+1927;Culture Générale;questions;texte;La zone 51 est située dans quel État américain ?;Le Nevada
+1928;Culture Générale;questions;texte;Quelle chaîne de restauration rapide américaine est reconnue pour avoir introduit la première fenêtre drive-through ?;In-N-Out Burger
+1929;Culture Générale;questions;texte;Quelle est la température d'ébullition de l'eau ?;212 degrés Fahrenheit ou 100 degrés Celsius.
+1930;Culture Générale;questions;texte;Dans quelle ville et quel état se trouve l'université de Harvard ?;à Cambridge, dans le Massachusetts
+1931;Culture Générale;questions;texte;Quelle actrice française a eu la carrière la plus longue à la télévision ?;Jacqueline Maillan
+1932;Culture Générale;questions;texte;Quel est l'autre nom de l'ADN ?;Acide désoxyribonucléique
+1933;Culture Générale;questions;texte;Quelle est la plus longue série télévisée d'animation américaine ?;Les Simpson
+1934;Culture Générale;questions;texte;Où se trouve le plus petit os du corps humain ?;L'oreille
+1935;Culture Générale;questions;texte;Quelle est la capitale du Canada ?;Ottawa
+1936;Culture Générale;questions;texte;Quelle planète de notre système solaire possède le plus grand nombre de lunes ?;Jupiter
+1937;Culture Générale;questions;texte;Que signifie BMW (en anglais) ?;Bavarian Motor Works
+1938;Culture Générale;questions;texte;En quelle année la première pilule contraceptive a-t-elle été mise à la disposition du public en France ?;1967
+1939;Culture Générale;questions;texte;Qui a écrit Les aventures de Sherlock Holmes ? Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward;Arthur Conan Doyle
+1940;Culture Générale;questions;texte;Quelle ville est construite sur les ruines de la cité aztèque de Tenochtitlan ?;Mexico City, Mexique
+1941;Culture Générale;questions;texte;Qui détient le titre de meilleur buteur de l'histoire de l'équipe de France de football ?;Thierry Henry
+1942;Culture Générale;questions;texte;Qui a été la première femme à remporter l'Oscar du meilleur réalisateur ?;Kathryn Bigelow, qui a gagné en 2010 pour Démineurs.
+1943;Culture Générale;questions;texte;"Quel pays est connu sous le nom de ""pays du soleil levant"" ?";Le Japon
+1944;Culture Générale;questions;texte;En quelle année le premier parc Walt Disney World a-t-il ouvert ses portes en Floride ?;1971
+1945;Culture Générale;questions;texte;Quelle est la langue la plus parlée au monde ?;Le chinois mandarin
+1946;Culture Générale;questions;texte;Quel est le seul métal liquide à température ambiante ?;Le mercure
+1947;Culture Générale;questions;texte;Quel célèbre activiste a été inscrit sur la liste des personnes les plus recherchées par le FBI en 1970 après avoir été accusé à tort de complot pour aider à libérer un membre du Black Panther Party ?;Angela Davis
+1948;Culture Générale;questions;texte;Quels sont les trois signes d'eau du zodiaque ?;Les Poissons, le Cancer et le Scorpion :
+1949;Culture Générale;questions;texte;Quel animal figure sur le logo de Porsche ?;Le cheval
+1950;Culture Générale;questions;texte;Quel est le slogan d'Apple Inc.;Penser différemment
+1951;Culture Générale;questions;texte;Combien y a-t-il de côtes dans le corps humain ?;Vingt-quatre
+1952;Culture Générale;questions;texte;Quels sont les deux principaux ingrédients du coq au vin ?;Le poulet - point bonus si vous avez spécifiquement deviné le coq ! - et le vin rouge
+1953;Culture Générale;questions;texte;Où vivaient Winnie l'Ourson et sa bande, qui servaient de cadre à leurs aventures avec Christophe Robin ?;Le Bois des Cent Acres
+1954;Culture Générale;questions;texte;En quelle année le Titanic a-t-il coulé ?;1912
+1955;Culture Générale;questions;texte;Quel est le symbole chimique de l'oxygène ?;O
+1956;Culture Générale;questions;texte;Quelle est la plus grande île de la mer Méditerranée ? La réponse : La Sicile 97. Quel était le nom de jeune fille de la princesse Diana ?;Spencer
+1957;Culture Générale;questions;texte;Qui a composé la “Sonate au clair de lune” ?;Ludwig van Beethoven
+1958;Culture Générale;questions;texte;Quel plat composé de viande hachée, d'oignons et de flocons d'avoine est le plat national de l'Écosse ?;Le Haggis
+1959;Culture Générale;questions;texte;Quel est le premier long métrage de Spike Lee, adapté plus tard en série sur Netflix ?;Nola Darling n'en fait qu'à sa tête
+1960;Culture Générale;questions;texte;Dans Les Chroniques de Narnia, pourquoi Edmond finit-il par trahir sa famille et Aslan après avoir rencontré la sorcière blanche ?;Pour un loukoum - notre homme a vraiment trahi tous ses frères et sœurs et a amené l'hiver éternel sur Narnia en échange de l'équivalent turc des vers gélifiés.
+1961;Culture Générale;questions;texte;Comment s'appelle le processus par lequel les plantes libèrent de la vapeur d'eau dans l'air ?;La transpiration Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+1962;Culture Générale;questions;texte;Quelle célèbre chanteuse d'origine texane a été populairement appelée la “Reine du Tejano” pendant sa trop courte vie ?;Selena Quintanilla-Pérez
+1963;Culture Générale;questions;texte;Quel plat phare, lancé en 1957, a rendu célèbre la deuxième plus grande chaîne mondiale de restauration rapide spécialisée dans les hamburgers ?;Le Whopper
+1964;Culture Générale;questions;texte;Quel amendement à la Constitution américaine a aboli l'esclavage, ne serait-ce que de nom et non d'influence ?;Le 13e amendement
+1965;Culture Générale;questions;texte;Quelle est la couleur opposée au bleu sur le cercle chromatique ?;L'orange
+1966;Culture Générale;questions;texte;Quel est le nom du plat à base de chou fermenté qui est un élément essentiel de la cuisine coréenne ?;Le kimchi
+1967;Culture Générale;questions;texte;Quel est le nom du poète grec de l'Antiquité qui a inspiré l'invention du terme lesbianisme ?;Sappho
+1968;Culture Générale;questions;texte;Sous quel nom l'actrice née Norma Jeane Mortenson est-elle devenue célèbre ?;Marilyn Monroe
+1969;Culture Générale;questions;texte;Quel était le nom de famille des quatre sœurs dominicaines qui se sont rebellées contre la dictature de Rafael Trujillo et qui ont été assassinées pour leur activisme en 1960, comme le rappelle Julia Alvarez dans son livre Au temps des papillons ?;Mirabal
+1970;Culture Générale;questions;texte;Quelle célèbre franchise de livres et de films a débuté comme une fanfiction de Twilight, écrite sous le pseudonyme Snowqueen Icedragon ?;50 Nuances de Grey Questions et réponses aléatoires Si vous voyez les soirées de jeux télévisés comme une opportunité d’apprendre quelque chose de nouveau, ce récapitulatif de nos questions et réponses aléatoires préférées devrait vous plaire. Et si vous aimez animer les conversations avec des faits amusants, ces réponses pourraient bien devenir vos incontournables !
+1971;Culture Générale;questions;texte;Quels sont les animaux marins qui se tiennent la main dans leur sommeil pour éviter de s'éloigner les uns des autres ?;Les loutres de mer, et honnêtement, mon système ne peut pas gérer un tel niveau de mignonnerie.
+1972;Culture Générale;questions;texte;Quel type de fleur était autrefois utilisé comme monnaie ?;Les tulipes, dont les bulbes étaient autrefois utilisés comme monnaie d'échange en Hollande !
+1973;Culture Générale;questions;texte;Dans quel pays plus de la moitié des gens croient-ils aux elfes ?;l'Islande
+1974;Culture Générale;questions;texte;Pendant combien de temps les cigales vivent-elles sous terre avant d'émerger pour quelques semaines seulement ?;17 ans
+1975;Culture Générale;questions;texte;Où se trouvent les plus hautes montagnes russes du monde ?;Dans le New Jersey (à Six Flags Great Adventure - il s'agit des montagnes russes Kingda Ka, d'une hauteur de 456 pieds).
+1976;Culture Générale;questions;texte;Quel est l'animal national de l'Écosse ?;La licorne
+1977;Culture Générale;questions;texte;Quelle est la plus grande structure vivante sur Terre ?;La Grande Barrière de Corail, située au large de la côte du Queensland, en Australie. Le globe et la Jérusalem sont deux variétés de quoi ? Réponse : D’artichauts.
+1978;Culture Générale;questions;texte;Quelle est la planète la plus chaude du système solaire ?;Vénus
+1979;Culture Générale;questions;texte;Quel est l'os dont les bébés sont dépourvus à la naissance ? Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward;La rotule
+1980;Culture Générale;questions;texte;Quelle est la planète qui a le plus de gravité ?;Jupiter
+1981;Culture Générale;questions;texte;Quel est le plus petit pays du monde ?;La Cité du Vatican
+1982;Culture Générale;questions;texte;Combien de pyramides de Gizeh ont été construites ?;Trois
+1983;Culture Générale;questions;texte;Quel est le plat national de l'Espagne ?;La paella
+1984;Culture Générale;questions;texte;Où se trouve le plus haut bâtiment du monde ?;Dubaï, où le Burj Khalifa culmine à 2 717 pieds.
+1985;Culture Générale;questions;texte;Quel mammifère n'a pas de cordes vocales ?;La girafe
+1986;Culture Générale;questions;texte;Selon la mythologie grecque, qui a été la première femme sur terre ? La réponse : Pandore 18. Les fissures, les évents et les bouchons sont tous associés à quelle caractéristique géologique ?;Les volcans
+1987;Culture Générale;questions;texte;Quel est le pays qui consomme le plus de chocolat par habitant ?;La Suisse
+1988;Culture Générale;questions;texte;Quel est l'animal le plus bruyant de la planète ?;Le cachalot.
+1989;Culture Générale;questions;texte;Quel a été le premier jouet à faire l'objet d'une publicité à la télévision ?;M. Tête de Patate.
+1990;Culture Générale;questions;texte;Combien d'yeux a une abeille ?;Cinq.
+1991;Culture Générale;questions;texte;Quel oiseau peut voler à reculons ?;Le colibri.
+1992;Culture Générale;questions;texte;Quel est le seul continent qui n'a pas de volcan en activité ?;L'Australie.
+1993;Culture Générale;questions;texte;Quelle est la race de chien la plus grande au monde ?;Le dogue allemand.
+1994;Culture Générale;questions;texte;Quelle est la substance naturelle la plus dure au monde ?;Le diamant.
+1995;Culture Générale;questions;texte;Que disait le premier message envoyé par télégramme ?;"""What hath God wrought"", envoyé par Samuel Morse en 1844."
+1996;Culture Générale;questions;texte;"Quelle ville française est surnommée ""la Venise du Nord"" en raison de ses canaux ?";Amiens.
+1997;Culture Générale;questions;texte;Dans quel pays se trouve la route la plus longue ?;Les États-Unis, avec la route 20 couvrant 3 365 miles. Si l'on inclut les routes internationales, la route la plus longue est l'autoroute panaméricaine, avec 19 000 miles.
+1998;Culture Générale;questions;texte;Dans quel pays se trouve la plus ancienne université du monde ?;En Italie, l'Université de Bologne a été fondée en 1088.
+1999;Culture Générale;questions;texte;Quel pays possède le plus long littoral au monde ?;Le Canada, avec 125 570 miles de côtes.
+2000;Culture Générale;questions;texte;Où se trouve le bureau de poste le plus haut du monde ?;En Inde, le bureau de poste de Hikkim, Himachal Pradesh, situé à 14 567 pieds d'altitude.
+2001;Culture Générale;questions;texte;Quel est le seul mammifère capable de voler de manière soutenue ?;La chauve-souris.
+2002;Culture Générale;questions;texte;Quelle lettre n'apparaît dans aucun nom d'État américain ?;Q.
+2003;Culture Générale;questions;texte;Quel artiste musical a été gymnaste de compétition avant sa carrière musicale ?;SZA.
+2004;Culture Générale;questions;texte;Quel est le nom du poisson-globe comestible au Japon, potentiellement mortel s'il n'est pas préparé correctement ?;Fugu.
+2005;Culture Générale;questions;texte;Quel est le nom collectif d'une meute de chiens carlins ?;Un grognement. Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2006;Culture Générale;questions;texte;Quelle invention américaine de la fin du XIXe siècle visait à résoudre les crises de l'indigestion et de la masturbation ?;Les corn flakes.
+2007;Culture Générale;questions;texte;Quelle actrice est devenue virale pour avoir menti sur son amour des citrons verts ?;Dakota Johnson.
+2008;Culture Générale;questions;texte;"Quelle est la seule espèce animale officiellement classée comme ""biologiquement immortelle"" ?";"La méduse Turritopsis dohrnii, aussi appelée ""méduse immortelle""."
+2009;Culture Générale;questions;texte;Le visage de quel homme politique américain a été utilisé pour tester l'intelligence des corbeaux ?;Dick Cheney, dont des masques ont été utilisés dans une étude célèbre.
+2010;Culture Générale;questions;texte;Quelle est la guerre la plus courte de l'histoire ?;La guerre Anglo-Zanzibar, qui a duré 38 minutes en 1896.
+2011;Culture Générale;questions;texte;Quel est le seul aliment qui ne se détériore pas ?;Le miel.
+2012;Culture Générale;questions;texte;Quelle célèbre reine historique est aujourd'hui connue pour ses goûts en matière de mobilier ?;Catherine la Grande.
+2013;Culture Générale;questions;texte;Dans quel pays le requin fermenté, qui sent fortement l'ammoniaque, est-il considéré comme un mets national ?;L'Islande. Questions et réponses faciles Vous voulez organiser une soirée de jeux télévisés avec des questions accessibles, mais pas insurmontables ? On vous comprend ! La liste suivante propose des questions faciles, tout en conservant une dose de défi pour garder l’intérêt. Parfait pour un groupe dont les connaissances en jeux télévisés sont plutôt équilibrées !
+2014;Culture Générale;questions;texte;Quel pays est à la fois une île et un continent ?;L'Australie.
+2015;Culture Générale;questions;texte;Quel est le nom du plus long fleuve du monde ?;Le Nil.
+2016;Culture Générale;questions;texte;Combien y a-t-il de films du Seigneur des anneaux ?;Trois.
+2017;Culture Générale;questions;texte;Qui est le seul président américain à avoir effectué plus de deux mandats ?;Franklin D. Roosevelt.
+2018;Culture Générale;questions;texte;Quelle sœur Williams a remporté le plus de titres du Grand Chelem ?;Serena.
+2019;Culture Générale;questions;texte;Quel type de requin est responsable du plus grand nombre d'attaques sur des humains chaque année ?;Le grand requin blanc (bien que le nombre d'attaques soit faible, avec seulement sept en 2023).
+2020;Culture Générale;questions;texte;Au Royaume-Uni, quel est le nom du jour qui suit Noël ?;Le lendemain de Noël.
+2021;Culture Générale;questions;texte;"Quel artiste a peint ""La nuit étoilée"" ?";Vincent van Gogh.
+2022;Culture Générale;questions;texte;Quel est le plus grand océan de la planète ?;L'océan Pacifique.
+2023;Culture Générale;questions;texte;Quel gaz constitue la majeure partie de l'atmosphère terrestre ?;L'azote.
+2024;Culture Générale;questions;texte;"Quelle planète est connue sous le nom de ""planète rouge"" ?";Mars.
+2025;Culture Générale;questions;texte;Quel est l'hymne national des États-Unis ?;“The Star-Spangled Banner” (La bannière étoilée).
+2026;Culture Générale;questions;texte;Qui a été la première princesse Disney ?;Blanche-Neige (le film est sorti en 1937).
+2027;Culture Générale;questions;texte;Quel est l'État américain le plus grand en superficie ?;L'Alaska.
+2028;Culture Générale;questions;texte;Combien de bandes y a-t-il dans le logo d'Adidas ?;Trois.
+2029;Culture Générale;questions;texte;"Quelle merveille naturelle est appelée ""le poumon du monde"" ?";La forêt amazonienne.
+2030;Culture Générale;questions;texte;Quel pays a remporté la Coupe du monde féminine de la FIFA en 2019 ?;Les États-Unis. Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2031;Culture Générale;questions;texte;Quel joueur de baseball a brisé la barrière raciale de la Ligue majeure en 1947 ?;Jackie Robinson.
+2032;Culture Générale;questions;texte;Quelle chanson Tom Holland a-t-il interprétée dans Lip Sync Battle en 2017 ?;"""Umbrella"" de Rihanna."
+2033;Culture Générale;questions;texte;Dans quelle émission Ryan Gosling et Christina Aguilera ont-ils débuté ?;Le Mickey Mouse Club.
+2034;Culture Générale;questions;texte;Quelle civilisation a construit Machu Picchu ?;La civilisation Inca.
+2035;Culture Générale;questions;texte;Quel est le surnom en quatre mots donné à Harry Potter ?;Le garçon qui vivait.
+2036;Culture Générale;questions;texte;Comment appelle-t-on la peur des araignées ?;L'arachnophobie.
+2037;Culture Générale;questions;texte;Qui est le plus jeune lauréat du prix Nobel ?;Malala Yousafzai, à 17 ans.
+2038;Culture Générale;questions;texte;Quelle est la boisson la plus consommée au monde après l'eau ?;Le thé.
+2039;Culture Générale;questions;texte;Combien de Cheetah Girls y a-t-il dans la série de films ?;Quatre.
+2040;Culture Générale;questions;texte;Combien de juges siègent à la Cour suprême des États-Unis ?;Neuf.
+2041;Culture Générale;questions;texte;Quel empire était dirigé par Néron ?;L'Empire romain.
+2042;Culture Générale;questions;texte;Quel légume est également classé parmi les fleurs ?;Le brocoli.
+2043;Culture Générale;questions;texte;Comment s'appelle l'étude des fossiles ?;La paléontologie.
+2044;Culture Générale;questions;texte;Qui a peint le plafond de la chapelle Sixtine ?;Michel-Ange.
+2045;Culture Générale;questions;texte;"Quel est le nom du protagoniste de ""L'Attrape-cœurs"" ?";Holden Caulfield. Quel animal emblématique représente les céréales de la marque Kellogg's en France ?Réponse : Le tigre Tony
+2046;Culture Générale;questions;texte;Sur quelle échelle mesure-t-on les tremblements de terre ?;L'échelle de Richter.
+2047;Culture Générale;questions;texte;"Quels sont les noms de famille des clans dans ""Roméo et Juliette"" ?";Les Montaigu et les Capulet. Questions et réponses difficiles Vous avez exploré notre liste de questions faciles de culture générale, et il est temps de relever un nouveau défi. Pour surprendre vos amis et tester leurs connaissances, essayez ces questions plus complexes, qui touchent à des domaines variés comme la technologie, l’histoire ou la géographie. Mais un avertissement s’impose : ces questions ne sont pas appelées difficiles pour rien ! Combien de pays compte l'Union européenne ? Réponse : 27
+2048;Culture Générale;questions;texte;Quelle est la plus petite unité de mémoire des ordinateurs ?;Un bit, abréviation de binary digit (chiffre binaire).
+2049;Culture Générale;questions;texte;L'archipel des îles Hawaï est composé de combien d'îles principales ?;Huit îles principales (plus de nombreuses petites îles et îlots, pour un total de 137).
+2050;Culture Générale;questions;texte;Qui est considérée comme la première femme millionnaire autodidacte aux États-Unis ?;Madame C.J. Walker, une entrepreneuse noire ayant fondé une entreprise prospère de produits capillaires et de beauté au début des années 1900.
+2051;Culture Générale;questions;texte;Combien de couleurs comptait le premier drapeau de la Fierté, arboré lors de la parade du jour de la liberté gay de San Francisco en 1978 ?;Huit (les bandes roses et turquoises ont été supprimées plus tard pour des raisons de production). Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2052;Culture Générale;questions;texte;Quel est le pays dont la langue nationale possède l'alphabet le plus long ?;Le Cambodge, où le khmer compte 74 caractères.
+2053;Culture Générale;questions;texte;"Que signifie ""HTTP"" ?";HyperText Transfer Protocol (protocole de transfert d'hypetexte).
+2054;Culture Générale;questions;texte;Combien y a-t-il de touches sur un piano moderne de taille standard ?;88
+2055;Culture Générale;questions;texte;Quelle ville intercontinentale est divisée par le détroit du Bosphore, entre l'Europe et l'Asie ?;Istanbul, Turquie
+2056;Culture Générale;questions;texte;Quel pays compte le plus grand nombre de fuseaux horaires au monde ?;La France, en incluant ses territoires d'outre-mer et ses revendications territoriales.
+2057;Culture Générale;questions;texte;Jusqu'à quand le Code Hays, imposant une censure morale à Hollywood, a-t-il été en vigueur ?;Jusqu’en 1968 (adopté en 1930).
+2058;Culture Générale;questions;texte;Quel film détient le record du plus grand succès de tous les temps au box-office irlandais ?;Barbie
+2059;Culture Générale;questions;texte;De quel élément les êtres humains sont-ils principalement composés ?;Le carbone
+2060;Culture Générale;questions;texte;"Les Goo Goo Dolls ont écrit ""Iris"" pour quel film ?";City of Angels
+2061;Culture Générale;questions;texte;Citez trois films basés sur des attractions de Disney World (hors franchises). Réponses : Tower of Terror, Jungle Cruise, The Haunted Mansion. 16. Quel lauréat du prix Nobel de littérature a déclaré vouloir éliminer le regard blanc dominant dans ses œuvres ?;Toni Morrison
+2062;Culture Générale;questions;texte;Qui a inventé le World Wide Web ?;Tim Berners-Lee
+2063;Culture Générale;questions;texte;Comment appelle-t-on la peur de se retrouver sans téléphone portable ou de ne pas pouvoir l'utiliser ?;La nomophobie
+2064;Culture Générale;questions;texte;"Quel était le titre provisoire du film ""Everything Everywhere All At Once"" ?";A Woman Tries to Do Her Taxes (Une femme essaie de faire ses impôts).
+2065;Culture Générale;questions;texte;Qui est la plus jeune lauréate d'un Oscar ?;Tatum O'Neal, meilleure actrice dans un second rôle à 10 ans pour Paper Moon.
+2066;Culture Générale;questions;texte;Où se trouvait l'ancienne civilisation ayant inventé la bière il y a environ 5 000 ans ?;En Irak (Mésopotamie, civilisation sumérienne).
+2067;Culture Générale;questions;texte;Quel produit australien pour surfeurs est devenu un incontournable de la mode au début des années 2000 ?;Les Uggs
+2068;Culture Générale;questions;texte;Qui a inspiré le personnage de Dracula selon l’histoire ?;Vlad l'Empaleur
+2069;Culture Générale;questions;texte;Qui était la star hollywoodienne ayant gagné le plus d'argent en 2023 ?;Adam Sandler
+2070;Culture Générale;questions;texte;Quel auteur et star de la télévision a été agent secret avant de développer un répulsif à requins ?;Julia Child
+2071;Culture Générale;questions;texte;Quel parc national abrite des lucioles synchronisées dans l'hémisphère occidental ?;Le parc national des Great Smoky Mountains
+2072;Culture Générale;questions;texte;Quels textes d’horreur célèbres ont été écrits pendant des vacances pluvieuses ?;Frankenstein et The Vampyre
+2073;Culture Générale;questions;texte;Quelle est la plus grande fleur du monde ?;"Rafflesia arnoldii, appelée ""fleur de cadavre"" à cause de son odeur."
+2074;Culture Générale;questions;texte;Où le café a-t-il été inventé, selon la légende ?;En Éthiopie Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2075;Culture Générale;questions;texte;Quel mot est mal orthographié dans tous les dictionnaires anglais ?;Incorrectly
+2076;Culture Générale;questions;texte;Quel lien distant la poétesse Emily Dickinson partage-t-elle avec Taylor Swift ?;Cousines au sixième degré, trois fois éloignées.
+2077;Culture Générale;questions;texte;"Quel lauréat du prix Pulitzer a inventé le terme ""colorisme"" en 1982 ?";Alice Walker
+2078;Culture Générale;questions;texte;Quel navire a secouru les passagers du Titanic après le naufrage ?;Le Carpathia
+2079;Culture Générale;questions;texte;Qui a remporté un EGOT à titre posthume en 1994 ?;Audrey Hepburn
+2080;Culture Générale;questions;texte;Quelle est la partie la plus profonde connue de l’océan ?;La fosse des Mariannes (36 070 pieds). Questions et réponses sur la culture pop Amateurs de culture pop, ce quiz est fait pour vous ! Si des questions sur la musique et le cinéma sont déjà présentes tout au long de notre liste, les passionnés de cinéma ou les experts en histoire de la musique auront particulièrement leur chance. Nous avons réservé nos deux dernières sections pour des questions exclusivement sur la culture pop, couvrant plusieurs décennies d'histoire du cinéma et de la musique. De quoi ravir un public multigénérationnel lors d'une soirée quiz (idéal pour une soirée jeux en famille !). Prêts ? C'est parti... Questions sur la musique Amy Winehouse, Jimi Hendrix et Janis Joplin font partie de quel groupe malheureux ? Réponse : Le 27 Club
+2081;Culture Générale;questions;texte;Qui Britney Spears a-t-elle embrassé lors des VMAs 2003, à part Madonna ?;Christina Aguilera
+2082;Culture Générale;questions;texte;Quelle chanson a été la première vidéo musicale diffusée sur MTV ?;“Video Killed the Radio Star” des Buggles
+2083;Culture Générale;questions;texte;Avec quel album Beyoncé a-t-elle lancé sa carrière solo ?;“Dangerously In Love”
+2084;Culture Générale;questions;texte;Quel est le nom de scène de Stefani Joanne Angelina Germanotta ?;Lady Gaga
+2085;Culture Générale;questions;texte;"Qui a chanté la première version enregistrée de ""Strange Fruit"", une chanson contre le racisme et la violence envers les Noirs ?";Billie Holiday
+2086;Culture Générale;questions;texte;Quelle artiste a été la première femme intronisée au Rock & Roll Hall of Fame ?;Aretha Franklin
+2087;Culture Générale;questions;texte;"Quel artiste a joué 27 instruments différents sur son premier album, ""For You"" ?";Prince
+2088;Culture Générale;questions;texte;Où le groupe ABBA s'est-il formé ?;En Suède
+2089;Culture Générale;questions;texte;Quel single des Beatles est resté le plus longtemps numéro 1 du Billboard ?;“Hey Jude”
+2090;Culture Générale;questions;texte;Quel était le vrai prénom de Notorious BIG ?;Christopher
+2091;Culture Générale;questions;texte;Quel âge avait Taylor Swift lorsqu'elle a remporté son premier Grammy de l'album de l'année ?;20 ans
+2092;Culture Générale;questions;texte;Starchild, Demon, Spaceman et Catman sont les personnages de scène de quel groupe ?;KISS
+2093;Culture Générale;questions;texte;Combien de membres compte BTS ?;Sept
+2094;Culture Générale;questions;texte;Quel a été le premier numéro 1 des Beach Boys ?;"""I Get Around"""
+2095;Culture Générale;questions;texte;De quel instrument Lizzo joue-t-elle ?;La flûte
+2096;Culture Générale;questions;texte;Quel artiste a interprété tous les personnages de West Side Story lors d’une représentation télévisée en 1978 ?;Cher Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2097;Culture Générale;questions;texte;Quel est le groupe le plus ancien à avoir gardé sa formation d'origine ?;U2
+2098;Culture Générale;questions;texte;Quel est l’album le plus vendu de tous les temps aux États-Unis ?;“Their Greatest Hits (1971-1975)” des Eagles
+2099;Culture Générale;questions;texte;Comment Otis Redding est-il mort ?;Dans un accident d’avion
+2100;Culture Générale;questions;texte;"Quel artiste country a connu un succès en 1957 avec ""Walkin' After Midnight"" ?";Patsy Cline
+2101;Culture Générale;questions;texte;En 2017, quel single est arrivé en tête des ventes dans 47 pays simultanément ?;“Despacito”
+2102;Culture Générale;questions;texte;Qui a devancé Beyoncé en 2021 pour le titre d'artiste féminine ayant reçu le plus grand nombre de Grammys ?;Alison Krauss
+2103;Culture Générale;questions;texte;"Quel est le nom du quatrième album studio de Led Zeppelin, qui inclut ""Stairway to Heaven"" ?";Led Zeppelin IV
+2104;Culture Générale;questions;texte;Ariana Grande a commencé sa carrière à 15 ans dans quelle comédie musicale de Broadway ?;13
+2105;Culture Générale;questions;texte;Qui est la plus jeune personne à avoir remporté un Grammy pour l'album de l'année ?;Billie Eilish (à 18 ans)
+2106;Culture Générale;questions;texte;"Qui a sorti ""Uptown Funk"", qui a passé 14 semaines à la première place du Billboard en 2015 ?";Mark Ronson (feat. Bruno Mars)
+2107;Culture Générale;questions;texte;Quelle a été la première chanson écrite par Olivia Rodrigo à entrer dans le Billboard Hot 100 ?;"""All I Want"""
+2108;Culture Générale;questions;texte;Combien des 10 albums les plus vendus en 2023 étaient de Taylor Swift ?;Cinq
+2109;Culture Générale;questions;texte;Qui est la première femme noire à avoir écrit une chanson sur un tube country numéro 1 ?;"Tracy Chapman (via Luke Combs et ""Fast Car"")"
+2110;Culture Générale;questions;texte;Qui a remporté le Grammy 2024 du disque de l’année ?;"Miley Cyrus pour ""Flowers"""
+2111;Culture Générale;questions;texte;Combien d'albums solo Lauryn Hill a-t-elle produits ?;Un seul
+2112;Culture Générale;questions;texte;Quel groupe punk influent a été formé par Kathleen Hanna au début des années 1990 ?;Bikini Kill
+2113;Culture Générale;questions;texte;Qui sont les trois membres du supergroupe indie Boygenius ?;Julien Baker, Phoebe Bridgers, Lucy Dacus
+2114;Culture Générale;questions;texte;Quels sont les prénoms des cinq membres des Backstreet Boys ?;"Nick, AJ, Brian, Kevin, Howie Questions sur les films De quel film provient la chanson ""Journey to the Past"", nominée aux Oscars ? Réponse : Anastasia"
+2115;Culture Générale;questions;texte;Qui joue la fée marraine dans la version 1997 de Cendrillon avec Brandy ?;Whitney Houston
+2116;Culture Générale;questions;texte;Combien d'enfants compte la famille Von Trapp dans La Mélodie du bonheur ?;Sept
+2117;Culture Générale;questions;texte;Quel film a rapporté le plus d’argent de tous les temps ?;Avatar
+2118;Culture Générale;questions;texte;À quelle nuance spécifique Miranda Priestly, interprétée par Meryl Streep, consacre-t-elle un monologue dans Le diable s'habille en Prada ?;Céruléen
+2119;Culture Générale;questions;texte;Quel documentaire dépeint les salles de bal de New York pendant l’épidémie de sida, dans les années 1980 ?;Paris is Burning Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2120;Culture Générale;questions;texte;Quel a été le premier long-métrage d'animation jamais sorti ?;Blanche-Neige et les sept nains
+2121;Culture Générale;questions;texte;Quel est le nom du personnage joué par Jeff Goldblum dans Jurassic Park et moins bien joué par lui dans Le Monde perdu : Jurassic Park ?;Ian Malcolm
+2122;Culture Générale;questions;texte;"Quel est le nom de la danse emblématique qui commence par un ""jump to the left"" dans The Rocky Horror Picture Show ?";La distorsion temporelle
+2123;Culture Générale;questions;texte;Dans quelle ville fictive se déroule Les Dents de la mer ?;Amity Island
+2124;Culture Générale;questions;texte;De quel groupe musical Dreamgirls est-il censé s’inspirer ?;Les Supremes
+2125;Culture Générale;questions;texte;D'où vient Jack Dawson dans Titanic ?;Chippewa Falls, Wisconsin
+2126;Culture Générale;questions;texte;"Que signifie la classification des films ""R"" ?";Restreint
+2127;Culture Générale;questions;texte;Quel est le premier film pour lequel Alan Rickman a été crédité ?;Die Hard
+2128;Culture Générale;questions;texte;Quel film des années 90 a eu les mêmes costumiers que Romy & Michele's High School Reunion ?;Clueless
+2129;Culture Générale;questions;texte;Quelle est la seule princesse Disney inspirée par une personne réelle ?;Pocahontas
+2130;Culture Générale;questions;texte;Combien de soleils compte la planète Tatooine dans Star Wars ?;Deux
+2131;Culture Générale;questions;texte;Quel est le premier - et toujours le seul - film d'horreur à remporter l'Oscar du meilleur film ?;Le Silence des Agneaux
+2132;Culture Générale;questions;texte;Quel film non anglais a remporté l’Oscar du meilleur film en premier ?;Parasite
+2133;Culture Générale;questions;texte;Quel est le nom de l'hôtel dans Psycho ?;Le motel Bates
+2134;Culture Générale;questions;texte;Combien de fois Une étoile est née a-t-il été refait ?;Quatre fois
+2135;Culture Générale;questions;texte;Pourquoi Ally Sheedy est-elle en détention dans The Breakfast Club ?;"Parce qu’elle ""n’avait rien de mieux à faire"""
+2136;Culture Générale;questions;texte;Qui a été la première actrice noire à remporter un Oscar ?;Hattie McDaniel pour Autant en emporte le vent en 1940
+2137;Culture Générale;questions;texte;Quels films partagent le titre de lauréat du plus grand nombre d'Oscars ?;Le Seigneur des anneaux : Le retour du roi, Ben-Hur, Titanic
+2138;Culture Générale;questions;texte;Quel est le nom du personnage joué par Tom Cruise dans la série Mission Impossible ?;Ethan Hunt
+2139;Culture Générale;questions;texte;"Quelle actrice emblématique a dit : ""Quand je suis bonne, je suis très bonne, mais quand je suis mauvaise, je suis meilleure"" ?";Mae West
+2140;Culture Générale;questions;texte;Quel groupe des années 2000 joue un rôle central dans New York Minute avec Mary Kate et Ashley ?;Simple Plan
+2141;Culture Générale;questions;texte;Quelle chanson Barry Keoghan danse-t-il à la fin de Saltburn ?;"""Murder on the Dancefloor"" de Sophie Ellis-Bextor"
+2142;Culture Générale;questions;texte;Quel est le nom de la nation africaine fictive dans Black Panther ?;Wakanda Les Plus Lus Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Mode Les 17 tendances mode homme pour l'automne-hiver 2025-2026 Par Adrien Communier Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Shopping Les 6 meilleurs Airbnb à Madère, l'archipel portugais au large de l'Atlantique surnommé le “Hawaii d'Europe” Par Léa Levy Cette routine d'étirements est la seule bonne façon de commencer la journée Bien-être Cette routine d'étirements est la seule bonne façon de commencer la journée Par Tom Ward
+2143;Culture Générale;questions;texte;Quel film de 2011 met en scène Ryan Gosling et Emma Stone en tant qu’amoureux ?;Crazy, Stupid, Love
+2144;Culture Générale;questions;texte;Quel est le nom du personnage joué par Michael Cera dans Barbie 2023 ?;Allan
+2145;Culture Générale;questions;texte;Dans The Hunger Games, où se déroule l'histoire ?;Panem
+2146;Culture Générale;questions;texte;Quel a été le prochain grand film hollywoodien majoritairement asiatique après Le Club de la chance (1993) ?;Crazy Rich Asians en 2018
+2147;Culture Générale;questions;texte;Quel film de comédie pour adolescents de 2019 a été réalisé par Olivia Wilde ?;Booksmart
+2148;Culture Générale;questions;texte;Où Lizzie McGuire part-elle pour son voyage de fin d'études dans le film Lizzie McGuire ?;Rome
+2149;Culture Générale;questions;texte;Quel est le nom du camp de rock dans Camp Rock ?;Camp Rock
+2150;Culture Générale;questions;texte;Quel est le nom de famille des trois sœurs sorcières dans Hocus Pocus ?;Sanderson
+2151;Culture Générale;questions;texte;Sur quelle chanson Diane Keaton, Goldie Hawn et Bette Midler dansent-elles dans The First Wives Club ?;"""You Don't Own Me"" de Lesley Gore"
+2152;Culture Générale;questions;texte;Que fait le père d'Alan Parrish dans Jumanji ?;Il est propriétaire d'une fabrique de chaussures
+2153;Culture Générale;questions;texte;Quel est le nom de la meilleure amie d'Andie dans Pretty in Pink ?;Duckie
+2154;Culture Générale;questions;texte;En quoi Cady se déguise-t-elle pour la fête d'Halloween dans Mean Girls ?;"""Frankenstein's bride"" ou ""zombie bride"""
+2155;Culture Générale;questions;texte;De quelle pièce de Shakespeare 10 Things I Hate About You est-il inspiré ?;La Mégère apprivoisée
+2156;Culture Générale;questions;texte;Quel est le nom de la gentille enseignante de Matilda ?;Miss Honey
+2157;Culture Générale;questions;texte;Qui gagne le match de basket à la fin de Love & Basketball ?;Monica
+2158;Culture Générale;questions;texte;Quel est le nom du pays magique dans Twitches ?;Coventry
+2159;Culture Générale;questions;texte;Quel a été le premier film de Mary-Kate et Ashley ?;To Grandma's House We Go (1992)
+2160;Culture Générale;questions;texte;Quel personnage Sarah Michelle Gellar joue-t-elle dans Buffy contre les vampires de 1992 ?;Personne, le film précède la série télévisée
+2161;Culture Générale;questions;texte;Quel type de sang couvre Carrie après le bal dans Carrie ?;Du sang de porc
+2162;Culture Générale;questions;texte;Combien de lettres Lara Jean écrit-elle dans À tous les garçons que j'ai aimés ?;Cinq
+2163;Culture Générale;questions;texte;Quelle est la règle numéro 1 pour survivre à l'apocalypse zombie dans Zombieland ?;Le cardio
