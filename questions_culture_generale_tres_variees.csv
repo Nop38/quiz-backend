@@ -2162,3 +2162,44 @@ id;theme;soustheme;type;question;reponse
 2161;Culture Générale;questions;texte;Quel type de sang couvre Carrie après le bal dans Carrie ?;Du sang de porc
 2162;Culture Générale;questions;texte;Combien de lettres Lara Jean écrit-elle dans À tous les garçons que j'ai aimés ?;Cinq
 2163;Culture Générale;questions;texte;Quelle est la règle numéro 1 pour survivre à l'apocalypse zombie dans Zombieland ?;Le cardio
+2164;Informatique;Connaissances générales;texte;Comment appelle-t-on en informatique un programme qui se caractérise par son aspect destructeur à l'insu de l'utilisateur ?;un virus
+2165;Informatique;Connaissances générales;texte;Qu'est-ce qu'un graticiel ou 'freeware' ?;un logiciel gratuit
+2166;Informatique;Connaissances générales;texte;Face aux dangers que l'informatique peut faire peser sur les libertés, quel est le nom de l'autorité administrative indépendante française chargée de protéger la vie privée et les libertés individuelles ou publiques ?;CNIL
+2167;Informatique;Connaissances générales;texte;Qu'est ce qu'un anti-virus?;un logiciel qui protège l'ordinateur contre l'intrusion de virus
+2168;Informatique;Connaissances générales;texte;Pour un système informatique, l'authentification d'un utilisateur est la procédure qui consiste à :;vérifier l'identité de l'utilisateur avant de lui donner accès à des ressources (systèmes, réseaux, applications...)
+2169;Informatique;Connaissances générales;texte;Qu’appelle-t-on fracture numérique ?;Les disparités entre individus, foyers, entreprises et aires géographiques en termes d’accès aux TIC
+2170;Informatique;Connaissances générales;texte;Parmi ces affirmations sur les anti-virus, UNE SEULE EST FAUSSE, laquelle ?;Un antivirus peut détecter et ne pas réparer un fichier infecté
+2171;Informatique;Connaissances générales;texte;Quelle est la définition d'un méta-moteur de recherche sur le Web ?;Un outil qui permet une recherche à partir d'une liste de moteurs de recherche.
+2172;Informatique;Connaissances générales;texte;Dans un forum, qu'appelle-t-on "fil de discussion" ?;Le sujet principal d'une discussion
+2173;Informatique;Connaissances générales;texte;Un site Web de vente par correspondance utilise une base de données dans laquelle plusieurs types de données sont stockés. Pour quels types de données les responsables du site doivent-ils faire une délaration à la CNIL ?;les adresses des clients
+2174;Informatique;Connaissances générales;texte;Qu'est-ce qui peut récupérer un mot de passe à l'insu de son propriétaire ?;un logiciel espion
+2175;Informatique;Connaissances générales;texte;Un partagiciel (shareware) est :;un logiciel pour lequel l'utilisateur doit verser à l'auteur une contribution s'il décide de le garder
+2176;Informatique;Connaissances générales;texte;L'utilisation du mot de passe et de l'identifiant personnel d'un autre usager à son insu est :;constitutif d'une infraction pénale
+2177;Informatique;Connaissances générales;texte;Quel type de technologie est la technologie bluetooth ?;radio courte distance
+2178;Informatique;Connaissances générales;texte;Qu'est-ce que le Wifi ?;un réseau sans fil
+2179;Informatique;Connaissances générales;texte;Parmi les affirmations suivantes, quelles sont celles qui sont justes ?;Un logiciel de compression permet de rassembler plusieurs fichiers en un seul
+2180;Informatique;Connaissances générales;texte;Que signifie l'expression "Netiquette" ?;charte de bon comportement pour l'Internet
+2181;Informatique;Connaissances générales;texte;La copie de CD-ROM et DVD est interdite car c'est:;une contrefaçon d’une oeuvre de l’esprit
+2182;Informatique;Connaissances générales;texte;Un port USB ne permet pas de connecter à son ordinateur:;un écran
+2183;Informatique;Connaissances générales;texte;Quel élément n'est pas un périphérique:;unité centrale
+2184;Informatique;Connaissances générales;texte;Trouvez l'intrus:;Word
+2185;Informatique;Connaissances générales;texte;Qu'est-ce que Windows XP:;un système d'exploitation
+2186;Informatique;Connaissances générales;texte;La netiquette, est:;le comportement souhaité d'un Internaute sur Internet
+2187;Informatique;Connaissances générales;texte;Linux est:;un système d'exploitation
+2188;Informatique;Connaissances générales;texte;Un hoax:;est un canular véhiculé sur le réseau Internet
+2189;Informatique;Connaissances générales;texte;La Loi "Informatique et libertés" permet de protéger:;les données relatives aux personnes
+2190;Informatique;Connaissances générales;texte;La mise à jour du système antivirus s'effectue par:;la mise à jour des signatures virales
+2191;Informatique;Connaissances générales;texte;Un antivirus est:;efficace s'il est maintenu à jour
+2192;Informatique;Connaissances générales;texte;La vitesse d'un processeur se mesure en :;hertz
+2193;Informatique;Connaissances générales;texte;Je viens d'acheter un logiciel. Je peux:;en faire une copie de sécurité
+2194;Informatique;Connaissances générales;texte;CNIL est:;un organisme de contrôle
+2195;Informatique;Connaissances générales;texte;Pour faire un exposé, j'ai trouvé un document sur Internet:;je donne l'URL à ceux qui me le demandent
+2196;Informatique;Connaissances générales;texte;La liste des questions les plus souvent posées dans un groupe de discussion s'appelle:;FAQ
+2197;Informatique;Connaissances générales;texte;Un shareware est:;un logiciel que l'on paye après l'avoir essayé
+2198;Informatique;Connaissances générales;texte;Quel élément n'est pas une atteinte à la personnalité:;contrefaçon
+2199;Informatique;Connaissances générales;texte;Un contrat de licence permet uniquement:;d'utiliser un logiciel
+2200;Informatique;Connaissances générales;texte;Wifi est:;une technologie de réseau sans fil
+2201;Informatique;Connaissances générales;texte;Quel est le point commun entre MS Office et OpenOffice ?;ce sont deux suites bureautiques
+2202;Informatique;Connaissances générales;texte;Dans la loi "Informatique et libertés", quel concept relatif à la CNIL n'existe pas:;droit de vente à un tiers
+2203;Informatique;Connaissances générales;texte;Qu'est-ce qui ne protège pas un PC ?;installer un logiciel de compression
+2204;Informatique;Connaissances générales;texte;Un freeware est:;un logiciel gratuit
