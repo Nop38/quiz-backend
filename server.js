@@ -1,4 +1,3 @@
-// 🟠 Imports
 const fs = require("fs");
 const path = require("path");
 const { parse } = require("csv-parse/sync");
@@ -8,7 +7,6 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const { Server } = require("socket.io");
 
-// 🟠 Setup express + socket
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
@@ -21,14 +19,15 @@ const io = new Server(server, {
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "quiz123@38118";
 const SESSION_COOKIE = "quiz_session";
 
-// 🟠 Middleware
+// Middleware
 app.use(cors({
   origin: "https://quiz-frontend-alpha-amber.vercel.app",
-  credentials: true,
+  credentials: true
 }));
 app.use(express.json());
 app.use(cookieParser());
 
+// Middleware de protection (tout sauf /login et static)
 app.use((req, res, next) => {
   if (req.path === "/login" || req.path === "/check" || req.path === "/favicon.ico") return next();
   const token = req.cookies?.[SESSION_COOKIE];
@@ -38,14 +37,14 @@ app.use((req, res, next) => {
   next();
 });
 
-// 🟠 Auth routes
+// Route de login
 app.post("/login", (req, res) => {
   const { password } = req.body;
   if (password === ADMIN_PASSWORD) {
     res.cookie(SESSION_COOKIE, ADMIN_PASSWORD, {
       httpOnly: true,
       sameSite: "Lax",
-      secure: true,
+      secure: true, // ⚠️ obligatoire en production avec HTTPS
     });
     return res.json({ success: true });
   } else {
@@ -53,6 +52,7 @@ app.post("/login", (req, res) => {
   }
 });
 
+// Vérifie si l'utilisateur est connecté
 app.get("/check", (req, res) => {
   const token = req.cookies?.[SESSION_COOKIE];
   if (token === ADMIN_PASSWORD) {
@@ -62,8 +62,14 @@ app.get("/check", (req, res) => {
   }
 });
 
-// 🟠 Chargement CSV (comme avant, inchangé)
-let QUESTION_BANK = [], SCENES = [], ACTORS = [], STARS = [];
+/* =======================
+   Chargement des CSV
+   ======================= */
+
+let QUESTION_BANK = [];
+let SCENES = [];
+let ACTORS = [];
+let STARS = [];
 
 function safeParseCSV(filePath, opts) {
   try {
@@ -75,42 +81,116 @@ function safeParseCSV(filePath, opts) {
   }
 }
 
-function loadCSVData() {
-  const basePath = __dirname;
+function loadCultureCSV() {
+  const p = path.join(__dirname, "questions_culture_generale_tres_variees.csv");
+  if (!fs.existsSync(p)) return;
 
-  const config = [
-    { file: "questions_culture_generale_tres_variees.csv", target: QUESTION_BANK, delimiter: ";", mapper: (r) => ({ text: r.question?.trim(), answer: r.reponse?.trim(), image: r.image?.trim() || null }) },
-    { file: "tmdb_scenes.csv", target: SCENES, delimiter: ",", mapper: (r) => ({ title: r.title?.trim(), url: r.url?.trim() }) },
-    { file: "actors_500.csv", target: ACTORS, delimiter: ",", mapper: (r) => ({ name: r.name?.trim(), url: r.photo_url?.trim() }) },
-    { file: "stars.csv", target: STARS, delimiter: ",", mapper: (r) => ({ name: r.name?.trim(), url: r.photo_url?.trim() }) },
-  ];
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ";",
+    trim: true,
+  });
 
-  for (const { file, target, delimiter, mapper } of config) {
-    const p = path.join(basePath, file);
-    if (!fs.existsSync(p)) continue;
+  const seen = new Set();
 
-    const rows = safeParseCSV(p, {
-      columns: true,
-      skip_empty_lines: true,
-      delimiter,
-      trim: true,
+  QUESTION_BANK = rows
+    .map((r) => {
+      const text = (r.question || r.text || "").trim();
+      const answer = (r.reponse || r.answer || "").trim();
+      const image = (r.image || "").trim() || null;
+      return { text, answer, image };
+    })
+    .filter((q) => q.text && q.answer)
+    .filter((q) => {
+      const k = `${q.text}__${q.answer}`;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
     });
-
-    const cleaned = rows.map(mapper).filter((o) => Object.values(o).every(Boolean));
-    target.splice(0, target.length, ...cleaned);
-  }
 }
 
-loadCSVData();
+function loadScenesCSV() {
+  const p = path.join(__dirname, "tmdb_scenes.csv");
+  if (!fs.existsSync(p)) return;
 
-// 🟠 Quiz generation
-const NB_Q = 20, MIN_SCENES = 3, MIN_ACTORS = 2, MIN_STARS = 2;
-const SCENE_RATIO = 0.25, ACTOR_RATIO = 0.15, STAR_RATIO = 0.15;
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  SCENES = rows
+    .map((r) => ({
+      title: (r.title || r.film || r.movie || "").trim(),
+      url: (r.url || r.image || r.img || "").trim(),
+    }))
+    .filter((s) => s.title && s.url);
+}
+
+function loadActorsCSV() {
+  const p = path.join(__dirname, "actors_500.csv");
+  if (!fs.existsSync(p)) return;
+
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  ACTORS = rows
+    .map((r) => ({
+      name: (r.name || "").trim(),
+      url: (r.photo_url || r.url || "").trim(),
+    }))
+    .filter((a) => a.name && a.url);
+}
+
+function loadStarsCSV() {
+  const p = path.join(__dirname, "stars.csv");
+  if (!fs.existsSync(p)) return;
+
+  const rows = safeParseCSV(p, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: ",",
+    trim: true,
+  });
+
+  STARS = rows
+    .map((r) => ({
+      name: (r.name || "").trim(),
+      url: (r.photo_url || r.url || "").trim(),
+    }))
+    .filter((s) => s.name && s.url);
+}
+
+loadCultureCSV();
+loadScenesCSV();
+loadActorsCSV();
+loadStarsCSV();
+
+/* =======================
+   Paramètres quiz 
+   ======================= */
+const NB_Q = 20;
+const SCENE_RATIO = 0.25;
+const ACTOR_RATIO = 0.15;
+const STAR_RATIO = 0.15;
+
+const MIN_SCENES = 3;
+const MIN_ACTORS = 2;
+const MIN_STARS = 2;
+
 const shuffle = (a) => a.sort(() => Math.random() - 0.5);
 
 function buildQuestions() {
+  if (!QUESTION_BANK.length && !SCENES.length && !ACTORS.length && !STARS.length) return [];
+
   let nbScenes = Math.max(Math.round(NB_Q * SCENE_RATIO), MIN_SCENES);
-  nbScenes = Math.min(nbScenes, SCENES.length);
+  nbScenes = Math.min(nbScenes, SCENES.length, NB_Q);
 
   let nbActors = Math.max(Math.round(NB_Q * ACTOR_RATIO), MIN_ACTORS);
   nbActors = Math.min(nbActors, ACTORS.length, NB_Q - nbScenes);
@@ -122,25 +202,70 @@ function buildQuestions() {
 
   const capitales = QUESTION_BANK.filter(q => /capitale/i.test(q.text));
   const autres = QUESTION_BANK.filter(q => !/capitale/i.test(q.text));
-  const culture = shuffle([...capitales.slice(0, 2), ...autres.slice(0, nbCulture - 2)]);
+  const selectedCapitales = shuffle(capitales).slice(0, 2);
+  const selectedAutres = shuffle(autres).slice(0, nbCulture - selectedCapitales.length);
+  const culture = shuffle([...selectedCapitales, ...selectedAutres]);
 
-  const scenes = shuffle(SCENES).slice(0, nbScenes).map((s) => ({ text: "De quel film cette scène provient ?", answer: s.title, image: s.url }));
-  const actors = shuffle(ACTORS).slice(0, nbActors).map((a) => ({ text: "Qui est cette personnalité ?", answer: a.name, image: a.url }));
-  const stars = shuffle(STARS).slice(0, nbStars).map((s) => ({ text: "Qui est ce sportif ?", answer: s.name, image: s.url }));
+  const scenes = shuffle([...SCENES])
+    .slice(0, nbScenes)
+    .map((s) => ({
+      text: "De quel film cette scène provient ?",
+      answer: s.title,
+      image: s.url,
+    }));
 
-  return shuffle([...culture, ...scenes, ...actors, ...stars]).slice(0, NB_Q);
+  const actors = shuffle([...ACTORS])
+    .slice(0, nbActors)
+    .map((a) => ({
+      text: "Qui est cette personnalité ?",
+      answer: a.name,
+      image: a.url,
+    }));
+
+  const stars = shuffle([...STARS])
+    .slice(0, nbStars)
+    .map((s) => ({
+      text: "Qui est ce sportif ?",
+      answer: s.name,
+      image: s.url,
+    }));
+
+  const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
+  const seen = new Set();
+  const out = [];
+
+  for (const q of combined) {
+    const k = `${q.text}__${q.answer}`;
+    if (!seen.has(k)) {
+      seen.add(k);
+      out.push(q);
+      if (out.length === NB_Q) break;
+    }
+  }
+
+  return out;
 }
 
-// 🟠 Lobbies & utils
+/* =======================
+   Utils / Lobby state
+   ======================= */
+const answered = (a) => a != null && String(a).trim() !== "";
+const everyoneFinished = (players) =>
+  Object.values(players).every((pl) => pl.answers.every(answered));
+
 const lobbies = {};
 const gid = () => Math.random().toString(36).slice(2, 8).toUpperCase();
 const pid = () => Math.random().toString(36).slice(2, 12);
-const arrP = (l) => Object.values(l.players).map((p) => ({ ...p }));
-const answered = (a) => a != null && String(a).trim() !== "";
 
-function everyoneAnsweredQuestion(lobby, qIdx) {
-  return Object.values(lobby.players).every((p) => answered(p.answers[qIdx]));
-}
+const arrP = (l) =>
+  Object.values(l.players).map(({ id, name, score, answers, token, avatar }) => ({
+    id,
+    name,
+    score,
+    answers,
+    token,
+    avatar,
+  }));
 
 function emitState(lobbyId) {
   const l = lobbies[lobbyId];
@@ -161,16 +286,28 @@ function broadcastPhase(lobbyId, phase) {
   io.to(lobbyId).emit("phaseChange", { phase });
 }
 
-// 🟠 Socket.IO
+function initValidations(l) {
+  l.validations = {};
+  Object.keys(l.players).forEach((t) => {
+    l.validations[t] = Array(l.questions.length).fill(null);
+  });
+}
+
+/* =======================
+   Socket.IO
+   ======================= */
 io.on("connection", (sock) => {
   sock.on("createLobby", ({ name, avatar }) => {
     const questions = buildQuestions();
+    if (!questions.length) return sock.emit("errorMsg", "Aucune question dispo.");
+
     const lobbyId = gid();
     const token = pid();
 
     lobbies[lobbyId] = {
       id: lobbyId,
       creatorToken: token,
+      creatorId: sock.id,
       phase: "lobby",
       currentQ: 0,
       questions,
@@ -179,56 +316,121 @@ io.on("connection", (sock) => {
           id: sock.id,
           token,
           name,
-          avatar,
+          avatar: avatar || null,
           score: 0,
           answers: Array(questions.length).fill(null),
         },
       },
       validations: {},
-      timer: null,
     };
 
     sock.join(lobbyId);
-    sock.emit("lobbyCreated", { lobbyId, token, questions, isCreator: true });
+    sock.emit("lobbyCreated", {
+      lobbyId,
+      token,
+      questions,
+      isCreator: true,
+      avatar: avatar || null,
+    });
+    io.to(lobbyId).emit("playersUpdate", arrP(lobbies[lobbyId]));
     emitState(lobbyId);
   });
 
   sock.on("joinLobby", ({ lobbyId, name, avatar }) => {
     const l = lobbies[lobbyId];
-    const token = pid();
+    if (!l) return sock.emit("errorMsg", "Lobby introuvable.");
 
+    const token = pid();
     l.players[token] = {
       id: sock.id,
       token,
       name,
-      avatar,
+      avatar: avatar || null,
       score: 0,
       answers: Array(l.questions.length).fill(null),
     };
 
     sock.join(lobbyId);
-    sock.emit("lobbyJoined", { lobbyId, token, questions: l.questions, isCreator: false });
+    sock.emit("lobbyJoined", {
+      lobbyId,
+      token,
+      questions: l.questions,
+      isCreator: false,
+      avatar: avatar || null,
+    });
+    io.to(lobbyId).emit("playersUpdate", arrP(l));
     emitState(lobbyId);
   });
+
+  sock.on("rejoinLobby", ({ lobbyId, token }) => {
+    const l = lobbies[lobbyId];
+    const p = l?.players[token];
+    if (!l || !p) return sock.emit("errorMsg", "Session expirée. Relance une partie.");
+
+    p.id = sock.id;
+    sock.join(lobbyId);
+    sock.emit("rejoinSuccess", {
+      phase: l.phase,
+      lobbyId,
+      token,
+      isCreator: token === l.creatorToken,
+      currentQ: l.currentQ,
+      questions: l.questions,
+      players: arrP(l),
+      validations: l.validations,
+    });
+    io.to(lobbyId).emit("playersUpdate", arrP(l));
+    emitState(lobbyId);
+  });
+
+  sock.on("requestState", ({ lobbyId }) => emitState(lobbyId));
 
   sock.on("startQuiz", ({ lobbyId, token }) => {
     const l = lobbies[lobbyId];
-    if (l.creatorToken !== token) return;
+    if (!l || l.creatorToken !== token) return;
     broadcastPhase(lobbyId, "quiz");
-    startQuestionTimer(l);
+    io.to(lobbyId).emit("quizStarted");
     emitState(lobbyId);
   });
 
-  sock.on("submitAnswer", ({ lobbyId, token, questionIndex, answer }) => {
+  
+  sock.on("submitAnswer", ({ lobbyId, token, questionIndex, answer, timedOut }) => {
     const l = lobbies[lobbyId];
-    const p = l.players[token];
+    const p = l?.players[token];
+    if (!p || l.phase !== "quiz") return;
+
     p.answers[questionIndex] = answer;
 
-    io.to(p.id).emit("answerAck", { questionIndex });
+    io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
+    io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-    if (everyoneAnsweredQuestion(l, l.currentQ)) {
-      clearTimeout(l.timer);
-      proceedToNextOrValidation(l);
+    // Vérifie si tous les joueurs ont répondu à la question actuelle
+    const allAnsweredThisQuestion = Object.values(l.players).every(
+      (pl) => pl.answers[questionIndex] != null && String(pl.answers[questionIndex]).trim() !== ""
+    );
+
+    if (allAnsweredThisQuestion) {
+      // Si ce n’est pas la dernière question, on passe à la suivante
+      if (questionIndex < l.questions.length - 1) {
+        l.currentQ++;
+        io.to(lobbyId).emit("nextQuestion", { questionIndex: l.currentQ });
+        emitState(lobbyId);
+      } else {
+        // Si dernière question → phase de validation
+        l.currentQ = 0;
+        initValidations(l);
+
+        const payload = {
+          phase: "validation",
+          questionIndex: 0,
+          players: arrP(l),
+          questions: l.questions,
+          validations: l.validations,
+        };
+        io.to(lobbyId).emit("startValidation", payload);
+        broadcastPhase(lobbyId, "validation");
+        emitState(lobbyId);
+      }
     } else {
       emitState(lobbyId);
     }
@@ -236,50 +438,55 @@ io.on("connection", (sock) => {
 
   sock.on("validateAnswer", ({ lobbyId, token, playerToken, questionIndex, isCorrect }) => {
     const l = lobbies[lobbyId];
-    if (l.creatorToken !== token) return;
+    if (!l || l.creatorToken !== token || l.phase !== "validation") return;
 
     l.validations[playerToken][questionIndex] = isCorrect;
     if (isCorrect) l.players[playerToken].score++;
 
+    io.to(lobbyId).emit("validationUpdated", {
+      playerId: playerToken,
+      questionIndex,
+      isCorrect,
+      score: l.players[playerToken].score,
+    });
+
     const finishedQ = Object.values(l.validations).every((arr) => arr[questionIndex] !== null);
     if (finishedQ) {
-      if (l.currentQ < l.questions.length - 1) {
-        l.currentQ++;
-        emitState(lobbyId);
-      } else {
-        broadcastPhase(lobbyId, "result");
-        io.to(lobbyId).emit("validationEnded", { classement: arrP(l).sort((a, b) => b.score - a.score) });
-      }
+      setTimeout(() => {
+        if (l.currentQ < l.questions.length - 1) {
+          l.currentQ++;
+          const payload = {
+            phase: "validation",
+            questionIndex: l.currentQ,
+            players: arrP(l),
+            questions: l.questions,
+            validations: l.validations,
+          };
+          io.to(lobbyId).emit("startValidation", payload);
+          emitState(lobbyId);
+        } else {
+          broadcastPhase(lobbyId, "result");
+          const classement = arrP(l).sort((a, b) => b.score - a.score);
+          io.to(lobbyId).emit("validationEnded", { classement });
+          emitState(lobbyId);
+        }
+      }, 300);
     } else {
       emitState(lobbyId);
     }
   });
+
+  sock.on("leaveLobby", ({ lobbyId, token }) => {
+    const l = lobbies[lobbyId];
+    if (!l) return;
+    delete l.players[token];
+    io.to(lobbyId).emit("playersUpdate", arrP(l));
+
+    if (!Object.keys(l.players).length) {
+      delete lobbies[lobbyId];
+    }
+  });
 });
 
-// ⏱ Gestion du timer
-function startQuestionTimer(lobby) {
-  if (lobby.timer) clearTimeout(lobby.timer);
-
-  lobby.timer = setTimeout(() => {
-    proceedToNextOrValidation(lobby);
-  }, 20000);
-}
-
-function proceedToNextOrValidation(lobby) {
-  if (lobby.currentQ < lobby.questions.length - 1) {
-    lobby.currentQ++;
-    startQuestionTimer(lobby);
-    emitState(lobby.id);
-  } else {
-    broadcastPhase(lobby.id, "validation");
-    lobby.validations = {};
-    Object.keys(lobby.players).forEach((t) => {
-      lobby.validations[t] = Array(lobby.questions.length).fill(null);
-    });
-    emitState(lobby.id);
-  }
-}
-
-server.listen(process.env.PORT || 4000, "0.0.0.0", () => {
-  console.log("Quiz server ready");
-});
+const PORT = process.env.PORT || 4000;
+server.listen(PORT, "0.0.0.0", () => console.log(`WS :${PORT} — Quiz OK`));
