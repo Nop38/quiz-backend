@@ -296,6 +296,11 @@ function initValidations(l) {
 /* =======================
    Socket.IO
    ======================= */
+// [...] (toutes les parties non modifiées précédemment comme imports, CSV, utilitaires, etc.)
+
+/* =======================
+   Socket.IO
+   ======================= */
 io.on("connection", (sock) => {
   sock.on("createLobby", ({ name, avatar }) => {
     const questions = buildQuestions();
@@ -403,17 +408,20 @@ io.on("connection", (sock) => {
     io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
     io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-    if (everyoneFinished(l.players)) {
-      l.currentQ = 0;
+    const allAnsweredCurrent = Object.values(l.players).every((pl) => answered(pl.answers[questionIndex]));
+    if (allAnsweredCurrent) {
+      // Passage automatique en phase de validation quand tout le monde a répondu
+      l.currentQ = questionIndex; // Assure que la validation concerne la bonne question
       initValidations(l);
 
       const payload = {
         phase: "validation",
-        questionIndex: 0,
+        questionIndex: l.currentQ,
         players: arrP(l),
         questions: l.questions,
         validations: l.validations,
       };
+
       io.to(lobbyId).emit("startValidation", payload);
       broadcastPhase(lobbyId, "validation");
       emitState(lobbyId);
@@ -456,7 +464,7 @@ io.on("connection", (sock) => {
           io.to(lobbyId).emit("validationEnded", { classement });
           emitState(lobbyId);
         }
-      }, 300);
+      }, 500); // Laisse le temps à l’animation (0.5s)
     } else {
       emitState(lobbyId);
     }
@@ -473,6 +481,7 @@ io.on("connection", (sock) => {
     }
   });
 });
+
 
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, "0.0.0.0", () => console.log(`WS :${PORT} — Quiz OK`));
