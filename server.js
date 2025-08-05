@@ -44,6 +44,16 @@ app.post("/login", (req, res) => {
     return res.status(401).json({ success: false, error: "Mot de passe incorrect" });
   }
 });
+// Vérifie si l'utilisateur est connecté (cookie valide)
+app.get("/check", (req, res) => {
+  const token = req.cookies?.quiz_session;
+  if (token === ADMIN_PASSWORD) {
+    return res.sendStatus(200);
+  } else {
+    return res.sendStatus(401);
+  }
+});
+
 
 /* =======================
    Chargement des CSV
