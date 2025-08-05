@@ -177,20 +177,35 @@ function buildQuestions() {
       image: s.url,
     }));
 
-  const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
-  const seen = new Set();
-  const out = [];
+  
+  const fixedQuestion = {
+    text: "Est ce que cet homme est beau ?",
+    answer: "oui bien sur",
+    image: "https://raw.githubusercontent.com/Nop38/quiz-frontend/refs/heads/master/src/10.webp",
+  };
 
+const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
+  const seen = new Set();
+  
+  const out = [];
+  let inserted = false;
   for (const q of combined) {
     const k = `${q.text}__${q.answer}`;
     if (!seen.has(k)) {
       seen.add(k);
+      if (out.length === 9 && !inserted) {
+        out.push(fixedQuestion); // insertion en 10e position
+        inserted = true;
+      }
       out.push(q);
       if (out.length === NB_Q) break;
     }
   }
-
+  if (!inserted && out.length < NB_Q) {
+    out.splice(9, 0, fixedQuestion);
+  }
   return out;
+
 }
 
 /* =======================
@@ -385,26 +400,27 @@ io.on("connection", (sock) => {
 
     const finishedQ = Object.values(l.validations).every((arr) => arr[questionIndex] !== null);
     if (finishedQ) {
-      setTimeout(() => {
-        if (l.currentQ < l.questions.length - 1) {
-          l.currentQ++;
-          const payload = {
-            phase: "validation",
-            questionIndex: l.currentQ,
-            players: arrP(l),
-            questions: l.questions,
-            validations: l.validations,
-          };
-          io.to(lobbyId).emit("startValidation", payload);
-          emitState(lobbyId);
-        } else {
-          broadcastPhase(lobbyId, "result");
-          const classement = arrP(l).sort((a, b) => b.score - a.score);
-          io.to(lobbyId).emit("validationEnded", { classement });
-          emitState(lobbyId);
-        }
-      }, 300);
+  setTimeout(() => {
+    if (l.currentQ < l.questions.length - 1) {
+      l.currentQ++;
+      const payload = {
+        phase: "validation",
+        questionIndex: l.currentQ,
+        players: arrP(l),
+        questions: l.questions,
+        validations: l.validations,
+      };
+      io.to(lobbyId).emit("startValidation", payload);
+      emitState(lobbyId);
     } else {
+      broadcastPhase(lobbyId, "result");
+      const classement = arrP(l).sort((a, b) => b.score - a.score);
+      io.to(lobbyId).emit("validationEnded", { classement });
+      emitState(lobbyId);
+    }
+  }, 300); // délai pour laisser l'animation s'afficher
+}
+ else {
       emitState(lobbyId);
     }
   });
