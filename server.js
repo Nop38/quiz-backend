@@ -393,6 +393,7 @@ io.on("connection", (sock) => {
     emitState(lobbyId);
   });
 
+  
   sock.on("submitAnswer", ({ lobbyId, token, questionIndex, answer, timedOut }) => {
     const l = lobbies[lobbyId];
     const p = l?.players[token];
@@ -403,20 +404,33 @@ io.on("connection", (sock) => {
     io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
     io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-    if (everyoneFinished(l.players)) {
-      l.currentQ = 0;
-      initValidations(l);
+    // Vérifie si tous les joueurs ont répondu à la question actuelle
+    const allAnsweredThisQuestion = Object.values(l.players).every(
+      (pl) => pl.answers[questionIndex] != null && String(pl.answers[questionIndex]).trim() !== ""
+    );
 
-      const payload = {
-        phase: "validation",
-        questionIndex: 0,
-        players: arrP(l),
-        questions: l.questions,
-        validations: l.validations,
-      };
-      io.to(lobbyId).emit("startValidation", payload);
-      broadcastPhase(lobbyId, "validation");
-      emitState(lobbyId);
+    if (allAnsweredThisQuestion) {
+      // Si ce n’est pas la dernière question, on passe à la suivante
+      if (questionIndex < l.questions.length - 1) {
+        l.currentQ++;
+        io.to(lobbyId).emit("nextQuestion", { questionIndex: l.currentQ });
+        emitState(lobbyId);
+      } else {
+        // Si dernière question → phase de validation
+        l.currentQ = 0;
+        initValidations(l);
+
+        const payload = {
+          phase: "validation",
+          questionIndex: 0,
+          players: arrP(l),
+          questions: l.questions,
+          validations: l.validations,
+        };
+        io.to(lobbyId).emit("startValidation", payload);
+        broadcastPhase(lobbyId, "validation");
+        emitState(lobbyId);
+      }
     } else {
       emitState(lobbyId);
     }
