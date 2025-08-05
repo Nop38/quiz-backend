@@ -3,30 +3,30 @@ const path = require("path");
 const { parse } = require("csv-parse/sync");
 const express = require("express");
 const http = require("http");
-const { Server } = require("socket.io");
 const cookieParser = require("cookie-parser");
+const cors = require("cors");
+const { Server } = require("socket.io");
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server, { cors: { origin: "*" } });
+const io = new Server(server, {
+  cors: { origin: "*" },
+});
 
-// === Authentification simple ===
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "quiz123";
 const SESSION_COOKIE = "quiz_session";
 
+// Middleware
+app.use(cors({ origin: "*", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
-// Middleware de protection
+// Middleware de protection (tout sauf /login et static)
 app.use((req, res, next) => {
-  if (
-    req.path === "/login" ||
-    req.path === "/favicon.ico" ||
-    req.path.startsWith("/images")
-  ) return next();
+  if (req.path === "/login" || req.path === "/favicon.ico") return next();
   const token = req.cookies?.[SESSION_COOKIE];
   if (token !== ADMIN_PASSWORD) {
-    return res.status(401).json({ error: "Non autorisé" });
+    return res.status(401).json({ error: "Unauthorized" });
   }
   next();
 });
@@ -37,8 +37,7 @@ app.post("/login", (req, res) => {
   if (password === ADMIN_PASSWORD) {
     res.cookie(SESSION_COOKIE, ADMIN_PASSWORD, {
       httpOnly: true,
-      sameSite: "lax",
-      maxAge: 7 * 24 * 60 * 60 * 1000,
+      sameSite: "Lax",
     });
     return res.json({ success: true });
   } else {
