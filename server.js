@@ -16,7 +16,7 @@ const io = new Server(server, {
   },
 });
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "quiz123";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "quiz123@38118";
 const SESSION_COOKIE = "quiz_session";
 
 // Middleware
