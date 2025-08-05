@@ -296,11 +296,6 @@ function initValidations(l) {
 /* =======================
    Socket.IO
    ======================= */
-// [...] (toutes les parties non modifiées précédemment comme imports, CSV, utilitaires, etc.)
-
-/* =======================
-   Socket.IO
-   ======================= */
 io.on("connection", (sock) => {
   sock.on("createLobby", ({ name, avatar }) => {
     const questions = buildQuestions();
@@ -399,38 +394,34 @@ io.on("connection", (sock) => {
   });
 
   sock.on("submitAnswer", ({ lobbyId, token, questionIndex, answer, timedOut }) => {
-  const l = lobbies[lobbyId];
-  const p = l?.players[token];
-  if (!p || l.phase !== "quiz") return;
+    const l = lobbies[lobbyId];
+    const p = l?.players[token];
+    if (!p || l.phase !== "quiz") return;
 
-  p.answers[questionIndex] = answer;
+    p.answers[questionIndex] = answer;
 
-  io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
-  io.to(lobbyId).emit("playersUpdate", arrP(l));
+    io.to(p.id).emit("answerAck", { questionIndex, timedOut: !!timedOut });
+    io.to(lobbyId).emit("playersUpdate", arrP(l));
 
-  // Vérifie si tous les joueurs ont répondu à la question actuelle
-  const allAnsweredThisQuestion = Object.values(l.players).every(
-    (pl) => pl.answers[questionIndex] != null && String(pl.answers[questionIndex]).trim() !== ""
-  );
+    if (everyoneFinished(l.players)) {
+      l.currentQ = 0;
+      initValidations(l);
 
-  if (allAnsweredThisQuestion) {
-    l.currentQ = questionIndex;
-    initValidations(l);
+      const payload = {
+        phase: "validation",
+        questionIndex: 0,
+        players: arrP(l),
+        questions: l.questions,
+        validations: l.validations,
+      };
+      io.to(lobbyId).emit("startValidation", payload);
+      broadcastPhase(lobbyId, "validation");
+      emitState(lobbyId);
+    } else {
+      emitState(lobbyId);
+    }
+  });
 
-    const payload = {
-      phase: "validation",
-      questionIndex: l.currentQ,
-      players: arrP(l),
-      questions: l.questions,
-      validations: l.validations,
-    };
-    io.to(lobbyId).emit("startValidation", payload);
-    broadcastPhase(lobbyId, "validation");
-    emitState(lobbyId);
-  } else {
-    emitState(lobbyId);
-  }
-});
   sock.on("validateAnswer", ({ lobbyId, token, playerToken, questionIndex, isCorrect }) => {
     const l = lobbies[lobbyId];
     if (!l || l.creatorToken !== token || l.phase !== "validation") return;
@@ -465,7 +456,7 @@ io.on("connection", (sock) => {
           io.to(lobbyId).emit("validationEnded", { classement });
           emitState(lobbyId);
         }
-      }, 500); // Laisse le temps à l’animation (0.5s)
+      }, 300);
     } else {
       emitState(lobbyId);
     }
@@ -482,7 +473,6 @@ io.on("connection", (sock) => {
     }
   });
 });
-
 
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, "0.0.0.0", () => console.log(`WS :${PORT} — Quiz OK`));
