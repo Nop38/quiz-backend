@@ -10,20 +10,26 @@ const { Server } = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: "*" },
+  cors: {
+    origin: "https://quiz-frontend-alpha-amber.vercel.app",
+    credentials: true,
+  },
 });
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "quiz123";
 const SESSION_COOKIE = "quiz_session";
 
 // Middleware
-app.use(cors({ origin: "*", credentials: true }));
+app.use(cors({
+  origin: "https://quiz-frontend-alpha-amber.vercel.app",
+  credentials: true
+}));
 app.use(express.json());
 app.use(cookieParser());
 
 // Middleware de protection (tout sauf /login et static)
 app.use((req, res, next) => {
-  if (req.path === "/login" || req.path === "/favicon.ico") return next();
+  if (req.path === "/login" || req.path === "/check" || req.path === "/favicon.ico") return next();
   const token = req.cookies?.[SESSION_COOKIE];
   if (token !== ADMIN_PASSWORD) {
     return res.status(401).json({ error: "Unauthorized" });
@@ -38,22 +44,23 @@ app.post("/login", (req, res) => {
     res.cookie(SESSION_COOKIE, ADMIN_PASSWORD, {
       httpOnly: true,
       sameSite: "Lax",
+      secure: true, // ⚠️ obligatoire en production avec HTTPS
     });
     return res.json({ success: true });
   } else {
     return res.status(401).json({ success: false, error: "Mot de passe incorrect" });
   }
 });
-// Vérifie si l'utilisateur est connecté (cookie valide)
+
+// Vérifie si l'utilisateur est connecté
 app.get("/check", (req, res) => {
-  const token = req.cookies?.quiz_session;
+  const token = req.cookies?.[SESSION_COOKIE];
   if (token === ADMIN_PASSWORD) {
     return res.sendStatus(200);
   } else {
     return res.sendStatus(401);
   }
 });
-
 
 /* =======================
    Chargement des CSV
