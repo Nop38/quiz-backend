@@ -230,9 +230,11 @@ function buildQuestions() {
       image: s.url,
     }));
 
+  const petitBac = buildPetitBacQuestion();
   const combined = shuffle([...scenes, ...actors, ...stars, ...culture]);
   const seen = new Set();
   const out = [];
+  
 
   for (const q of combined) {
     const k = `${q.text}__${q.answer}`;
