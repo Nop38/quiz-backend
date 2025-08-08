@@ -242,9 +242,21 @@ function buildQuestions() {
       if (out.length === NB_Q) break;
     }
   }
-
+  out.push(petitBac);
   return out;
 }
+
+function buildPetitBacQuestion() {
+  const themes = ["Animal", "Métier", "Fruit ou légume", "Capitale", "Pokémon", "Jeu vidéo", "Film ou série", "Objet"];
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const randomLetter = letters[Math.floor(Math.random() * letters.length)];
+  return {
+    text: `Petit Bac – Lettre « ${randomLetter} »`,
+    answer: "__PETIT_BAC__",
+    meta: { type: "petit_bac", letter: randomLetter, themes },
+  };
+}
+
 
 /* =======================
    Utils / Lobby state
