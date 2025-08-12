@@ -212,7 +212,7 @@ function buildQuestions() {
     image: s.url,
   }));
 
-  const petitBacThemes = ["animaux", "métiers", "fruits/légumes", "capitales", "Pokémons", "jeux vidéos", "films/séries", "objets"];
+  const petitBacThemes = ["Animal", "Métier", "Fruit/Légume", "Capitale", "Pokémon", "Jeu vidéo", "Film/série", "Objet"];
   const letter = String.fromCharCode(65 + Math.floor(Math.random() * 26));
   const petitBac = {
     text: `Petit Bac - Trouve un mot pour chaque thème avec la lettre "${letter}"`,
